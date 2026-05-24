@@ -1929,7 +1929,6 @@ export default function KinesiaRelief() {
         {t:T("Dips chaise G","Chair dip L"),d:T("Assis sur le bord d'une chaise, mains sur le rebord, descends et remonte avec les bras.","Seated on chair edge, hands on rim, lower and raise with arms."),r:"10 × 2"}]},
 
       triceps_d: { etirements:[
-        {t:T("Extension triceps D","Right triceps extension"),d:T("Bras droit levé, fléchis le coude derrière la tête, étends lentement. Tiens 20 sec.","Right arm raised, bend elbow behind head, extend slowly. Hold 20 sec."),r:"3 × 20 sec"},
         {t:T("Étirement triceps croisé D","Right cross triceps stretch"),d:T("Bras droit passé derrière la tête, pousse le coude avec la main gauche. Tiens 25 sec.","Right arm behind head, push elbow with left hand. Hold 25 sec."),r:"3 × 25 sec"}],
         massage:[
         {t:T("Pétrissage triceps D","Right triceps kneading"),d:T("Malaxe l'arrière du bras droit entre le pouce et les doigts, du coude vers l'épaule.","Knead back of right arm between thumb and fingers, elbow to shoulder."),r:"2 min"},
