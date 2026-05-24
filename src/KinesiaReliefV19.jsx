@@ -1870,15 +1870,13 @@ export default function KinesiaRelief() {
         {t:T("Flexion-extension poignet D","Wrist flexion-extension R"),d:T("Tiens un léger poids, fléchis et étends le poignet lentement.","Hold a light weight, slowly flex and extend the wrist."),r:"15 × 2"},
         {t:T("Serrage balle anti-stress D","Stress ball squeeze R"),d:T("Serre une balle molle, tiens 5 sec, relâche.","Squeeze a soft ball, hold 5 sec, release."),r:"15 × 2"}]},
 
-      avbras_g: { etirements:[
-        {t:T("Étirement avant-bras gauche","Left forearm stretch"),d:T("Bras tendu, paume vers le bas, tire les doigts vers toi avec l'autre main.","Arm extended, palm down, pull fingers toward you with other hand."),r:"3 × 20 sec"}],
+      avbras_g: { etirements:[],
         massage:[
         {t:T("Pétrissage avant-bras G","Left forearm kneading"),d:T("Malaxe les muscles de l'avant-bras gauche du poignet vers le coude.","Knead left forearm muscles from wrist to elbow."),r:"2 min"}],
         exercices:[
         {t:T("Rotation avant-bras G","Left forearm rotation"),d:T("Coude fléchi à 90°, tourne la paume vers le haut puis vers le bas.","Elbow bent at 90°, rotate palm upward then downward."),r:"15 × 2"}]},
 
-      avbras_d: { etirements:[
-        {t:T("Étirement avant-bras droit","Right forearm stretch"),d:T("Bras tendu, paume vers le bas, tire les doigts vers toi.","Arm extended, palm down, pull fingers toward you."),r:"3 × 20 sec"}],
+      avbras_d: { etirements:[],
         massage:[
         {t:T("Pétrissage avant-bras D","Right forearm kneading"),d:T("Malaxe les muscles de l'avant-bras droit du poignet vers le coude.","Knead right forearm muscles from wrist to elbow."),r:"2 min"}],
         exercices:[
