@@ -2360,7 +2360,7 @@ export default function KinesiaRelief() {
     const stats = [
       { val: savedPlans.length.toString(), label: fr?"Plans sauvegardés":"Saved plans", color:"#0dcfc6", onClick: goToPlan },
       { val: savedPlans.length > 0 ? savedPlans[0].zones.length.toString() : "0", label: fr?"Zones dernière séance":"Areas last session", color:"#c9a84c", onClick: goToPlan },
-      { val: savedPlans.length > 0 ? "✓" : "—", label: fr?"Dernière analyse":"Last analysis", color:"#7eb8d4", onClick: () => { setSelected([]); setScreen("douleurs"); } },
+      { val: savedPlans.length > 0 ? "✓" : "—", label: fr?"Dernière analyse":"Last analysis", color:"#7eb8d4", onClick: () => { if (savedPlans.length > 0) { setSelected(savedPlans[0].zones); setPrevScreen("dashboard"); setScreen("programme"); } else { setSelected([]); setScreen("douleurs"); } } },
     ];
 
     return (
