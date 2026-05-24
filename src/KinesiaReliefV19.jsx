@@ -857,7 +857,18 @@ export default function KinesiaRelief() {
   const [prevScreen,  setPrevScreen]  = useState("dashboard");
 
   useEffect(() => {
-    const unsub = onAuthStateChanged(auth, (u) => setCurrentUser(u));
+    const unsub = onAuthStateChanged(auth, async (u) => {
+      setCurrentUser(u);
+      if (u) {
+        try {
+          const plans = await getPlans(u.uid);
+          if (plans.length > 0) { setSavedPlans(plans); }
+          setScreen("dashboard");
+        } catch(e) {
+          setScreen("dashboard");
+        }
+      }
+    });
     return () => unsub();
   }, []);
 
