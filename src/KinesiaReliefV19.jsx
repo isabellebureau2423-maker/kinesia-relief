@@ -986,7 +986,7 @@ export default function KinesiaRelief() {
               <button onClick={() => setLang(fr?"en":"fr")} style={{
                 background:"rgba(255,255,255,0.1)", border:"1px solid rgba(255,255,255,0.2)",
                 borderRadius:20, padding:"4px 10px", color:"rgba(255,255,255,0.7)",
-                fontSize:11, cursor:"pointer", fontWeight:600 }}>{fr?"EN":"FR"}</button>
+                fontSize:11, cursor:"pointer", fontWeight:600 }}>{fr?"FR":"EN"}</button>
             </div>
 
             {/* 4 sub-tabs */}
@@ -1090,7 +1090,7 @@ export default function KinesiaRelief() {
             <button onClick={() => setLang(fr?"en":"fr")} style={{
               background:"rgba(255,255,255,0.1)", border:"1px solid rgba(255,255,255,0.2)",
               borderRadius:20, padding:"5px 10px", color:"rgba(255,255,255,0.7)",
-              fontSize:11, cursor:"pointer", fontWeight:600 }}>{fr?"EN":"FR"}</button>
+              fontSize:11, cursor:"pointer", fontWeight:600 }}>{fr?"FR":"EN"}</button>
           </div>
 
           <div style={{ padding:"0 20px 8px", flexShrink:0 }}>
@@ -1234,7 +1234,7 @@ export default function KinesiaRelief() {
             background:"rgba(255,255,255,0.08)", border:"1px solid rgba(255,255,255,0.2)",
             borderRadius:20, padding:"5px 10px", color:"rgba(255,255,255,0.7)", fontSize:11,
             cursor:"pointer", fontWeight:600,
-          }}>{lang === "fr" ? "EN" : "FR"}</button>
+          }}>{lang === "fr" ? "FR" : "EN"}</button>
           <button onClick={onBack} style={{ background:"rgba(255,255,255,0.15)",
             border:"1px solid rgba(255,255,255,0.3)", borderRadius:20, padding:"7px 16px",
             color:"white", fontSize:13, cursor:"pointer" }}>{label || (lang === "fr" ? "← Retour" : "← Back")}</button>
@@ -1367,7 +1367,7 @@ export default function KinesiaRelief() {
             borderRadius:20, padding:"4px 12px", color:"white", fontSize:12,
             cursor:"pointer", fontWeight:600, letterSpacing:1,
           }}>
-            {lang === "fr" ? "🇬🇧 EN" : "🇫🇷 FR"}
+            {lang === "fr" ? "🇫🇷 FR" : "🇬🇧 EN"}
           </button>
         </div>
       </div>
@@ -2518,7 +2518,7 @@ export default function KinesiaRelief() {
                 background:"rgba(255,255,255,0.1)", border:"1px solid rgba(255,255,255,0.2)",
                 borderRadius:20, padding:"5px 10px", color:"rgba(255,255,255,0.7)", fontSize:11,
                 cursor:"pointer", fontWeight:600
-              }}>{fr?"EN":"FR"}</button>
+              }}>{fr?"FR":"EN"}</button>
               <button onClick={() => setScreen("welcome")} style={{
                 background:"rgba(255,255,255,0.1)", border:"1px solid rgba(255,255,255,0.2)",
                 borderRadius:20, padding:"7px 14px", color:"rgba(255,255,255,0.6)", fontSize:12, cursor:"pointer"
