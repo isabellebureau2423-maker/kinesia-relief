@@ -2046,7 +2046,7 @@ export default function KinesiaRelief() {
         {t:T("Extension triceps D","Right triceps extension"),d:T("Bras levé, fléchis le coude droit derrière la tête, redresse lentement.","Arm raised, bend right elbow behind head, extend slowly."),r:"12 × 2"}]},
 
       cuisse_g: { etirements:[
-        {t:T("Étirement quadriceps G debout","Standing left quad stretch"),d:T("Debout, tire le pied gauche vers la fesse. Tiens 30 sec.","Standing, pull left foot toward glute. Hold 30 sec."),r:"3 × 30 sec"},
+        {t:T("Étirement quadriceps G debout","Standing left quad stretch"),d:T("Un pied en arrière, descendre le talon au sol avec le genou légèrement fléchi.","One foot back, lower the heel to the floor with the knee slightly bent."),r:"3 × 30 sec"},
         {t:T("Fente étirante gauche","Left lunge stretch"),d:T("Un grand pas en avant gauche, genou arrière au sol. Tiens 30 sec.","Large step forward left, back knee on floor. Hold 30 sec."),r:"3 × 30 sec"}],
         massage:[
         {t:T("Rouleau mousse cuisse G","Left thigh foam roller"),d:T("Allongé sur le ventre, roule l'avant de la cuisse gauche.","Lying on stomach, roll front of left thigh."),r:"3 min"},
@@ -2056,7 +2056,7 @@ export default function KinesiaRelief() {
         {t:T("Extension genou assis G","Seated knee extension L"),d:T("Assis, tends la jambe gauche, tiens 5 sec.","Seated, extend left leg, hold 5 sec."),r:"15 × 2"}]},
 
       cuisse_d: { etirements:[
-        {t:T("Étirement quadriceps D debout","Standing right quad stretch"),d:T("Debout, tire le pied droit vers la fesse. Tiens 30 sec.","Standing, pull right foot toward glute. Hold 30 sec."),r:"3 × 30 sec"},
+        {t:T("Étirement quadriceps D debout","Standing right quad stretch"),d:T("Un pied en arrière, descendre le talon au sol avec le genou légèrement fléchi.","One foot back, lower the heel to the floor with the knee slightly bent."),r:"3 × 30 sec"},
         {t:T("Fente étirante droite","Right lunge stretch"),d:T("Un grand pas en avant droit, genou arrière au sol. Tiens 30 sec.","Large step forward right, back knee on floor. Hold 30 sec."),r:"3 × 30 sec"}],
         massage:[
         {t:T("Rouleau mousse cuisse D","Right thigh foam roller"),d:T("Allongé sur le ventre, roule l'avant de la cuisse droite.","Lying on stomach, roll front of right thigh."),r:"3 min"},
