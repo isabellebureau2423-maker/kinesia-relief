@@ -1819,7 +1819,6 @@ export default function KinesiaRelief() {
         {t:T("Genoux-poitrine","Knees to chest"),d:T("Allongé, ramène les deux genoux vers la poitrine. Tiens 30 sec.","Lying down, bring both knees to chest. Hold 30 sec."),r:"3 × 30 sec"},
         {t:T("Étirement piriforme","Piriformis stretch"),d:T("Allongé, pose une cheville sur le genou opposé et tire vers toi.","Lying, place ankle on opposite knee and pull toward you."),r:"3 × 30 sec"}],
         massage:[
-        {t:T("Rouleau mousse lombaires","Foam roller lower back"),d:T("Assis, place le rouleau sous les lombaires. Roule doucement.","Seated, place roller under lower back. Roll gently."),r:"3 min"},
         {t:T("Balles paires lombaires","Twin balls lower back"),d:T("Deux balles de tennis côte à côte sous les lombaires allongé.","Two tennis balls side by side under lower back while lying."),r:"2 min"}],
         exercices:[
         {t:T("Pont fessier","Glute bridge"),d:T("Allongé, pieds au sol, monte les hanches. Tiens 5 sec. Descends lentement.","Lying, feet on floor, raise hips. Hold 5 sec. Lower slowly."),r:"12 × 3"},
