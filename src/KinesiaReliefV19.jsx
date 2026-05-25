@@ -1934,7 +1934,6 @@ export default function KinesiaRelief() {
         {t:T("Pétrissage triceps D","Right triceps kneading"),d:T("Malaxe l'arrière du bras droit entre le pouce et les doigts, du coude vers l'épaule.","Knead back of right arm between thumb and fingers, elbow to shoulder."),r:"2 min"},
         {t:T("Friction coude postérieur D","Right posterior elbow friction"),d:T("Pouce sur le triceps distal droit, petits cercles doux.","Thumb on right distal triceps, small gentle circles."),r:"2 min"}],
         exercices:[
-        {t:T("Extension triceps D","Right triceps extension"),d:T("Bras levé, fléchis le coude droit derrière la tête, redresse lentement.","Arm raised, bend right elbow behind head, extend slowly."),r:"12 × 2"},
         {t:T("Dips chaise D","Chair dip R"),d:T("Assis sur le bord d'une chaise, mains sur le rebord, descends et remonte avec les bras.","Seated on chair edge, hands on rim, lower and raise with arms."),r:"10 × 2"}]},
 
       main_g: { etirements:[
@@ -2041,8 +2040,8 @@ export default function KinesiaRelief() {
         {t:T("Étirement extenseurs droits","Right extensor stretch"),d:T("Bras droit tendu, tire les doigts vers toi. Tiens 20 sec.","Right arm extended, pull fingers toward you. Hold 20 sec."),r:"3 × 20 sec"}],
         massage:[
         {t:T("Friction coude postérieur D","Right posterior elbow friction"),d:T("Pouce sur le triceps distal, petits cercles.","Thumb on distal triceps, small circles."),r:"2 min"}],
-        exercices:[
-        {t:T("Extension triceps D","Right triceps extension"),d:T("Bras levé, fléchis le coude droit derrière la tête, redresse lentement.","Arm raised, bend right elbow behind head, extend slowly."),r:"12 × 2"}]},
+        exercices:[]},
+
 
       cuisse_g: { etirements:[
         {t:T("Étirement quadriceps G debout","Standing left quad stretch"),d:T("Un pied en arrière, descendre le talon au sol avec le genou légèrement fléchi.","One foot back, lower the heel to the floor with the knee slightly bent."),r:"3 × 30 sec"},
