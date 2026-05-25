@@ -1958,8 +1958,7 @@ export default function KinesiaRelief() {
         {t:T("Étirement dos main G","Left back of hand stretch"),d:T("Referme doucement le poing gauche pour étirer le dos de la main. Tiens 15 sec.","Gently close left fist to stretch back of hand. Hold 15 sec."),r:"3 × 15 sec"},
         {t:T("Étirement extenseurs doigts G","Left finger extensor stretch"),d:T("Poing gauche fermé, appuie sur les doigts avec la main droite vers le bas. Tiens 15 sec.","Left fist closed, press fingers down with right hand. Hold 15 sec."),r:"3 × 15 sec"}],
         massage:[
-        {t:T("Friction dos main G","Left hand back friction"),d:T("Pouce droit sur le dos de la main gauche, petits cercles entre les tendons extenseurs.","Right thumb on left hand back, small circles between extensor tendons."),r:"2 min"},
-        {t:T("Friction tendons extenseurs G","Left extensor tendon friction"),d:T("Glisse le pouce le long de chaque tendon extenseur du dos de la main gauche.","Slide thumb along each extensor tendon on left hand back."),r:"1 min 30"}],
+        {t:T("Friction dos main G","Left hand back friction"),d:T("Pouce droit sur le dos de la main gauche, petits cercles entre les tendons extenseurs.","Right thumb on left hand back, small circles between extensor tendons."),r:"2 min"},],
         exercices:[
         {t:T("Extension doigts G","Left finger extension"),d:T("Ouvre la main gauche en écartant les doigts au maximum, tiens 3 sec, relâche.","Open left hand spreading fingers wide, hold 3 sec, release."),r:"15 × 2"}]},
 
@@ -1967,8 +1966,7 @@ export default function KinesiaRelief() {
         {t:T("Étirement dos main D","Right back of hand stretch"),d:T("Referme doucement le poing droit pour étirer le dos de la main. Tiens 15 sec.","Gently close right fist to stretch back of hand. Hold 15 sec."),r:"3 × 15 sec"},
         {t:T("Étirement extenseurs doigts D","Right finger extensor stretch"),d:T("Poing droit fermé, appuie sur les doigts avec la main gauche vers le bas. Tiens 15 sec.","Right fist closed, press fingers down with left hand. Hold 15 sec."),r:"3 × 15 sec"}],
         massage:[
-        {t:T("Friction dos main D","Right hand back friction"),d:T("Pouce gauche sur le dos de la main droite, petits cercles entre les tendons extenseurs.","Left thumb on right hand back, small circles between extensor tendons."),r:"2 min"},
-        {t:T("Friction tendons extenseurs D","Right extensor tendon friction"),d:T("Glisse le pouce le long de chaque tendon extenseur du dos de la main droite.","Slide thumb along each extensor tendon on right hand back."),r:"1 min 30"}],
+        {t:T("Friction dos main D","Right hand back friction"),d:T("Pouce gauche sur le dos de la main droite, petits cercles entre les tendons extenseurs.","Left thumb on right hand back, small circles between extensor tendons."),r:"2 min"},],
         exercices:[
         {t:T("Extension doigts D","Right finger extension"),d:T("Ouvre la main droite en écartant les doigts au maximum, tiens 3 sec, relâche.","Open right hand spreading fingers wide, hold 3 sec, release."),r:"15 × 2"},
         {t:T("Mobilisation doigts D","Right finger mobilization"),d:T("Flexion-extension lente de chaque doigt droit, en partant de l'auriculaire.","Slow flexion-extension of each right finger, starting from pinky."),r:"2 min"}]},
