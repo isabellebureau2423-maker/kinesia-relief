@@ -520,7 +520,7 @@ const POSE_MAP = {
   "étirement extenseurs avant-bras d":IMG_EX_AVANT_BRAS, "étirement extenseurs avant-bras g":IMG_EX_AVANT_BRAS,
   "étirement fléchisseurs avant-bras d":IMG_ETIREMENT_FLECHISSEUR_AVBRAS, "étirement fléchisseurs avant-bras g":IMG_ETIREMENT_FLECHISSEUR_AVBRAS,
   "massage avant-bras d":IMG_MASSAGE_AVBRAS, "massage avant-bras g":IMG_MASSAGE_AVBRAS,
-  "pétrissage avant-bras d":IMG_PETRISSAGE_AVBRAS, "pétrissage avant-bras g":IMG_PETRISSAGE_AVBRAS, "pétrissage biceps d":IMG_PETRISSAGE_BICEPS, "pétrissage biceps g":IMG_PETRISSAGE_BICEPS, "friction biceps d":IMG_FRICTION_BICEPS, "friction biceps g":IMG_FRICTION_BICEPS,
+  "pétrissage biceps d":IMG_PETRISSAGE_BICEPS, "pétrissage biceps g":IMG_PETRISSAGE_BICEPS, "friction biceps d":IMG_FRICTION_BICEPS, "friction biceps g":IMG_FRICTION_BICEPS,
   "pétrissage triceps d":IMG_PETRISSAGE_TRICEPS, "pétrissage triceps g":IMG_PETRISSAGE_TRICEPS,
   "cercles de poignet d":IMG_CERCLE_POIGNET, "cercles de poignet g":IMG_CERCLE_POIGNET,
   "flexion-extension poignet d":IMG_FLEXION_EXTENSION_POIGNET, "flexion-extension poignet g":IMG_FLEXION_EXTENSION_POIGNET,
@@ -1953,8 +1953,7 @@ export default function KinesiaRelief() {
         massage:[
         {t:T("Pétrissage triceps G","Left triceps kneading"),d:T("Malaxe l'arrière du bras gauche entre le pouce et les doigts, du coude vers l'épaule.","Knead back of left arm between thumb and fingers, elbow to shoulder."),r:"2 min"},
         {t:T("Friction coude postérieur G","Left posterior elbow friction"),d:T("Pouce sur le triceps distal, petits cercles doux.","Thumb on distal triceps, small gentle circles."),r:"2 min"}],
-        exercices:[
-        {t:T("Dips chaise","Chair dip"),d:T("Assis sur le bord d'une chaise, mains sur le rebord, descends et remonte avec les bras.","Seated on chair edge, hands on rim, lower and raise with arms."),r:"10 × 2"}]},
+        exercices:[]},
 
       triceps_d: { etirements:[
         {t:T("Étirement triceps croisé D","Right cross triceps stretch"),d:T("Bras droit passé derrière la tête, pousse le coude avec la main gauche. Tiens 25 sec.","Right arm behind head, push elbow with left hand. Hold 25 sec."),r:"3 × 25 sec"}],
