@@ -442,7 +442,7 @@ const POSE_MAP = {
   "friction talon droit":IMG_FRICTION_TALON, "friction talon gauche":IMG_FRICTION_TALON,
   "glace talon droit":IMG_GLACE_TALON, "glace talon gauche":IMG_GLACE_TALON,
   "extension genou assis d":IMG_EXTENSION_GENOU_ASSIS, "extension genou assis g":IMG_EXTENSION_GENOU_ASSIS,
-  "flexion genou actif d":IMG_FLEXION_GENOU_ACTIF, "flexion genou actif g":IMG_FLEXION_GENOU_ACTIF,
+  "flexion genou actif":IMG_FLEXION_GENOU_ACTIF,
   "friction creux poplité d":IMG_ROULEAU_CREUX_POPLITE, "friction creux poplité g":IMG_ROULEAU_CREUX_POPLITE,
   "friction rotule droite":IMG_FRICTION_ROTULE, "friction rotule gauche":IMG_FRICTION_ROTULE,
   "pression points genou d":IMG_PRESSION_GENOU, "pression points genou g":IMG_PRESSION_GENOU,
@@ -604,7 +604,7 @@ const POSE_MAP = {
   "left knee pressure points":IMG_PRESSION_GENOU, "right knee pressure points":IMG_PRESSION_GENOU,
   "left mini squat":IMG_MINI_SQUAT, "right mini squat":IMG_MINI_SQUAT,
   "left popliteal fossa friction":IMG_ROULEAU_CREUX_POPLITE, "right popliteal fossa friction":IMG_ROULEAU_CREUX_POPLITE,
-  "active left knee flexion":IMG_FLEXION_GENOU_ACTIF, "active right knee flexion":IMG_FLEXION_GENOU_ACTIF,
+  "active knee flexion":IMG_FLEXION_GENOU_ACTIF,
   // Tibia / leg
   "left tibial stretch":IMG_PIEDS_FLEX, "right tibial stretch":IMG_PIEDS_FLEX,
   "left tibia friction":IMG_FRICTION_TIBIA, "right tibia friction":IMG_FRICTION_TIBIA,
@@ -2113,14 +2113,14 @@ export default function KinesiaRelief() {
         massage:[
         {t:T("Friction creux poplité G","Left popliteal fossa friction"),d:T("Deux doigts dans le creux du genou gauche, petits cercles doux.","Two fingers in left knee hollow, small gentle circles."),r:"1 min 30"}],
         exercices:[
-        {t:T("Flexion genou actif G","Active left knee flexion"),d:T("Allongé sur le ventre, fléchis le genou gauche lentement. Contrôlé.","Lying on stomach, slowly bend left knee. Controlled."),r:"15 × 2"}]},
+        {t:T("Flexion genou actif","Active knee flexion"),d:T("Allongé sur le ventre, fléchis le genou lentement. Contrôlé.","Lying on stomach, slowly bend knee. Controlled."),r:"15 × 2"}]},
 
       creux_d: { etirements:[
         {t:T("Étirement ischio D","Right hamstring stretch"),d:T("Jambe droite tendue devant, penche-toi en avant. Tiens 30 sec.","Right leg extended forward, lean forward. Hold 30 sec."),r:"3 × 30 sec"}],
         massage:[
         {t:T("Friction creux poplité D","Right popliteal fossa friction"),d:T("Deux doigts dans le creux du genou droit, petits cercles doux.","Two fingers in right knee hollow, small gentle circles."),r:"1 min 30"}],
         exercices:[
-        {t:T("Flexion genou actif D","Active right knee flexion"),d:T("Allongé sur le ventre, fléchis le genou droit lentement.","Lying on stomach, slowly bend right knee."),r:"15 × 2"}]},
+        {t:T("Flexion genou actif","Active knee flexion"),d:T("Allongé sur le ventre, fléchis le genou lentement. Contrôlé.","Lying on stomach, slowly bend knee. Controlled."),r:"15 × 2"}]},
 
       tibia_g: { etirements:[
         {t:T("Étirement tibial G","Left tibial stretch"),d:T("Assis, tire la pointe du pied gauche vers toi. Tiens 20 sec.","Seated, pull left foot toward you. Hold 20 sec."),r:"3 × 20 sec"}],
