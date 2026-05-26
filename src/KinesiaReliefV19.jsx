@@ -1589,7 +1589,7 @@ export default function KinesiaRelief() {
     <div style={bgMain}>
       <Swirls/>
       <div style={{ position:"relative", zIndex:1, width:"100%", maxWidth:480, margin:"0 auto", height:"100dvh", overflowY:"auto" }}>
-        <Header onBack={() => setScreen("auth")}/>
+        <Header onBack={() => setScreen("dashboard")}/>
         <div style={{ padding:"0 22px 30px" }}>
           <ProgressBar step={2} lang={lang}/>
           <h1 style={{ color:"white", fontSize:22, fontWeight:700, margin:"0 0 4px" }}>
