@@ -931,7 +931,7 @@ export default function KinesiaRelief() {
       } else { setScreen(t.id); }
     };
     const activeId = ["douleurs","questionnaire"].includes(screen) ? "douleurs"
-      : screen === "programme" ? "programme"
+      : (screen === "programme" || screen === "mes_programmes") ? "programme"
       : screen === "dashboard" ? "dashboard"
       : screen;
     return (
@@ -1515,7 +1515,85 @@ export default function KinesiaRelief() {
   );
 
   // DOULEURS
-  if (screen === "douleurs") return (
+  if (screen === "mes_programmes") {
+    const fr = lang === "fr";
+    return (
+      <div style={bgMain}>
+        <Swirls/>
+        <div style={{ position:"relative", zIndex:1, width:"100%", maxWidth:480, margin:"0 auto", height:"100dvh", display:"flex", flexDirection:"column" }}>
+          <div style={{ padding:"18px 22px 10px", display:"flex", alignItems:"center", gap:12, flexShrink:0 }}>
+            <div style={{ color:"white", fontSize:18, fontWeight:700, fontFamily:"serif" }}>
+              {fr ? "📋 Mes programmes" : "📋 My programs"}
+            </div>
+          </div>
+          <div style={{ flex:1, overflowY:"auto", padding:"0 22px 100px" }}>
+            {savedPlans.length === 0 ? (
+              <div style={{
+                background:"rgba(255,255,255,0.05)", border:"1px dashed rgba(255,255,255,0.15)",
+                borderRadius:14, padding:"50px 20px", textAlign:"center", marginTop:30
+              }}>
+                <div style={{ fontSize:40, marginBottom:14 }}>📭</div>
+                <div style={{ color:"rgba(255,255,255,0.6)", fontSize:16, fontWeight:600, marginBottom:8 }}>
+                  {fr ? "Aucun programme" : "No programs"}
+                </div>
+                <div style={{ color:"rgba(255,255,255,0.35)", fontSize:13 }}>
+                  {fr ? "Lance un diagnostic pour créer ton premier plan personnalisé" : "Start a diagnosis to create your first personalized plan"}
+                </div>
+              </div>
+            ) : (
+              <div style={{ display:"flex", flexDirection:"column", gap:10, marginTop:10 }}>
+                {savedPlans.map((plan, i) => {
+                  const zLabels = plan.zones.map(id => { const z = ZONES.find(z => z.id === id); return z ? (lang==="fr"?z.label:z.labelEn) : id; });
+                  return (
+                    <div key={plan.id} style={{
+                      background: i === 0 ? "linear-gradient(135deg,rgba(201,168,76,0.12),rgba(201,168,76,0.04))" : "rgba(255,255,255,0.06)",
+                      border: i === 0 ? "1px solid rgba(201,168,76,0.3)" : "1px solid rgba(255,255,255,0.1)",
+                      borderRadius:14, padding:"14px 16px", cursor:"pointer", position:"relative",
+                    }} onClick={() => { setSelected(plan.zones); setPrevScreen("mes_programmes"); setScreen("programme"); }}>
+                      <button onClick={e => { e.stopPropagation(); deletePlanHandler(plan.firestoreId, plan.id); }} style={{
+                        position:"absolute", top:8, right:8, background:"rgba(255,80,80,0.15)",
+                        border:"1px solid rgba(255,80,80,0.3)", borderRadius:"50%",
+                        width:24, height:24, color:"#ff8080", fontSize:12, cursor:"pointer",
+                        display:"flex", alignItems:"center", justifyContent:"center", zIndex:2,
+                      }}>✕</button>
+                      <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:8 }}>
+                        <div style={{ display:"flex", alignItems:"center", gap:8 }}>
+                          {i === 0 && (
+                            <div style={{ background:"#c9a84c", borderRadius:10, padding:"2px 8px", color:"#1a1a1a", fontSize:10, fontWeight:700 }}>
+                              {fr?"RÉCENT":"RECENT"}
+                            </div>
+                          )}
+                          <div style={{ color:"white", fontWeight:700, fontSize:14 }}>{fr?"Plan":"Plan"} #{plan.id}</div>
+                        </div>
+                        <div style={{ color:"rgba(255,255,255,0.4)", fontSize:11 }}>{plan.date} · {plan.saved}</div>
+                      </div>
+                      <div style={{ display:"flex", flexWrap:"wrap", gap:5, marginBottom:8 }}>
+                        {zLabels.slice(0,3).map((z,j) => (
+                          <div key={j} style={{ background:"rgba(224,48,48,0.15)", border:"1px solid rgba(224,48,48,0.25)", borderRadius:20, padding:"3px 10px", color:"rgba(255,255,255,0.8)", fontSize:11 }}>📍 {z}</div>
+                        ))}
+                        {zLabels.length > 3 && (
+                          <div style={{ background:"rgba(255,255,255,0.08)", borderRadius:20, padding:"3px 10px", color:"rgba(255,255,255,0.4)", fontSize:11 }}>+{zLabels.length - 3} {fr?"autres":"more"}</div>
+                        )}
+                      </div>
+                      <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between" }}>
+                        <div style={{ color:"rgba(255,255,255,0.45)", fontSize:12 }}>
+                          {fr?"Intensité":"Intensity"} : {plan.questData?.intensite || "—"}/10 · {plan.questData?.duree || (fr?"Non précisé":"Not specified")}
+                        </div>
+                        <div style={{ color: i === 0 ? "#c9a84c" : "rgba(255,255,255,0.4)", fontSize:12 }}>{fr?"Voir le plan →":"View plan →"}</div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+          <TabBar/>
+        </div>
+      </div>
+    );
+  }
+
+    if (screen === "douleurs") return (
     <div style={bgMain}>
       <Swirls/>
       <div style={{ position:"relative", zIndex:1, width:"100%", maxWidth:480, margin:"0 auto", height:"100dvh", overflowY:"auto" }}>
