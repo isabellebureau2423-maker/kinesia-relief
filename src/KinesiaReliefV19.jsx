@@ -548,7 +548,7 @@ const POSE_MAP = {
   "friction coude postérieur d":IMG_FRICTION_COUDE_POST, "friction coude postérieur g":IMG_FRICTION_COUDE_POST,
   "compression points trigger":IMG_COMPRESSION_TRIGGER,
   "respiration diaphragmatique":IMG_RESPIRATION_DIAPHRAGM,
-  "étirement paume d":IMG_ETIREMENT_PAUME, "étirement paume g":IMG_ETIREMENT_PAUME,
+
   "étirement dos main d":IMG_ETIREMENT_DOS_MAIN, "étirement dos main g":IMG_ETIREMENT_DOS_MAIN,
   "étirement extenseurs doigts d":IMG_ETIREMENT_EXTENSEUR_DOIGTS, "étirement extenseurs doigts g":IMG_ETIREMENT_EXTENSEUR_DOIGTS,
   "étirement fléchisseurs doigts d":IMG_ETIREMENT_FLECHISSEUR_DOIGTS, "étirement fléchisseurs doigts g":IMG_ETIREMENT_FLECHISSEUR_DOIGTS,
@@ -1952,7 +1952,6 @@ export default function KinesiaRelief() {
         {t:T("Dips chaise D","Chair dip R"),d:T("Assis sur le bord d'une chaise, mains sur le rebord, descends et remonte avec les bras.","Seated on chair edge, hands on rim, lower and raise with arms."),r:"10 × 2"}]},
 
       main_g: { etirements:[
-        {t:T("Étirement paume G","Left palm stretch"),d:T("Paume gauche vers le haut, tire les doigts vers l'arrière avec l'autre main. Tiens 20 sec.","Left palm up, pull fingers back with other hand. Hold 20 sec."),r:"3 × 20 sec"},
         {t:T("Étirement dos main G","Left hand back stretch"),d:T("Referme le poing gauche, appuie dessus avec la main droite vers le bas. Tiens 15 sec.","Close left fist, press down with right hand. Hold 15 sec."),r:"3 × 15 sec"}],
         massage:[
         {t:T("Friction paume G","Left palm friction"),d:T("Pouce droit sur la paume gauche, petits cercles sur toute la surface palmaire.","Right thumb on left palm, small circles over entire palm surface."),r:"2 min"},
@@ -1961,7 +1960,6 @@ export default function KinesiaRelief() {
         {t:T("Opposition pouce G","Left thumb opposition"),d:T("Touche chaque doigt avec le pouce gauche un par un, lentement et complètement.","Touch each finger with left thumb one by one, slowly and fully."),r:"10 × 3"}]},
 
       main_d: { etirements:[
-        {t:T("Étirement paume D","Right palm stretch"),d:T("Paume droite vers le haut, tire les doigts vers l'arrière avec l'autre main. Tiens 20 sec.","Right palm up, pull fingers back with other hand. Hold 20 sec."),r:"3 × 20 sec"},
         {t:T("Étirement dos main D","Right hand back stretch"),d:T("Referme le poing droit, appuie dessus avec la main gauche vers le bas. Tiens 15 sec.","Close right fist, press down with left hand. Hold 15 sec."),r:"3 × 15 sec"}],
         massage:[
         {t:T("Friction paume D","Right palm friction"),d:T("Pouce gauche sur la paume droite, petits cercles sur toute la surface palmaire.","Left thumb on right palm, small circles over entire palm surface."),r:"2 min"},
