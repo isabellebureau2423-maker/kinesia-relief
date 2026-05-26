@@ -1507,10 +1507,6 @@ export default function KinesiaRelief() {
                 } catch(e) { setLoginError(e.message); }
                 finally { setAuthLoading(false); }
               }}>{authLoading ? (lang==="fr"?"Connexion…":"Signing in…") : (lang==="fr"?"Se connecter →":"Sign in →")}</button>
-              <div style={{ textAlign:"center", marginTop:8 }}>
-                <span style={{ color:"rgba(255,255,255,0.45)", fontSize:13 }}>{lang==="fr"?"Pas encore de compte ? ":"No account yet? "}</span>
-                <span onClick={() => setTab("signup")} style={{ color:"#0dcfc6", fontSize:13, cursor:"pointer", fontWeight:600 }}>{lang==="fr"?"Créer un compte":"Create an account"}</span>
-              </div>
             </div>
           )}
         </div>
