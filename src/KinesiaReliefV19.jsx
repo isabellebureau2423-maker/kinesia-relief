@@ -2151,7 +2151,7 @@ export default function KinesiaRelief() {
 
       cheville_g: { etirements:[
         {t:T("Étirement mollet G au mur","Left calf wall stretch"),d:T("Pied gauche en arrière, talon au sol, pousse le mur. Tiens 30 sec.","Left foot back, heel on floor, push wall. Hold 30 sec."),r:"3 × 30 sec"},
-        {t:T("Étirement tendon Achille G","Left Achilles stretch"),d:T("Même position mais genou gauche légèrement fléchi. Tiens 30 sec.","Same position but left knee slightly bent. Hold 30 sec."),r:"3 × 30 sec"}],
+        {t:T("Étirement tendon Achille G","Left Achilles stretch"),d:T("Un pied en arrière, genou fléchi talon au sol puis tenir 30 secondes.","One foot back, knee bent, heel on floor, hold 30 seconds."),r:"3 × 30 sec"}],
         massage:[
         {t:T("Massage cheville G circulaire","Left ankle circular massage"),d:T("Doigts autour de la malléole puis faire des petits cercles doux.","Fingers around the ankle bone, make small gentle circles."),r:"2 min"},
         {t:T("Friction tendon Achille G","Left Achilles friction"),d:T("Pouce et index remontent le long du tendon depuis le talon.","Thumb and index finger run up along tendon from heel."),r:"1 min 30"}],
@@ -2161,7 +2161,7 @@ export default function KinesiaRelief() {
 
       cheville_d: { etirements:[
         {t:T("Étirement mollet D au mur","Right calf wall stretch"),d:T("Pied droit en arrière, talon au sol, pousse le mur. Tiens 30 sec.","Right foot back, heel on floor, push wall. Hold 30 sec."),r:"3 × 30 sec"},
-        {t:T("Étirement tendon Achille D","Right Achilles stretch"),d:T("Même position mais genou droit légèrement fléchi. Tiens 30 sec.","Same position but right knee slightly bent. Hold 30 sec."),r:"3 × 30 sec"}],
+        {t:T("Étirement tendon Achille D","Right Achilles stretch"),d:T("Un pied en arrière, genou fléchi talon au sol puis tenir 30 secondes.","One foot back, knee bent, heel on floor, hold 30 seconds."),r:"3 × 30 sec"}],
         massage:[
         {t:T("Massage cheville D circulaire","Right ankle circular massage"),d:T("Doigts autour de la malléole puis faire des petits cercles doux.","Fingers around the ankle bone, make small gentle circles."),r:"2 min"},
         {t:T("Friction tendon Achille D","Right Achilles friction"),d:T("Pouce et index remontent le long du tendon depuis le talon.","Thumb and index finger run up along tendon from heel."),r:"1 min 30"}],
@@ -2190,7 +2190,7 @@ export default function KinesiaRelief() {
         {t:T("Relevé de talon D unilatéral","Unilateral right heel raise"),d:T("Sur une marche, monte sur la pointe du pied droit uniquement.","On a step, rise on right tiptoe only."),r:"12 × 2"}]},
 
       achille_g: { etirements:[
-        {t:T("Étirement tendon Achille G","Left Achilles stretch"),d:T("Pied gauche en arrière, genou fléchi, talon au sol. Tiens 30 sec.","Left foot back, knee bent, heel on floor. Hold 30 sec."),r:"3 × 30 sec"}],
+        {t:T("Étirement tendon Achille G","Left Achilles stretch"),d:T("Un pied en arrière, genou fléchi talon au sol puis tenir 30 secondes.","One foot back, knee bent, heel on floor, hold 30 seconds."),r:"3 × 30 sec"}],
         massage:[
         {t:T("Friction tendon Achille G","Left Achilles tendon friction"),d:T("Pouce et index de chaque côté du tendon, remonte de bas en haut.","Thumb and index on each side of tendon, move upward."),r:"2 min"},
         {t:T("Glace après effort G","Ice after effort L"),d:T("Appliquer de la glace 10 min sur le tendon Achille gauche si chaud.","Apply ice 10 min on left Achilles tendon if warm."),r:"10 min"}],
@@ -2198,7 +2198,7 @@ export default function KinesiaRelief() {
         {t:T("Relevé excentrique G","Left eccentric raise"),d:T("Monte sur 2 pieds, descends en unilatéral gauche lentement.","Rise on 2 feet, lower on left foot slowly."),r:"12 × 3"}]},
 
       achille_d: { etirements:[
-        {t:T("Étirement tendon Achille D","Right Achilles stretch"),d:T("Pied droit en arrière, genou fléchi, talon au sol. Tiens 30 sec.","Right foot back, knee bent, heel on floor. Hold 30 sec."),r:"3 × 30 sec"}],
+        {t:T("Étirement tendon Achille D","Right Achilles stretch"),d:T("Un pied en arrière, genou fléchi talon au sol puis tenir 30 secondes.","One foot back, knee bent, heel on floor, hold 30 seconds."),r:"3 × 30 sec"}],
         massage:[
         {t:T("Friction tendon Achille D","Right Achilles tendon friction"),d:T("Pouce et index de chaque côté du tendon, remonte de bas en haut.","Thumb and index on each side of tendon, move upward."),r:"2 min"},
         {t:T("Glace après effort D","Ice after effort R"),d:T("Appliquer de la glace 10 min sur le tendon Achille droit si chaud.","Apply ice 10 min on right Achilles tendon if warm."),r:"10 min"}],
