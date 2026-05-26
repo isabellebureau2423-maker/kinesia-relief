@@ -2199,8 +2199,7 @@ export default function KinesiaRelief() {
         {t:T("Relevé excentrique D","Right eccentric raise"),d:T("Monte sur 2 pieds, descends en unilatéral droit lentement.","Rise on 2 feet, lower on right foot slowly."),r:"12 × 3"}]},
 
       pied_g: { etirements:[
-        {t:T("Étirement fascia plantaire G","Left plantar fascia stretch"),d:T("Assis, tire les orteils vers toi. Tiens 20 sec.","Seated, pull toes toward you. Hold 20 sec."),r:"3 × 20 sec"},
-        {t:T("Étirement mollet G","Left calf stretch"),d:T("Talon gauche au sol, jambe tendue, pousse le mur. Tiens 30 sec.","Left heel on floor, leg extended, push wall. Hold 30 sec."),r:"3 × 30 sec"}],
+        {t:T("Étirement fascia plantaire G","Left plantar fascia stretch"),d:T("Assis, tire les orteils vers toi. Tiens 20 sec.","Seated, pull toes toward you. Hold 20 sec."),r:"3 × 20 sec"}],
         massage:[
         {t:T("Balle de tennis pied G","Left foot tennis ball"),d:T("Debout, roule une balle de tennis sous la plante du pied gauche.","Standing, roll a tennis ball under left foot arch."),r:"3 min"},
         {t:T("Friction voûte plantaire G","Left plantar arch friction"),d:T("Pouce sur la voûte plantaire, cercles profonds du talon aux orteils.","Thumb on arch, deep circles from heel to toes."),r:"2 min"}],
@@ -2209,8 +2208,7 @@ export default function KinesiaRelief() {
         {t:T("Relevé orteils G","Left toe raise"),d:T("Lève les orteils du pied gauche, tiens 5 sec, abaisse.","Raise left toes, hold 5 sec, lower."),r:"15 × 2"}]},
 
       pied_d: { etirements:[
-        {t:T("Étirement fascia plantaire D","Right plantar fascia stretch"),d:T("Assis, tire les orteils vers toi. Tiens 20 sec.","Seated, pull toes toward you. Hold 20 sec."),r:"3 × 20 sec"},
-        {t:T("Étirement mollet D","Right calf stretch"),d:T("Talon droit au sol, jambe tendue, pousse le mur. Tiens 30 sec.","Right heel on floor, leg extended, push wall. Hold 30 sec."),r:"3 × 30 sec"}],
+        {t:T("Étirement fascia plantaire D","Right plantar fascia stretch"),d:T("Assis, tire les orteils vers toi. Tiens 20 sec.","Seated, pull toes toward you. Hold 20 sec."),r:"3 × 20 sec"}],
         massage:[
         {t:T("Balle de tennis pied D","Right foot tennis ball"),d:T("Debout, roule une balle de tennis sous la plante du pied droit.","Standing, roll a tennis ball under right foot arch."),r:"3 min"},
         {t:T("Friction voûte plantaire D","Right plantar arch friction"),d:T("Pouce sur la voûte plantaire, cercles profonds du talon aux orteils.","Thumb on arch, deep circles from heel to toes."),r:"2 min"}],
