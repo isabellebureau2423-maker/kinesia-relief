@@ -95,14 +95,16 @@ function SubscribeForm({ lang, plan: planProp, setPlan, setScreenAndSave, curren
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Erreur serveur");
 
-      // 2 — Confirm card payment with Stripe
+      // 2 — Confirm card with Stripe (setup_intent for trials, payment_intent otherwise)
       const cardNumber = elements.getElement(CardNumberElement);
-      const { error: stripeErr } = await stripe.confirmCardPayment(data.clientSecret, {
-        payment_method: {
-          card: cardNumber,
-          billing_details: { name, email },
-        },
-      });
+      const confirmMethod = data.intentType === "setup"
+        ? stripe.confirmCardSetup(data.clientSecret, {
+            payment_method: { card: cardNumber, billing_details: { name, email } },
+          })
+        : stripe.confirmCardPayment(data.clientSecret, {
+            payment_method: { card: cardNumber, billing_details: { name, email } },
+          });
+      const { error: stripeErr } = await confirmMethod;
       if (stripeErr) throw new Error(stripeErr.message);
 
       // 3 — Save subscription to Firestore

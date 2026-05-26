@@ -34,20 +34,32 @@ exports.createSubscription = onRequest(
         ? existing.data[0]
         : await stripe.customers.create({ email, name: name || "", metadata: { firebaseUid: uid } });
 
-      // Create subscription — default_incomplete returns a PaymentIntent clientSecret
+      // Create subscription with 7-day trial
+      // Trial = $0 first invoice → uses setup_intent (not payment_intent) to save the card
       const subscription = await stripe.subscriptions.create({
         customer: customer.id,
         items: [{ price: priceId }],
         payment_behavior: "default_incomplete",
         payment_settings: { save_default_payment_method: "on_subscription" },
-        expand: ["latest_invoice.payment_intent"],
+        expand: ["latest_invoice.payment_intent", "pending_setup_intent"],
         trial_period_days: 7,
       });
+
+      // For trials: pending_setup_intent holds the clientSecret
+      // For non-trials: latest_invoice.payment_intent holds it
+      const clientSecret =
+        subscription.pending_setup_intent?.client_secret ||
+        subscription.latest_invoice?.payment_intent?.client_secret;
+
+      if (!clientSecret) {
+        return res.status(500).json({ error: "Impossible de récupérer le clientSecret Stripe." });
+      }
 
       return res.json({
         subscriptionId: subscription.id,
         customerId:     customer.id,
-        clientSecret:   subscription.latest_invoice.payment_intent.client_secret,
+        clientSecret,
+        intentType: subscription.pending_setup_intent ? "setup" : "payment",
       });
     } catch (err) {
       console.error("Stripe error:", err.message);
