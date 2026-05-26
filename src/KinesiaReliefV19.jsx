@@ -879,7 +879,6 @@ export default function KinesiaRelief() {
       setCurrentUser(u);
       if (u) {
         try {
-          // Vérifier que le profil Firestore existe (sinon compte supprimé)
           const profile = await getUserProfile(u.uid);
           if (!profile) {
             await logout();
@@ -887,11 +886,16 @@ export default function KinesiaRelief() {
             setScreen("auth");
             return;
           }
-          const plans = await getPlans(u.uid);
-          if (plans.length > 0) { setSavedPlans(plans); }
-          setScreen("dashboard");
+          const status = profile.subscriptionStatus;
+          if (status === "active" || status === "trialing") {
+            const plans = await getPlans(u.uid);
+            if (plans.length > 0) { setSavedPlans(plans); }
+            setScreen("dashboard");
+          } else {
+            setScreen("subscribe");
+          }
         } catch(e) {
-          setScreen("dashboard");
+          setScreen("subscribe");
         }
       }
     });
@@ -1442,7 +1446,7 @@ export default function KinesiaRelief() {
               <button style={{...btnG, opacity: authLoading ? 0.6 : 1}} disabled={authLoading} onClick={async () => {
                 if (!form.prenom||!form.courriel||!form.motDePasse){setLoginError("Veuillez remplir tous les champs.");return;}
                 setAuthLoading(true); setLoginError("");
-                try { await signup(form); setScreen("douleurs"); }
+                try { await signup(form); }
                 catch(e){ setLoginError(e.message); }
                 finally { setAuthLoading(false); }
               }}>{authLoading ? (lang==="fr"?"Création…":"Creating…") : (lang==="fr"?"Créer mon compte →":"Create account →")}</button>
@@ -1476,9 +1480,14 @@ export default function KinesiaRelief() {
                     setAuthLoading(false);
                     return;
                   }
-                  const plans = await getPlans(u.uid);
-                  if (plans.length > 0) { setSavedPlans(plans); }
-                  setScreen("dashboard");
+                  const status = profile.subscriptionStatus;
+                  if (status === "active" || status === "trialing") {
+                    const plans = await getPlans(u.uid);
+                    if (plans.length > 0) { setSavedPlans(plans); }
+                    setScreen("dashboard");
+                  } else {
+                    setScreen("subscribe");
+                  }
                 } catch(e) { setLoginError(e.message); }
                 finally { setAuthLoading(false); }
               }}>{authLoading ? (lang==="fr"?"Connexion…":"Signing in…") : (lang==="fr"?"Se connecter →":"Sign in →")}</button>
