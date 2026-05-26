@@ -1,0 +1,2360 @@
+[
+  {
+    "slug": "flexion-cervicale",
+    "titleFr": "Flexion cervicale",
+    "titleEn": "Neck flexion",
+    "descFr": "Incline la tête vers l'avant, menton vers la poitrine. Tiens 20 sec.",
+    "descEn": "Tilt head forward, chin to chest. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "flexion-cervicale.mp4"
+  },
+  {
+    "slug": "rotation-du-cou",
+    "titleFr": "Rotation du cou",
+    "titleEn": "Neck rotation",
+    "descFr": "Tourne lentement la tête à gauche puis droite. Mouvements lents.",
+    "descEn": "Slowly turn head left then right. Slow movements.",
+    "reps": "5 × each side",
+    "video": "rotation-du-cou.mp4"
+  },
+  {
+    "slug": "pression-base-du-crane",
+    "titleFr": "Pression base du crâne",
+    "titleEn": "Skull base pressure",
+    "descFr": "Pouces à la base du crâne, petits cercles lents vers la nuque.",
+    "descEn": "Thumbs at skull base, small slow circles toward neck.",
+    "reps": "2 min",
+    "video": "pression-base-du-crane.mp4"
+  },
+  {
+    "slug": "friction-cuir-chevelu",
+    "titleFr": "Friction cuir chevelu",
+    "titleEn": "Scalp friction",
+    "descFr": "Bouts des doigts sur le crâne, mouvements circulaires doux.",
+    "descEn": "Fingertips on skull, gentle circular movements.",
+    "reps": "1 min",
+    "video": "friction-cuir-chevelu.mp4"
+  },
+  {
+    "slug": "retraction-du-menton",
+    "titleFr": "Rétraction du menton",
+    "titleEn": "Chin tuck",
+    "descFr": "Rentre le menton (double menton). Tiens 5 sec. Renforce fléchisseurs profonds.",
+    "descEn": "Tuck chin in (double chin). Hold 5 sec. Strengthens deep flexors.",
+    "reps": "10 × 3",
+    "video": "retraction-du-menton.mp4"
+  },
+  {
+    "slug": "etirement-lateral-cervical",
+    "titleFr": "Étirement latéral cervical",
+    "titleEn": "Lateral neck stretch",
+    "descFr": "Incline la tête vers l'épaule, maintiens avec la main. Tiens 30 sec.",
+    "descEn": "Tilt head toward shoulder, hold with hand. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-lateral-cervical.mp4"
+  },
+  {
+    "slug": "etirement-trapeze-superieur",
+    "titleFr": "Étirement trapèze supérieur",
+    "titleEn": "Upper trapezius stretch",
+    "descFr": "Tire doucement ta tête de côté, tourne légèrement le nez vers le bas.",
+    "descEn": "Gently pull head sideways, slightly rotate nose downward.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-trapeze-superieur.mp4"
+  },
+  {
+    "slug": "petrissage-nuque",
+    "titleFr": "Pétrissage nuque",
+    "titleEn": "Neck kneading",
+    "descFr": "Prends le muscle entre pouce et doigts. Malaxe de bas en haut.",
+    "descEn": "Hold muscle between thumb and fingers. Knead upward.",
+    "reps": "2 min",
+    "video": "petrissage-nuque.mp4"
+  },
+  {
+    "slug": "compression-points-trigger",
+    "titleFr": "Compression points trigger",
+    "titleEn": "Trigger point compression",
+    "descFr": "Pression soutenue 30 sec sur les zones tendues de la nuque.",
+    "descEn": "Sustained 30 sec pressure on tense neck areas.",
+    "reps": "3 points",
+    "video": "compression-points-trigger.mp4"
+  },
+  {
+    "slug": "activation-rhomboides",
+    "titleFr": "Activation rhomboïdes",
+    "titleEn": "Rhomboid activation",
+    "descFr": "Joins les omoplates 5 sec. Améliore la posture du cou.",
+    "descEn": "Squeeze shoulder blades 5 sec. Improves neck posture.",
+    "reps": "15 × 2",
+    "video": "activation-rhomboides.mp4"
+  },
+  {
+    "slug": "flexion-cervicale-douce",
+    "titleFr": "Flexion cervicale douce",
+    "titleEn": "Gentle neck flexion",
+    "descFr": "Menton vers la poitrine. Tiens 15 sec. Très doux.",
+    "descEn": "Chin to chest. Hold 15 sec. Very gentle.",
+    "reps": "3 × 15 sec",
+    "video": "flexion-cervicale-douce.mp4"
+  },
+  {
+    "slug": "etirement-sousoccipital",
+    "titleFr": "Étirement sous-occipital",
+    "titleEn": "Sub-occipital stretch",
+    "descFr": "Assis, pousse le menton vers l'arrière et le haut doucement.",
+    "descEn": "Seated, gently push chin backward and upward.",
+    "reps": "10 × 5 sec",
+    "video": "etirement-sousoccipital.mp4"
+  },
+  {
+    "slug": "etirement-epaule-croise-g",
+    "titleFr": "Étirement épaule croisé G",
+    "titleEn": "Cross-body shoulder stretch L",
+    "descFr": "Ramène le bras gauche en travers de la poitrine. Tiens 30 sec.",
+    "descEn": "Bring left arm across chest. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-epaule-croise-g.mp4"
+  },
+  {
+    "slug": "rotation-interne-epaule-g",
+    "titleFr": "Rotation interne épaule G",
+    "titleEn": "Internal shoulder rotation L",
+    "descFr": "Bras derrière le dos, remonte vers les omoplates doucement.",
+    "descEn": "Arm behind back, gently raise toward shoulder blades.",
+    "reps": "3 × 20 sec",
+    "video": "rotation-interne-epaule-g.mp4"
+  },
+  {
+    "slug": "compression-trapeze-g",
+    "titleFr": "Compression trapèze G",
+    "titleEn": "Left trapezius compression",
+    "descFr": "Pose les doigts sur le trapèze gauche. Appuie et relâche 10×.",
+    "descEn": "Place fingers on left trapezius. Press and release 10×.",
+    "reps": "2 min",
+    "video": "compression-trapeze-g.mp4"
+  },
+  {
+    "slug": "friction-circulaire-epaule-g",
+    "titleFr": "Friction circulaire épaule G",
+    "titleEn": "Circular shoulder friction L",
+    "descFr": "Petits cercles avec la paume sur le deltoïde.",
+    "descEn": "Small circles with palm on deltoid.",
+    "reps": "1 min",
+    "video": "friction-circulaire-epaule-g.mp4"
+  },
+  {
+    "slug": "haussements-depaules",
+    "titleFr": "Haussements d'épaules",
+    "titleEn": "Shoulder shrugs",
+    "descFr": "Monte les épaules vers les oreilles, tiens 3 sec, descends lentement.",
+    "descEn": "Raise shoulders to ears, hold 3 sec, lower slowly.",
+    "reps": "10 × 3",
+    "video": "haussements-depaules.mp4"
+  },
+  {
+    "slug": "rotation-depaule",
+    "titleFr": "Rotation d'épaule",
+    "titleEn": "Shoulder rolls",
+    "descFr": "Cercles vers l'avant puis vers l'arrière. Ampleur progressivement plus grande.",
+    "descEn": "Circles forward then backward. Gradually increase range.",
+    "reps": "10 × each direction",
+    "video": "rotation-depaule.mp4"
+  },
+  {
+    "slug": "etirement-epaule-croise-d",
+    "titleFr": "Étirement épaule croisé D",
+    "titleEn": "Cross-body shoulder stretch R",
+    "descFr": "Ramène le bras droit en travers de la poitrine. Tiens 30 sec.",
+    "descEn": "Bring right arm across chest. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-epaule-croise-d.mp4"
+  },
+  {
+    "slug": "rotation-interne-epaule-d",
+    "titleFr": "Rotation interne épaule D",
+    "titleEn": "Internal shoulder rotation R",
+    "descFr": "Bras derrière le dos, remonte vers les omoplates doucement.",
+    "descEn": "Arm behind back, gently raise toward shoulder blades.",
+    "reps": "3 × 20 sec",
+    "video": "rotation-interne-epaule-d.mp4"
+  },
+  {
+    "slug": "compression-trapeze-d",
+    "titleFr": "Compression trapèze D",
+    "titleEn": "Right trapezius compression",
+    "descFr": "Pose les doigts sur le trapèze droit. Appuie et relâche 10×.",
+    "descEn": "Place fingers on right trapezius. Press and release 10×.",
+    "reps": "2 min",
+    "video": "compression-trapeze-d.mp4"
+  },
+  {
+    "slug": "friction-circulaire-epaule-d",
+    "titleFr": "Friction circulaire épaule D",
+    "titleEn": "Circular shoulder friction R",
+    "descFr": "Petits cercles avec la paume sur le deltoïde.",
+    "descEn": "Small circles with palm on deltoid.",
+    "reps": "1 min",
+    "video": "friction-circulaire-epaule-d.mp4"
+  },
+  {
+    "slug": "etirement-trapeze-superieur-g",
+    "titleFr": "Étirement trapèze supérieur G",
+    "titleEn": "Upper trapezius stretch L",
+    "descFr": "Incline la tête à droite, tire doucement avec la main droite. Tiens 30 sec.",
+    "descEn": "Tilt head right, gently pull with right hand. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-trapeze-superieur-g.mp4"
+  },
+  {
+    "slug": "compression-trapeze-gauche",
+    "titleFr": "Compression trapèze gauche",
+    "titleEn": "Left trapezius compression",
+    "descFr": "Pince le trapèze entre pouce et doigts. Malaxe lentement.",
+    "descEn": "Pinch trapezius between thumb and fingers. Knead slowly.",
+    "reps": "2 min",
+    "video": "compression-trapeze-gauche.mp4"
+  },
+  {
+    "slug": "balle-de-tennis-trapeze",
+    "titleFr": "Balle de tennis trapèze",
+    "titleEn": "Tennis ball trapezius",
+    "descFr": "Roule une balle de tennis sur le trapèze contre un mur.",
+    "descEn": "Roll a tennis ball on the trapezius against a wall.",
+    "reps": "2 min",
+    "video": "balle-de-tennis-trapeze.mp4"
+  },
+  {
+    "slug": "retraction-scapulaire",
+    "titleFr": "Rétraction scapulaire",
+    "titleEn": "Scapular retraction",
+    "descFr": "Pousse les omoplates vers le bas et l'intérieur.",
+    "descEn": "Push shoulder blades down and inward.",
+    "reps": "10 × 3",
+    "video": "retraction-scapulaire.mp4"
+  },
+  {
+    "slug": "etirement-trapeze-superieur-d",
+    "titleFr": "Étirement trapèze supérieur D",
+    "titleEn": "Upper trapezius stretch R",
+    "descFr": "Incline la tête à gauche, tire doucement avec la main gauche. Tiens 30 sec.",
+    "descEn": "Tilt head left, gently pull with left hand. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-trapeze-superieur-d.mp4"
+  },
+  {
+    "slug": "compression-trapeze-droit",
+    "titleFr": "Compression trapèze droit",
+    "titleEn": "Right trapezius compression",
+    "descFr": "Pince le trapèze entre pouce et doigts. Malaxe lentement.",
+    "descEn": "Pinch trapezius between thumb and fingers. Knead slowly.",
+    "reps": "2 min",
+    "video": "compression-trapeze-droit.mp4"
+  },
+  {
+    "slug": "etirement-rhomboide-g",
+    "titleFr": "Étirement rhomboïde G",
+    "titleEn": "Rhomboid stretch L",
+    "descFr": "Bras gauche tendu, tire-le vers la droite avec la main droite. Tiens 25 sec.",
+    "descEn": "Left arm extended, pull it right with right hand. Hold 25 sec.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-rhomboide-g.mp4"
+  },
+  {
+    "slug": "balle-contre-mur-omoplate-g",
+    "titleFr": "Balle contre mur omoplate G",
+    "titleEn": "Tennis ball on wall L",
+    "descFr": "Place une balle de tennis entre l'omoplate gauche et le mur. Roule.",
+    "descEn": "Place a tennis ball between left shoulder blade and wall. Roll.",
+    "reps": "2 min",
+    "video": "balle-contre-mur-omoplate-g.mp4"
+  },
+  {
+    "slug": "rowing-horizontal",
+    "titleFr": "Rowing horizontal",
+    "titleEn": "Horizontal row",
+    "descFr": "Assis, simule un mouvement de rame vers toi en serrant l'omoplate.",
+    "descEn": "Seated, simulate a rowing motion toward you while squeezing shoulder blade.",
+    "reps": "12 × 3",
+    "video": "rowing-horizontal.mp4"
+  },
+  {
+    "slug": "rotation-thoracique",
+    "titleFr": "Rotation thoracique",
+    "titleEn": "Thoracic rotation",
+    "descFr": "Assis, croise les bras, tourne le buste à gauche puis droite.",
+    "descEn": "Seated, cross arms, rotate trunk left then right.",
+    "reps": "10 × each side",
+    "video": "rotation-thoracique.mp4"
+  },
+  {
+    "slug": "etirement-rhomboide-d",
+    "titleFr": "Étirement rhomboïde D",
+    "titleEn": "Rhomboid stretch R",
+    "descFr": "Bras droit tendu, tire-le vers la gauche avec la main gauche. Tiens 25 sec.",
+    "descEn": "Right arm extended, pull it left with left hand. Hold 25 sec.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-rhomboide-d.mp4"
+  },
+  {
+    "slug": "balle-contre-mur-omoplate-d",
+    "titleFr": "Balle contre mur omoplate D",
+    "titleEn": "Tennis ball on wall R",
+    "descFr": "Place une balle de tennis entre l'omoplate droite et le mur. Roule.",
+    "descEn": "Place a tennis ball between right shoulder blade and wall. Roll.",
+    "reps": "2 min",
+    "video": "balle-contre-mur-omoplate-d.mp4"
+  },
+  {
+    "slug": "etirement-pectoral-cadre-de-porte-g",
+    "titleFr": "Étirement pectoral cadre de porte G",
+    "titleEn": "Doorframe pec stretch L",
+    "descFr": "Bras gauche à 90° contre la porte, tourne le corps vers la droite.",
+    "descEn": "Left arm at 90° against doorframe, rotate body right.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-pectoral-cadre-de-porte-g.mp4"
+  },
+  {
+    "slug": "etirement-pectoral-bras-tendu-g",
+    "titleFr": "Étirement pectoral bras tendu G",
+    "titleEn": "Extended arm pec stretch L",
+    "descFr": "Bras gauche tendu en arrière contre le mur. Tourne le buste.",
+    "descEn": "Left arm extended back against wall. Rotate trunk.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-pectoral-bras-tendu-g.mp4"
+  },
+  {
+    "slug": "balle-pectoral-contre-mur-g",
+    "titleFr": "Balle pectoral contre mur G",
+    "titleEn": "Tennis ball pec on wall L",
+    "descFr": "Balle de tennis sur le pectoral gauche contre le mur. Roule.",
+    "descEn": "Tennis ball on left pectoral against wall. Roll.",
+    "reps": "2 min",
+    "video": "balle-pectoral-contre-mur-g.mp4"
+  },
+  {
+    "slug": "ouverture-thoracique",
+    "titleFr": "Ouverture thoracique",
+    "titleEn": "Thoracic opening",
+    "descFr": "Assis, mains derrière la tête, ouvre les coudes vers l'arrière.",
+    "descEn": "Seated, hands behind head, open elbows backward.",
+    "reps": "10 × 3",
+    "video": "ouverture-thoracique.mp4"
+  },
+  {
+    "slug": "etirement-pectoral-cadre-de-porte-d",
+    "titleFr": "Étirement pectoral cadre de porte D",
+    "titleEn": "Doorframe pec stretch R",
+    "descFr": "Bras droit à 90° contre la porte, tourne le corps vers la gauche.",
+    "descEn": "Right arm at 90° against doorframe, rotate body left.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-pectoral-cadre-de-porte-d.mp4"
+  },
+  {
+    "slug": "etirement-pectoral-bras-tendu-d",
+    "titleFr": "Étirement pectoral bras tendu D",
+    "titleEn": "Extended arm pec stretch R",
+    "descFr": "Bras droit tendu en arrière contre le mur. Tourne le buste.",
+    "descEn": "Right arm extended back against wall. Rotate trunk.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-pectoral-bras-tendu-d.mp4"
+  },
+  {
+    "slug": "balle-pectoral-contre-mur-d",
+    "titleFr": "Balle pectoral contre mur D",
+    "titleEn": "Tennis ball pec on wall R",
+    "descFr": "Balle de tennis sur le pectoral droit contre le mur. Roule.",
+    "descEn": "Tennis ball on right pectoral against wall. Roll.",
+    "reps": "2 min",
+    "video": "balle-pectoral-contre-mur-d.mp4"
+  },
+  {
+    "slug": "etirement-chatvache",
+    "titleFr": "Étirement chat-vache",
+    "titleEn": "Cat-cow stretch",
+    "descFr": "À quatre pattes, arrondis puis creuse le dos alternativement. Lent.",
+    "descEn": "On hands and knees, alternate rounding and arching back. Slow.",
+    "reps": "10 cycles",
+    "video": "etirement-chatvache.mp4"
+  },
+  {
+    "slug": "torsion-dorsale-allonge",
+    "titleFr": "Torsion dorsale allongé",
+    "titleEn": "Lying spinal twist",
+    "descFr": "Allongé, ramène un genou de l'autre côté du corps. Tiens 30 sec.",
+    "descEn": "Lying down, bring one knee across to other side. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "torsion-dorsale-allonge.mp4"
+  },
+  {
+    "slug": "rouleau-mousse-dos",
+    "titleFr": "Rouleau mousse dos",
+    "titleEn": "Foam roller back",
+    "descFr": "Assis, place un rouleau sous le dos. Roule lentement de haut en bas.",
+    "descEn": "Seated, place foam roller under back. Roll slowly up and down.",
+    "reps": "3 min",
+    "video": "rouleau-mousse-dos.mp4"
+  },
+  {
+    "slug": "balle-contre-mur-dos",
+    "titleFr": "Balle contre mur dos",
+    "titleEn": "Tennis ball on wall back",
+    "descFr": "Place une balle de tennis dans le dos, entre les omoplates, contre un mur.",
+    "descEn": "Place tennis ball in back, between shoulder blades, against wall.",
+    "reps": "2 min",
+    "video": "balle-contre-mur-dos.mp4"
+  },
+  {
+    "slug": "extension-dorsale",
+    "titleFr": "Extension dorsale",
+    "titleEn": "Back extension",
+    "descFr": "Allongé sur le ventre, lève doucement la tête et le buste. Tiens 5 sec.",
+    "descEn": "Lying on stomach, gently lift head and chest. Hold 5 sec.",
+    "reps": "10 × 2",
+    "video": "extension-dorsale.mp4"
+  },
+  {
+    "slug": "genouxpoitrine",
+    "titleFr": "Genoux-poitrine",
+    "titleEn": "Knees to chest",
+    "descFr": "Allongé, ramène les deux genoux vers la poitrine. Tiens 30 sec.",
+    "descEn": "Lying down, bring both knees to chest. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "genouxpoitrine.mp4"
+  },
+  {
+    "slug": "rouleau-mousse-lombaires",
+    "titleFr": "Rouleau mousse lombaires",
+    "titleEn": "Foam roller lower back",
+    "descFr": "Assis, place le rouleau sous les lombaires. Roule doucement.",
+    "descEn": "Seated, place roller under lower back. Roll gently.",
+    "reps": "3 min",
+    "video": "rouleau-mousse-lombaires.mp4"
+  },
+  {
+    "slug": "balles-paires-lombaires",
+    "titleFr": "Balles paires lombaires",
+    "titleEn": "Twin balls lower back",
+    "descFr": "Deux balles de tennis côte à côte sous les lombaires allongé.",
+    "descEn": "Two tennis balls side by side under lower back while lying.",
+    "reps": "2 min",
+    "video": "balles-paires-lombaires.mp4"
+  },
+  {
+    "slug": "pont-fessier",
+    "titleFr": "Pont fessier",
+    "titleEn": "Glute bridge",
+    "descFr": "Allongé, pieds au sol, monte les hanches. Tiens 5 sec. Descends lentement.",
+    "descEn": "Lying, feet on floor, raise hips. Hold 5 sec. Lower slowly.",
+    "reps": "12 × 3",
+    "video": "pont-fessier.mp4"
+  },
+  {
+    "slug": "superman",
+    "titleFr": "Superman",
+    "titleEn": "Superman",
+    "descFr": "Allongé sur le ventre, lève bras et jambe opposés. Tiens 5 sec.",
+    "descEn": "Lying on stomach, lift opposite arm and leg. Hold 5 sec.",
+    "reps": "10 × 2",
+    "video": "superman.mp4"
+  },
+  {
+    "slug": "flexion-lombaire-debout",
+    "titleFr": "Flexion lombaire debout",
+    "titleEn": "Standing lumbar flexion",
+    "descFr": "Debout, penche-toi vers l'avant, laisse tomber les bras. Tiens 30 sec.",
+    "descEn": "Standing, lean forward, let arms hang. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "flexion-lombaire-debout.mp4"
+  },
+  {
+    "slug": "pression-pouces-lombaires",
+    "titleFr": "Pression pouces lombaires",
+    "titleEn": "Lumbar thumb pressure",
+    "descFr": "Assis, pouces dans le bas du dos, pression circulaire.",
+    "descEn": "Seated, thumbs in lower back, circular pressure.",
+    "reps": "2 min",
+    "video": "pression-pouces-lombaires.mp4"
+  },
+  {
+    "slug": "birddog",
+    "titleFr": "Bird-dog",
+    "titleEn": "Bird-dog",
+    "descFr": "À quatre pattes, étire bras et jambe opposés. Tiens 5 sec.",
+    "descEn": "On hands and knees, extend opposite arm and leg. Hold 5 sec.",
+    "reps": "10 × each side",
+    "video": "birddog.mp4"
+  },
+  {
+    "slug": "etirement-cobra",
+    "titleFr": "Étirement cobra",
+    "titleEn": "Cobra stretch",
+    "descFr": "Allongé sur le ventre, pousse sur les mains pour lever le buste. Tiens 20 sec.",
+    "descEn": "Lying on stomach, push on hands to lift chest. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-cobra.mp4"
+  },
+  {
+    "slug": "flexion-laterale-debout",
+    "titleFr": "Flexion latérale debout",
+    "titleEn": "Standing lateral flexion",
+    "descFr": "Debout, un bras levé, penche-toi latéralement. Tiens 20 sec.",
+    "descEn": "Standing, one arm raised, lean sideways. Hold 20 sec.",
+    "reps": "3 × each side",
+    "video": "flexion-laterale-debout.mp4"
+  },
+  {
+    "slug": "massage-abdominal-circulaire",
+    "titleFr": "Massage abdominal circulaire",
+    "titleEn": "Circular abdominal massage",
+    "descFr": "Paume à plat, cercles dans le sens des aiguilles d'une montre.",
+    "descEn": "Flat palm, clockwise circles.",
+    "reps": "3 min",
+    "video": "massage-abdominal-circulaire.mp4"
+  },
+  {
+    "slug": "respiration-diaphragmatique",
+    "titleFr": "Respiration diaphragmatique",
+    "titleEn": "Diaphragmatic breathing",
+    "descFr": "Inspire par le nez 4 sec, expire par la bouche 6 sec. Relaxe.",
+    "descEn": "Inhale through nose 4 sec, exhale through mouth 6 sec. Relax.",
+    "reps": "10 breaths",
+    "video": "respiration-diaphragmatique.mp4"
+  },
+  {
+    "slug": "massage-basventre-doux",
+    "titleFr": "Massage bas-ventre doux",
+    "titleEn": "Gentle lower abdomen massage",
+    "descFr": "Paume chaude sur le bas-ventre, cercles doux dans le sens horaire.",
+    "descEn": "Warm palm on lower abdomen, gentle clockwise circles.",
+    "reps": "2 min",
+    "video": "massage-basventre-doux.mp4"
+  },
+  {
+    "slug": "inclinaison-pelvienne",
+    "titleFr": "Inclinaison pelvienne",
+    "titleEn": "Pelvic tilt",
+    "descFr": "Allongé, aplatit le bas du dos contre le sol. Tiens 5 sec.",
+    "descEn": "Lying, flatten lower back against floor. Hold 5 sec.",
+    "reps": "10 × 3",
+    "video": "inclinaison-pelvienne.mp4"
+  },
+  {
+    "slug": "etirement-extenseurs-avantbras-g",
+    "titleFr": "Étirement extenseurs avant-bras G",
+    "titleEn": "Forearm extensor stretch L",
+    "descFr": "Bras gauche tendu, paume vers le bas, tire les doigts vers toi. Tiens 20 sec.",
+    "descEn": "Left arm extended, palm down, pull fingers toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-extenseurs-avantbras-g.mp4"
+  },
+  {
+    "slug": "etirement-flechisseurs-avantbras-g",
+    "titleFr": "Étirement fléchisseurs avant-bras G",
+    "titleEn": "Forearm flexor stretch L",
+    "descFr": "Bras tendu, paume vers le haut, tire les doigts vers toi. Tiens 20 sec.",
+    "descEn": "Arm extended, palm up, pull fingers toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-flechisseurs-avantbras-g.mp4"
+  },
+  {
+    "slug": "friction-coude-lateral-g",
+    "titleFr": "Friction coude latéral G",
+    "titleEn": "Lateral elbow friction L",
+    "descFr": "Pouce sur l'épicondyle, petits cercles doux.",
+    "descEn": "Thumb on epicondyle, small gentle circles.",
+    "reps": "2 min",
+    "video": "friction-coude-lateral-g.mp4"
+  },
+  {
+    "slug": "massage-avantbras-g",
+    "titleFr": "Massage avant-bras G",
+    "titleEn": "Forearm massage L",
+    "descFr": "Pétris doucement les muscles de l'avant-bras du poignet vers le coude.",
+    "descEn": "Gently knead forearm muscles from wrist to elbow.",
+    "reps": "2 min",
+    "video": "massage-avantbras-g.mp4"
+  },
+  {
+    "slug": "flexionextension-poignet-g",
+    "titleFr": "Flexion-extension poignet G",
+    "titleEn": "Wrist flexion-extension L",
+    "descFr": "Tiens un léger poids, fléchis et étends le poignet lentement.",
+    "descEn": "Hold a light weight, slowly flex and extend the wrist.",
+    "reps": "15 × 2",
+    "video": "flexionextension-poignet-g.mp4"
+  },
+  {
+    "slug": "serrage-balle-antistress-g",
+    "titleFr": "Serrage balle anti-stress G",
+    "titleEn": "Stress ball squeeze L",
+    "descFr": "Serre une balle molle, tiens 5 sec, relâche.",
+    "descEn": "Squeeze a soft ball, hold 5 sec, release.",
+    "reps": "15 × 2",
+    "video": "serrage-balle-antistress-g.mp4"
+  },
+  {
+    "slug": "etirement-extenseurs-avantbras-d",
+    "titleFr": "Étirement extenseurs avant-bras D",
+    "titleEn": "Forearm extensor stretch R",
+    "descFr": "Bras droit tendu, paume vers le bas, tire les doigts vers toi. Tiens 20 sec.",
+    "descEn": "Right arm extended, palm down, pull fingers toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-extenseurs-avantbras-d.mp4"
+  },
+  {
+    "slug": "etirement-flechisseurs-avantbras-d",
+    "titleFr": "Étirement fléchisseurs avant-bras D",
+    "titleEn": "Forearm flexor stretch R",
+    "descFr": "Bras tendu, paume vers le haut, tire les doigts vers toi. Tiens 20 sec.",
+    "descEn": "Arm extended, palm up, pull fingers toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-flechisseurs-avantbras-d.mp4"
+  },
+  {
+    "slug": "friction-coude-lateral-d",
+    "titleFr": "Friction coude latéral D",
+    "titleEn": "Lateral elbow friction R",
+    "descFr": "Pouce sur l'épicondyle droit, petits cercles doux.",
+    "descEn": "Thumb on right epicondyle, small gentle circles.",
+    "reps": "2 min",
+    "video": "friction-coude-lateral-d.mp4"
+  },
+  {
+    "slug": "massage-avantbras-d",
+    "titleFr": "Massage avant-bras D",
+    "titleEn": "Forearm massage R",
+    "descFr": "Pétris doucement les muscles de l'avant-bras.",
+    "descEn": "Gently knead forearm muscles.",
+    "reps": "2 min",
+    "video": "massage-avantbras-d.mp4"
+  },
+  {
+    "slug": "flexionextension-poignet-d",
+    "titleFr": "Flexion-extension poignet D",
+    "titleEn": "Wrist flexion-extension R",
+    "descFr": "Tiens un léger poids, fléchis et étends le poignet lentement.",
+    "descEn": "Hold a light weight, slowly flex and extend the wrist.",
+    "reps": "15 × 2",
+    "video": "flexionextension-poignet-d.mp4"
+  },
+  {
+    "slug": "serrage-balle-antistress-d",
+    "titleFr": "Serrage balle anti-stress D",
+    "titleEn": "Stress ball squeeze R",
+    "descFr": "Serre une balle molle, tiens 5 sec, relâche.",
+    "descEn": "Squeeze a soft ball, hold 5 sec, release.",
+    "reps": "15 × 2",
+    "video": "serrage-balle-antistress-d.mp4"
+  },
+  {
+    "slug": "etirement-avantbras-gauche",
+    "titleFr": "Étirement avant-bras gauche",
+    "titleEn": "Left forearm stretch",
+    "descFr": "Bras tendu, paume vers le bas, tire les doigts vers toi avec l'autre main.",
+    "descEn": "Arm extended, palm down, pull fingers toward you with other hand.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-avantbras-gauche.mp4"
+  },
+  {
+    "slug": "petrissage-avantbras-g",
+    "titleFr": "Pétrissage avant-bras G",
+    "titleEn": "Left forearm kneading",
+    "descFr": "Malaxe les muscles de l'avant-bras gauche du poignet vers le coude.",
+    "descEn": "Knead left forearm muscles from wrist to elbow.",
+    "reps": "2 min",
+    "video": "petrissage-avantbras-g.mp4"
+  },
+  {
+    "slug": "rotation-avantbras-g",
+    "titleFr": "Rotation avant-bras G",
+    "titleEn": "Left forearm rotation",
+    "descFr": "Coude fléchi à 90°, tourne la paume vers le haut puis vers le bas.",
+    "descEn": "Elbow bent at 90°, rotate palm upward then downward.",
+    "reps": "15 × 2",
+    "video": "rotation-avantbras-g.mp4"
+  },
+  {
+    "slug": "etirement-avantbras-droit",
+    "titleFr": "Étirement avant-bras droit",
+    "titleEn": "Right forearm stretch",
+    "descFr": "Bras tendu, paume vers le bas, tire les doigts vers toi.",
+    "descEn": "Arm extended, palm down, pull fingers toward you.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-avantbras-droit.mp4"
+  },
+  {
+    "slug": "petrissage-avantbras-d",
+    "titleFr": "Pétrissage avant-bras D",
+    "titleEn": "Right forearm kneading",
+    "descFr": "Malaxe les muscles de l'avant-bras droit du poignet vers le coude.",
+    "descEn": "Knead right forearm muscles from wrist to elbow.",
+    "reps": "2 min",
+    "video": "petrissage-avantbras-d.mp4"
+  },
+  {
+    "slug": "rotation-avantbras-d",
+    "titleFr": "Rotation avant-bras D",
+    "titleEn": "Right forearm rotation",
+    "descFr": "Coude fléchi à 90°, tourne la paume vers le haut puis vers le bas.",
+    "descEn": "Elbow bent at 90°, rotate palm upward then downward.",
+    "reps": "15 × 2",
+    "video": "rotation-avantbras-d.mp4"
+  },
+  {
+    "slug": "etirement-poignet-gauche-extenseurs",
+    "titleFr": "Étirement poignet gauche extenseurs",
+    "titleEn": "Left wrist extensor stretch",
+    "descFr": "Paume vers le bas, tire les doigts vers toi. Tiens 20 sec.",
+    "descEn": "Palm down, pull fingers toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-poignet-gauche-extenseurs.mp4"
+  },
+  {
+    "slug": "etirement-poignet-gauche-flechisseurs",
+    "titleFr": "Étirement poignet gauche fléchisseurs",
+    "titleEn": "Left wrist flexor stretch",
+    "descFr": "Paume vers le haut, tire les doigts vers toi. Tiens 20 sec.",
+    "descEn": "Palm up, pull fingers toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-poignet-gauche-flechisseurs.mp4"
+  },
+  {
+    "slug": "friction-poignet-gauche",
+    "titleFr": "Friction poignet gauche",
+    "titleEn": "Left wrist friction",
+    "descFr": "Pouce sur la face interne du poignet, petits cercles.",
+    "descEn": "Thumb on inner wrist, small circles.",
+    "reps": "1 min",
+    "video": "friction-poignet-gauche.mp4"
+  },
+  {
+    "slug": "mobilisation-doigts-g",
+    "titleFr": "Mobilisation doigts G",
+    "titleEn": "Left finger mobilization",
+    "descFr": "Flexion-extension lente de chaque doigt.",
+    "descEn": "Slow flexion-extension of each finger.",
+    "reps": "2 min",
+    "video": "mobilisation-doigts-g.mp4"
+  },
+  {
+    "slug": "cercles-de-poignet-g",
+    "titleFr": "Cercles de poignet G",
+    "titleEn": "Left wrist circles",
+    "descFr": "Tourne lentement le poignet dans les deux sens.",
+    "descEn": "Slowly rotate wrist in both directions.",
+    "reps": "10 × each direction",
+    "video": "cercles-de-poignet-g.mp4"
+  },
+  {
+    "slug": "serrage-balle-douce-g",
+    "titleFr": "Serrage balle douce G",
+    "titleEn": "Soft ball squeeze L",
+    "descFr": "Serre une balle, tiens 3 sec, relâche.",
+    "descEn": "Squeeze a ball, hold 3 sec, release.",
+    "reps": "15 × 2",
+    "video": "serrage-balle-douce-g.mp4"
+  },
+  {
+    "slug": "etirement-poignet-droit-extenseurs",
+    "titleFr": "Étirement poignet droit extenseurs",
+    "titleEn": "Right wrist extensor stretch",
+    "descFr": "Paume vers le bas, tire les doigts vers toi. Tiens 20 sec.",
+    "descEn": "Palm down, pull fingers toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-poignet-droit-extenseurs.mp4"
+  },
+  {
+    "slug": "etirement-poignet-droit-flechisseurs",
+    "titleFr": "Étirement poignet droit fléchisseurs",
+    "titleEn": "Right wrist flexor stretch",
+    "descFr": "Paume vers le haut, tire les doigts vers toi. Tiens 20 sec.",
+    "descEn": "Palm up, pull fingers toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-poignet-droit-flechisseurs.mp4"
+  },
+  {
+    "slug": "friction-poignet-droit",
+    "titleFr": "Friction poignet droit",
+    "titleEn": "Right wrist friction",
+    "descFr": "Pouce sur la face interne du poignet, petits cercles.",
+    "descEn": "Thumb on inner wrist, small circles.",
+    "reps": "1 min",
+    "video": "friction-poignet-droit.mp4"
+  },
+  {
+    "slug": "mobilisation-doigts-d",
+    "titleFr": "Mobilisation doigts D",
+    "titleEn": "Right finger mobilization",
+    "descFr": "Flexion-extension lente de chaque doigt.",
+    "descEn": "Slow flexion-extension of each finger.",
+    "reps": "2 min",
+    "video": "mobilisation-doigts-d.mp4"
+  },
+  {
+    "slug": "cercles-de-poignet-d",
+    "titleFr": "Cercles de poignet D",
+    "titleEn": "Right wrist circles",
+    "descFr": "Tourne lentement le poignet dans les deux sens.",
+    "descEn": "Slowly rotate wrist in both directions.",
+    "reps": "10 × each direction",
+    "video": "cercles-de-poignet-d.mp4"
+  },
+  {
+    "slug": "serrage-balle-douce-d",
+    "titleFr": "Serrage balle douce D",
+    "titleEn": "Soft ball squeeze R",
+    "descFr": "Serre une balle, tiens 3 sec, relâche.",
+    "descEn": "Squeeze a ball, hold 3 sec, release.",
+    "reps": "15 × 2",
+    "video": "serrage-balle-douce-d.mp4"
+  },
+  {
+    "slug": "etirement-biceps-g",
+    "titleFr": "Étirement biceps G",
+    "titleEn": "Left biceps stretch",
+    "descFr": "Bras gauche tendu vers l'arrière, pouce vers le bas, lève le bras lentement. Tiens 20 sec.",
+    "descEn": "Left arm extended back, thumb down, slowly raise arm. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-biceps-g.mp4"
+  },
+  {
+    "slug": "etirement-biceps-mur-g",
+    "titleFr": "Étirement biceps mur G",
+    "titleEn": "Left wall biceps stretch",
+    "descFr": "Main gauche contre le mur à hauteur d'épaule, tourne le corps à l'opposé. Tiens 25 sec.",
+    "descEn": "Left hand on wall at shoulder height, turn body away. Hold 25 sec.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-biceps-mur-g.mp4"
+  },
+  {
+    "slug": "petrissage-biceps-g",
+    "titleFr": "Pétrissage biceps G",
+    "titleEn": "Left biceps kneading",
+    "descFr": "Malaxe le muscle biceps gauche entre le pouce et les doigts, du coude vers l'épaule.",
+    "descEn": "Knead left biceps between thumb and fingers, from elbow to shoulder.",
+    "reps": "2 min",
+    "video": "petrissage-biceps-g.mp4"
+  },
+  {
+    "slug": "friction-biceps-g",
+    "titleFr": "Friction biceps G",
+    "titleEn": "Left biceps friction",
+    "descFr": "Pouce sur le ventre du biceps, petits cercles profonds et lents.",
+    "descEn": "Thumb on biceps belly, slow deep small circles.",
+    "reps": "1 min 30",
+    "video": "friction-biceps-g.mp4"
+  },
+  {
+    "slug": "curl-biceps-g",
+    "titleFr": "Curl biceps G",
+    "titleEn": "Left biceps curl",
+    "descFr": "Coude fléchi, monte le poing vers l'épaule lentement, descends en 3 sec.",
+    "descEn": "Elbow bent, curl fist toward shoulder slowly, lower in 3 sec.",
+    "reps": "12 × 3",
+    "video": "curl-biceps-g.mp4"
+  },
+  {
+    "slug": "curl-excentrique-g",
+    "titleFr": "Curl excentrique G",
+    "titleEn": "Left eccentric curl",
+    "descFr": "Monte avec les deux bras, descends uniquement avec le gauche en 5 sec. Renforce et répare le tendon.",
+    "descEn": "Curl up with both arms, lower only with left in 5 sec. Strengthens tendon.",
+    "reps": "10 × 3",
+    "video": "curl-excentrique-g.mp4"
+  },
+  {
+    "slug": "etirement-biceps-d",
+    "titleFr": "Étirement biceps D",
+    "titleEn": "Right biceps stretch",
+    "descFr": "Bras droit tendu vers l'arrière, pouce vers le bas, lève le bras lentement. Tiens 20 sec.",
+    "descEn": "Right arm extended back, thumb down, slowly raise arm. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-biceps-d.mp4"
+  },
+  {
+    "slug": "etirement-biceps-mur-d",
+    "titleFr": "Étirement biceps mur D",
+    "titleEn": "Right wall biceps stretch",
+    "descFr": "Main droite contre le mur à hauteur d'épaule, tourne le corps à l'opposé. Tiens 25 sec.",
+    "descEn": "Right hand on wall at shoulder height, turn body away. Hold 25 sec.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-biceps-mur-d.mp4"
+  },
+  {
+    "slug": "petrissage-biceps-d",
+    "titleFr": "Pétrissage biceps D",
+    "titleEn": "Right biceps kneading",
+    "descFr": "Malaxe le muscle biceps droit entre le pouce et les doigts, du coude vers l'épaule.",
+    "descEn": "Knead right biceps between thumb and fingers, from elbow to shoulder.",
+    "reps": "2 min",
+    "video": "petrissage-biceps-d.mp4"
+  },
+  {
+    "slug": "friction-biceps-d",
+    "titleFr": "Friction biceps D",
+    "titleEn": "Right biceps friction",
+    "descFr": "Pouce sur le ventre du biceps, petits cercles profonds et lents.",
+    "descEn": "Thumb on biceps belly, slow deep small circles.",
+    "reps": "1 min 30",
+    "video": "friction-biceps-d.mp4"
+  },
+  {
+    "slug": "curl-biceps-d",
+    "titleFr": "Curl biceps D",
+    "titleEn": "Right biceps curl",
+    "descFr": "Coude fléchi, monte le poing vers l'épaule lentement, descends en 3 sec.",
+    "descEn": "Elbow bent, curl fist toward shoulder slowly, lower in 3 sec.",
+    "reps": "12 × 3",
+    "video": "curl-biceps-d.mp4"
+  },
+  {
+    "slug": "curl-excentrique-d",
+    "titleFr": "Curl excentrique D",
+    "titleEn": "Right eccentric curl",
+    "descFr": "Monte avec les deux bras, descends uniquement avec le droit en 5 sec.",
+    "descEn": "Curl up with both arms, lower only with right in 5 sec.",
+    "reps": "10 × 3",
+    "video": "curl-excentrique-d.mp4"
+  },
+  {
+    "slug": "extension-triceps-g",
+    "titleFr": "Extension triceps G",
+    "titleEn": "Left triceps extension",
+    "descFr": "Bras gauche levé, fléchis le coude derrière la tête, étends lentement. Tiens 20 sec.",
+    "descEn": "Left arm raised, bend elbow behind head, extend slowly. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "extension-triceps-g.mp4"
+  },
+  {
+    "slug": "etirement-triceps-croise-g",
+    "titleFr": "Étirement triceps croisé G",
+    "titleEn": "Left cross triceps stretch",
+    "descFr": "Bras gauche passé derrière la tête, pousse le coude avec la main droite. Tiens 25 sec.",
+    "descEn": "Left arm behind head, push elbow with right hand. Hold 25 sec.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-triceps-croise-g.mp4"
+  },
+  {
+    "slug": "petrissage-triceps-g",
+    "titleFr": "Pétrissage triceps G",
+    "titleEn": "Left triceps kneading",
+    "descFr": "Malaxe l'arrière du bras gauche entre le pouce et les doigts, du coude vers l'épaule.",
+    "descEn": "Knead back of left arm between thumb and fingers, elbow to shoulder.",
+    "reps": "2 min",
+    "video": "petrissage-triceps-g.mp4"
+  },
+  {
+    "slug": "friction-coude-posterieur-g",
+    "titleFr": "Friction coude postérieur G",
+    "titleEn": "Left posterior elbow friction",
+    "descFr": "Pouce sur le triceps distal, petits cercles doux.",
+    "descEn": "Thumb on distal triceps, small gentle circles.",
+    "reps": "2 min",
+    "video": "friction-coude-posterieur-g.mp4"
+  },
+  {
+    "slug": "dips-chaise-g",
+    "titleFr": "Dips chaise G",
+    "titleEn": "Chair dip L",
+    "descFr": "Assis sur le bord d'une chaise, mains sur le rebord, descends et remonte avec les bras.",
+    "descEn": "Seated on chair edge, hands on rim, lower and raise with arms.",
+    "reps": "10 × 2",
+    "video": "dips-chaise-g.mp4"
+  },
+  {
+    "slug": "extension-triceps-d",
+    "titleFr": "Extension triceps D",
+    "titleEn": "Right triceps extension",
+    "descFr": "Bras droit levé, fléchis le coude derrière la tête, étends lentement. Tiens 20 sec.",
+    "descEn": "Right arm raised, bend elbow behind head, extend slowly. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "extension-triceps-d.mp4"
+  },
+  {
+    "slug": "etirement-triceps-croise-d",
+    "titleFr": "Étirement triceps croisé D",
+    "titleEn": "Right cross triceps stretch",
+    "descFr": "Bras droit passé derrière la tête, pousse le coude avec la main gauche. Tiens 25 sec.",
+    "descEn": "Right arm behind head, push elbow with left hand. Hold 25 sec.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-triceps-croise-d.mp4"
+  },
+  {
+    "slug": "petrissage-triceps-d",
+    "titleFr": "Pétrissage triceps D",
+    "titleEn": "Right triceps kneading",
+    "descFr": "Malaxe l'arrière du bras droit entre le pouce et les doigts, du coude vers l'épaule.",
+    "descEn": "Knead back of right arm between thumb and fingers, elbow to shoulder.",
+    "reps": "2 min",
+    "video": "petrissage-triceps-d.mp4"
+  },
+  {
+    "slug": "friction-coude-posterieur-d",
+    "titleFr": "Friction coude postérieur D",
+    "titleEn": "Right posterior elbow friction",
+    "descFr": "Pouce sur le triceps distal droit, petits cercles doux.",
+    "descEn": "Thumb on right distal triceps, small gentle circles.",
+    "reps": "2 min",
+    "video": "friction-coude-posterieur-d.mp4"
+  },
+  {
+    "slug": "dips-chaise-d",
+    "titleFr": "Dips chaise D",
+    "titleEn": "Chair dip R",
+    "descFr": "Assis sur le bord d'une chaise, mains sur le rebord, descends et remonte avec les bras.",
+    "descEn": "Seated on chair edge, hands on rim, lower and raise with arms.",
+    "reps": "10 × 2",
+    "video": "dips-chaise-d.mp4"
+  },
+  {
+    "slug": "etirement-paume-g",
+    "titleFr": "Étirement paume G",
+    "titleEn": "Left palm stretch",
+    "descFr": "Paume gauche vers le haut, tire les doigts vers l'arrière avec l'autre main. Tiens 20 sec.",
+    "descEn": "Left palm up, pull fingers back with other hand. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-paume-g.mp4"
+  },
+  {
+    "slug": "etirement-dos-main-g",
+    "titleFr": "Étirement dos main G",
+    "titleEn": "Left hand back stretch",
+    "descFr": "Referme le poing gauche, appuie dessus avec la main droite vers le bas. Tiens 15 sec.",
+    "descEn": "Close left fist, press down with right hand. Hold 15 sec.",
+    "reps": "3 × 15 sec",
+    "video": "etirement-dos-main-g.mp4"
+  },
+  {
+    "slug": "friction-paume-g",
+    "titleFr": "Friction paume G",
+    "titleEn": "Left palm friction",
+    "descFr": "Pouce droit sur la paume gauche, petits cercles sur toute la surface palmaire.",
+    "descEn": "Right thumb on left palm, small circles over entire palm surface.",
+    "reps": "2 min",
+    "video": "friction-paume-g.mp4"
+  },
+  {
+    "slug": "petrissage-thenar-g",
+    "titleFr": "Pétrissage thénar G",
+    "titleEn": "Left thenar kneading",
+    "descFr": "Malaxe la base du pouce gauche (muscle thénar) entre le pouce et l'index droits.",
+    "descEn": "Knead left thumb base (thenar muscle) between right thumb and index.",
+    "reps": "1 min 30",
+    "video": "petrissage-thenar-g.mp4"
+  },
+  {
+    "slug": "opposition-pouce-g",
+    "titleFr": "Opposition pouce G",
+    "titleEn": "Left thumb opposition",
+    "descFr": "Touche chaque doigt avec le pouce gauche un par un, lentement et complètement.",
+    "descEn": "Touch each finger with left thumb one by one, slowly and fully.",
+    "reps": "10 × 3",
+    "video": "opposition-pouce-g.mp4"
+  },
+  {
+    "slug": "etirement-paume-d",
+    "titleFr": "Étirement paume D",
+    "titleEn": "Right palm stretch",
+    "descFr": "Paume droite vers le haut, tire les doigts vers l'arrière avec l'autre main. Tiens 20 sec.",
+    "descEn": "Right palm up, pull fingers back with other hand. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-paume-d.mp4"
+  },
+  {
+    "slug": "etirement-dos-main-d",
+    "titleFr": "Étirement dos main D",
+    "titleEn": "Right hand back stretch",
+    "descFr": "Referme le poing droit, appuie dessus avec la main gauche vers le bas. Tiens 15 sec.",
+    "descEn": "Close right fist, press down with left hand. Hold 15 sec.",
+    "reps": "3 × 15 sec",
+    "video": "etirement-dos-main-d.mp4"
+  },
+  {
+    "slug": "friction-paume-d",
+    "titleFr": "Friction paume D",
+    "titleEn": "Right palm friction",
+    "descFr": "Pouce gauche sur la paume droite, petits cercles sur toute la surface palmaire.",
+    "descEn": "Left thumb on right palm, small circles over entire palm surface.",
+    "reps": "2 min",
+    "video": "friction-paume-d.mp4"
+  },
+  {
+    "slug": "petrissage-thenar-d",
+    "titleFr": "Pétrissage thénar D",
+    "titleEn": "Right thenar kneading",
+    "descFr": "Malaxe la base du pouce droit entre le pouce et l'index gauches.",
+    "descEn": "Knead right thumb base between left thumb and index.",
+    "reps": "1 min 30",
+    "video": "petrissage-thenar-d.mp4"
+  },
+  {
+    "slug": "opposition-pouce-d",
+    "titleFr": "Opposition pouce D",
+    "titleEn": "Right thumb opposition",
+    "descFr": "Touche chaque doigt avec le pouce droit un par un, lentement et complètement.",
+    "descEn": "Touch each finger with right thumb one by one, slowly and fully.",
+    "reps": "10 × 3",
+    "video": "opposition-pouce-d.mp4"
+  },
+  {
+    "slug": "etirement-extenseurs-doigts-g",
+    "titleFr": "Étirement extenseurs doigts G",
+    "titleEn": "Left finger extensor stretch",
+    "descFr": "Poing gauche fermé, appuie sur les doigts avec la main droite vers le bas. Tiens 15 sec.",
+    "descEn": "Left fist closed, press fingers down with right hand. Hold 15 sec.",
+    "reps": "3 × 15 sec",
+    "video": "etirement-extenseurs-doigts-g.mp4"
+  },
+  {
+    "slug": "friction-dos-main-g",
+    "titleFr": "Friction dos main G",
+    "titleEn": "Left hand back friction",
+    "descFr": "Pouce droit sur le dos de la main gauche, petits cercles entre les tendons extenseurs.",
+    "descEn": "Right thumb on left hand back, small circles between extensor tendons.",
+    "reps": "2 min",
+    "video": "friction-dos-main-g.mp4"
+  },
+  {
+    "slug": "friction-tendons-extenseurs-g",
+    "titleFr": "Friction tendons extenseurs G",
+    "titleEn": "Left extensor tendon friction",
+    "descFr": "Glisse le pouce le long de chaque tendon extenseur du dos de la main gauche.",
+    "descEn": "Slide thumb along each extensor tendon on left hand back.",
+    "reps": "1 min 30",
+    "video": "friction-tendons-extenseurs-g.mp4"
+  },
+  {
+    "slug": "extension-doigts-g",
+    "titleFr": "Extension doigts G",
+    "titleEn": "Left finger extension",
+    "descFr": "Ouvre la main gauche en écartant les doigts au maximum, tiens 3 sec, relâche.",
+    "descEn": "Open left hand spreading fingers wide, hold 3 sec, release.",
+    "reps": "15 × 2",
+    "video": "extension-doigts-g.mp4"
+  },
+  {
+    "slug": "etirement-extenseurs-doigts-d",
+    "titleFr": "Étirement extenseurs doigts D",
+    "titleEn": "Right finger extensor stretch",
+    "descFr": "Poing droit fermé, appuie sur les doigts avec la main gauche vers le bas. Tiens 15 sec.",
+    "descEn": "Right fist closed, press fingers down with left hand. Hold 15 sec.",
+    "reps": "3 × 15 sec",
+    "video": "etirement-extenseurs-doigts-d.mp4"
+  },
+  {
+    "slug": "friction-dos-main-d",
+    "titleFr": "Friction dos main D",
+    "titleEn": "Right hand back friction",
+    "descFr": "Pouce gauche sur le dos de la main droite, petits cercles entre les tendons extenseurs.",
+    "descEn": "Left thumb on right hand back, small circles between extensor tendons.",
+    "reps": "2 min",
+    "video": "friction-dos-main-d.mp4"
+  },
+  {
+    "slug": "friction-tendons-extenseurs-d",
+    "titleFr": "Friction tendons extenseurs D",
+    "titleEn": "Right extensor tendon friction",
+    "descFr": "Glisse le pouce le long de chaque tendon extenseur du dos de la main droite.",
+    "descEn": "Slide thumb along each extensor tendon on right hand back.",
+    "reps": "1 min 30",
+    "video": "friction-tendons-extenseurs-d.mp4"
+  },
+  {
+    "slug": "extension-doigts-d",
+    "titleFr": "Extension doigts D",
+    "titleEn": "Right finger extension",
+    "descFr": "Ouvre la main droite en écartant les doigts au maximum, tiens 3 sec, relâche.",
+    "descEn": "Open right hand spreading fingers wide, hold 3 sec, release.",
+    "reps": "15 × 2",
+    "video": "extension-doigts-d.mp4"
+  },
+  {
+    "slug": "etirement-flechisseurs-doigts-g",
+    "titleFr": "Étirement fléchisseurs doigts G",
+    "titleEn": "Left finger flexor stretch",
+    "descFr": "Ouvre la main gauche à plat, tire les doigts vers l'arrière avec la main droite. Tiens 15 sec.",
+    "descEn": "Open left hand flat, pull fingers back with right hand. Hold 15 sec.",
+    "reps": "3 × 15 sec",
+    "video": "etirement-flechisseurs-doigts-g.mp4"
+  },
+  {
+    "slug": "friction-articulations-g",
+    "titleFr": "Friction articulations G",
+    "titleEn": "Left knuckle friction",
+    "descFr": "Pouce sur chaque articulation des doigts gauches, petits cercles doux.",
+    "descEn": "Thumb on each left finger joint, small gentle circles.",
+    "reps": "2 min",
+    "video": "friction-articulations-g.mp4"
+  },
+  {
+    "slug": "traction-doigts-g",
+    "titleFr": "Traction doigts G",
+    "titleEn": "Left finger traction",
+    "descFr": "Tire doucement chaque doigt gauche dans l'axe pour décomprimer les articulations.",
+    "descEn": "Gently pull each left finger along its axis to decompress joints.",
+    "reps": "1 min",
+    "video": "traction-doigts-g.mp4"
+  },
+  {
+    "slug": "prehension-balle-g",
+    "titleFr": "Préhension balle G",
+    "titleEn": "Left ball grip",
+    "descFr": "Serre une balle antistress dans la main gauche, tiens 5 sec, relâche.",
+    "descEn": "Grip a stress ball in left hand, hold 5 sec, release.",
+    "reps": "15 × 2",
+    "video": "prehension-balle-g.mp4"
+  },
+  {
+    "slug": "etirement-flechisseurs-doigts-d",
+    "titleFr": "Étirement fléchisseurs doigts D",
+    "titleEn": "Right finger flexor stretch",
+    "descFr": "Ouvre la main droite à plat, tire les doigts vers l'arrière avec la main gauche. Tiens 15 sec.",
+    "descEn": "Open right hand flat, pull fingers back with left hand. Hold 15 sec.",
+    "reps": "3 × 15 sec",
+    "video": "etirement-flechisseurs-doigts-d.mp4"
+  },
+  {
+    "slug": "friction-articulations-d",
+    "titleFr": "Friction articulations D",
+    "titleEn": "Right knuckle friction",
+    "descFr": "Pouce sur chaque articulation des doigts droits, petits cercles doux.",
+    "descEn": "Thumb on each right finger joint, small gentle circles.",
+    "reps": "2 min",
+    "video": "friction-articulations-d.mp4"
+  },
+  {
+    "slug": "traction-doigts-d",
+    "titleFr": "Traction doigts D",
+    "titleEn": "Right finger traction",
+    "descFr": "Tire doucement chaque doigt droit dans l'axe pour décomprimer les articulations.",
+    "descEn": "Gently pull each right finger along its axis to decompress joints.",
+    "reps": "1 min",
+    "video": "traction-doigts-d.mp4"
+  },
+  {
+    "slug": "prehension-balle-d",
+    "titleFr": "Préhension balle D",
+    "titleEn": "Right ball grip",
+    "descFr": "Serre une balle antistress dans la main droite, tiens 5 sec, relâche.",
+    "descEn": "Grip a stress ball in right hand, hold 5 sec, release.",
+    "reps": "15 × 2",
+    "video": "prehension-balle-d.mp4"
+  },
+  {
+    "slug": "etirement-flechisseur-hanche-g",
+    "titleFr": "Étirement fléchisseur hanche G",
+    "titleEn": "Left hip flexor stretch",
+    "descFr": "Un genou au sol (gauche devant), pousse le bassin vers l'avant. Tiens 30 sec.",
+    "descEn": "One knee on floor (left forward), push pelvis forward. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-flechisseur-hanche-g.mp4"
+  },
+  {
+    "slug": "etirement-piriforme-g",
+    "titleFr": "Étirement piriforme G",
+    "titleEn": "Left piriformis stretch",
+    "descFr": "Allongé, cheville gauche sur genou droit, tire vers toi. Tiens 30 sec.",
+    "descEn": "Lying, left ankle on right knee, pull toward you. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-piriforme-g.mp4"
+  },
+  {
+    "slug": "rouleau-mousse-hanche-g",
+    "titleFr": "Rouleau mousse hanche G",
+    "titleEn": "Left hip foam roller",
+    "descFr": "Allongé sur le côté gauche, roule le TFL (côté extérieur hanche).",
+    "descEn": "Lying on left side, roll the TFL (outer hip).",
+    "reps": "2 min",
+    "video": "rouleau-mousse-hanche-g.mp4"
+  },
+  {
+    "slug": "balle-fessier-g",
+    "titleFr": "Balle fessier G",
+    "titleEn": "Left glute ball",
+    "descFr": "Assis sur une balle, zone fessière gauche, trouves les points douloureux.",
+    "descEn": "Seated on ball, left glute area, find tender points.",
+    "reps": "2 min",
+    "video": "balle-fessier-g.mp4"
+  },
+  {
+    "slug": "abduction-hanche-debout-g",
+    "titleFr": "Abduction hanche debout G",
+    "titleEn": "Standing hip abduction L",
+    "descFr": "Debout, lève la jambe gauche sur le côté, contrôlé. Retiens 2 sec.",
+    "descEn": "Standing, raise left leg to side, controlled. Hold 2 sec.",
+    "reps": "15 × 2",
+    "video": "abduction-hanche-debout-g.mp4"
+  },
+  {
+    "slug": "coquillage-g",
+    "titleFr": "Coquillage G",
+    "titleEn": "Clamshell L",
+    "descFr": "Allongé sur le côté, genoux fléchis, ouvre le genou gauche vers le haut.",
+    "descEn": "Lying on side, knees bent, open left knee upward.",
+    "reps": "15 × 2",
+    "video": "coquillage-g.mp4"
+  },
+  {
+    "slug": "etirement-flechisseur-hanche-d",
+    "titleFr": "Étirement fléchisseur hanche D",
+    "titleEn": "Right hip flexor stretch",
+    "descFr": "Un genou au sol (droit devant), pousse le bassin vers l'avant. Tiens 30 sec.",
+    "descEn": "One knee on floor (right forward), push pelvis forward. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-flechisseur-hanche-d.mp4"
+  },
+  {
+    "slug": "etirement-piriforme-d",
+    "titleFr": "Étirement piriforme D",
+    "titleEn": "Right piriformis stretch",
+    "descFr": "Allongé, cheville droite sur genou gauche, tire vers toi. Tiens 30 sec.",
+    "descEn": "Lying, right ankle on left knee, pull toward you. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-piriforme-d.mp4"
+  },
+  {
+    "slug": "rouleau-mousse-hanche-d",
+    "titleFr": "Rouleau mousse hanche D",
+    "titleEn": "Right hip foam roller",
+    "descFr": "Allongé sur le côté droit, roule le TFL.",
+    "descEn": "Lying on right side, roll the TFL.",
+    "reps": "2 min",
+    "video": "rouleau-mousse-hanche-d.mp4"
+  },
+  {
+    "slug": "balle-fessier-d",
+    "titleFr": "Balle fessier D",
+    "titleEn": "Right glute ball",
+    "descFr": "Assis sur une balle, zone fessière droite.",
+    "descEn": "Seated on ball, right glute area.",
+    "reps": "2 min",
+    "video": "balle-fessier-d.mp4"
+  },
+  {
+    "slug": "abduction-hanche-debout-d",
+    "titleFr": "Abduction hanche debout D",
+    "titleEn": "Standing hip abduction R",
+    "descFr": "Lève la jambe droite sur le côté, contrôlé.",
+    "descEn": "Raise right leg to side, controlled.",
+    "reps": "15 × 2",
+    "video": "abduction-hanche-debout-d.mp4"
+  },
+  {
+    "slug": "coquillage-d",
+    "titleFr": "Coquillage D",
+    "titleEn": "Clamshell R",
+    "descFr": "Allongé sur le côté, ouvre le genou droit vers le haut.",
+    "descEn": "Lying on side, open right knee upward.",
+    "reps": "15 × 2",
+    "video": "coquillage-d.mp4"
+  },
+  {
+    "slug": "etirement-fessier-assis-g",
+    "titleFr": "Étirement fessier assis G",
+    "titleEn": "Seated left glute stretch",
+    "descFr": "Assis, cheville gauche sur genou droit. Penche-toi légèrement en avant.",
+    "descEn": "Seated, left ankle on right knee. Lean slightly forward.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-fessier-assis-g.mp4"
+  },
+  {
+    "slug": "friction-fessiere-gauche",
+    "titleFr": "Friction fessière gauche",
+    "titleEn": "Left glute friction",
+    "descFr": "Paume sur la fesse gauche, cercles profonds et lents.",
+    "descEn": "Palm on left glute, deep slow circles.",
+    "reps": "2 min",
+    "video": "friction-fessiere-gauche.mp4"
+  },
+  {
+    "slug": "pont-fessier-unilateral-g",
+    "titleFr": "Pont fessier unilatéral G",
+    "titleEn": "Single-leg glute bridge L",
+    "descFr": "Allongé, une jambe tendue, monte la hanche gauche. Tiens 5 sec.",
+    "descEn": "Lying, one leg extended, raise left hip. Hold 5 sec.",
+    "reps": "12 × 2",
+    "video": "pont-fessier-unilateral-g.mp4"
+  },
+  {
+    "slug": "donkey-kick-gauche",
+    "titleFr": "Donkey kick gauche",
+    "titleEn": "Donkey kick left",
+    "descFr": "À quatre pattes, lève la jambe gauche vers le plafond. Contrôlé.",
+    "descEn": "On hands and knees, raise left leg toward ceiling. Controlled.",
+    "reps": "15 × 2",
+    "video": "donkey-kick-gauche.mp4"
+  },
+  {
+    "slug": "etirement-fessier-assis-d",
+    "titleFr": "Étirement fessier assis D",
+    "titleEn": "Seated right glute stretch",
+    "descFr": "Assis, cheville droite sur genou gauche. Penche-toi légèrement en avant.",
+    "descEn": "Seated, right ankle on left knee. Lean slightly forward.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-fessier-assis-d.mp4"
+  },
+  {
+    "slug": "friction-fessiere-droite",
+    "titleFr": "Friction fessière droite",
+    "titleEn": "Right glute friction",
+    "descFr": "Paume sur la fesse droite, cercles profonds et lents.",
+    "descEn": "Palm on right glute, deep slow circles.",
+    "reps": "2 min",
+    "video": "friction-fessiere-droite.mp4"
+  },
+  {
+    "slug": "pont-fessier-unilateral-d",
+    "titleFr": "Pont fessier unilatéral D",
+    "titleEn": "Single-leg glute bridge R",
+    "descFr": "Allongé, une jambe tendue, monte la hanche droite. Tiens 5 sec.",
+    "descEn": "Lying, one leg extended, raise right hip. Hold 5 sec.",
+    "reps": "12 × 2",
+    "video": "pont-fessier-unilateral-d.mp4"
+  },
+  {
+    "slug": "donkey-kick-droit",
+    "titleFr": "Donkey kick droit",
+    "titleEn": "Donkey kick right",
+    "descFr": "À quatre pattes, lève la jambe droite vers le plafond.",
+    "descEn": "On hands and knees, raise right leg toward ceiling.",
+    "reps": "15 × 2",
+    "video": "donkey-kick-droit.mp4"
+  },
+  {
+    "slug": "fente-etirante-gauche",
+    "titleFr": "Fente étirante gauche",
+    "titleEn": "Left lunge stretch",
+    "descFr": "Un grand pas en avant gauche, genou arrière au sol. Tiens 30 sec.",
+    "descEn": "Large step forward left, back knee on floor. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "fente-etirante-gauche.mp4"
+  },
+  {
+    "slug": "rouleau-mousse-cuisse-g",
+    "titleFr": "Rouleau mousse cuisse G",
+    "titleEn": "Left thigh foam roller",
+    "descFr": "Allongé sur le ventre, roule l'avant de la cuisse gauche.",
+    "descEn": "Lying on stomach, roll front of left thigh.",
+    "reps": "3 min",
+    "video": "rouleau-mousse-cuisse-g.mp4"
+  },
+  {
+    "slug": "petrissage-cuisse-g",
+    "titleFr": "Pétrissage cuisse G",
+    "titleEn": "Left thigh kneading",
+    "descFr": "Malaxe la cuisse gauche avec les deux mains, en remontant.",
+    "descEn": "Knead left thigh with both hands, upward.",
+    "reps": "2 min",
+    "video": "petrissage-cuisse-g.mp4"
+  },
+  {
+    "slug": "squat-partiel",
+    "titleFr": "Squat partiel",
+    "titleEn": "Partial squat",
+    "descFr": "Pieds écartés, descends à mi-hauteur, remonte contrôlé.",
+    "descEn": "Feet apart, lower to half height, raise controlled.",
+    "reps": "12 × 3",
+    "video": "squat-partiel.mp4"
+  },
+  {
+    "slug": "extension-genou-assis-g",
+    "titleFr": "Extension genou assis G",
+    "titleEn": "Seated knee extension L",
+    "descFr": "Assis, tends la jambe gauche, tiens 5 sec.",
+    "descEn": "Seated, extend left leg, hold 5 sec.",
+    "reps": "15 × 2",
+    "video": "extension-genou-assis-g.mp4"
+  },
+  {
+    "slug": "fente-etirante-droite",
+    "titleFr": "Fente étirante droite",
+    "titleEn": "Right lunge stretch",
+    "descFr": "Un grand pas en avant droit, genou arrière au sol. Tiens 30 sec.",
+    "descEn": "Large step forward right, back knee on floor. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "fente-etirante-droite.mp4"
+  },
+  {
+    "slug": "rouleau-mousse-cuisse-d",
+    "titleFr": "Rouleau mousse cuisse D",
+    "titleEn": "Right thigh foam roller",
+    "descFr": "Allongé sur le ventre, roule l'avant de la cuisse droite.",
+    "descEn": "Lying on stomach, roll front of right thigh.",
+    "reps": "3 min",
+    "video": "rouleau-mousse-cuisse-d.mp4"
+  },
+  {
+    "slug": "petrissage-cuisse-d",
+    "titleFr": "Pétrissage cuisse D",
+    "titleEn": "Right thigh kneading",
+    "descFr": "Malaxe la cuisse droite avec les deux mains.",
+    "descEn": "Knead right thigh with both hands.",
+    "reps": "2 min",
+    "video": "petrissage-cuisse-d.mp4"
+  },
+  {
+    "slug": "extension-genou-assis-d",
+    "titleFr": "Extension genou assis D",
+    "titleEn": "Seated knee extension R",
+    "descFr": "Assis, tends la jambe droite, tiens 5 sec.",
+    "descEn": "Seated, extend right leg, hold 5 sec.",
+    "reps": "15 × 2",
+    "video": "extension-genou-assis-d.mp4"
+  },
+  {
+    "slug": "etirement-ischiojambier-g-allonge",
+    "titleFr": "Étirement ischio-jambier G allongé",
+    "titleEn": "Lying left hamstring stretch",
+    "descFr": "Allongé, lève la jambe gauche tendue, tire avec une serviette. Tiens 30 sec.",
+    "descEn": "Lying, raise left leg extended, pull with towel. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-ischiojambier-g-allonge.mp4"
+  },
+  {
+    "slug": "flexion-avant-debout-g",
+    "titleFr": "Flexion avant debout G",
+    "titleEn": "Standing forward bend L",
+    "descFr": "Jambe gauche tendue devant sur une chaise, penche-toi en avant.",
+    "descEn": "Left leg extended on chair, lean forward.",
+    "reps": "3 × 25 sec",
+    "video": "flexion-avant-debout-g.mp4"
+  },
+  {
+    "slug": "rouleau-mousse-ischio-g",
+    "titleFr": "Rouleau mousse ischio G",
+    "titleEn": "Left hamstring foam roller",
+    "descFr": "Assis sur le rouleau, roule l'arrière de la cuisse gauche.",
+    "descEn": "Seated on roller, roll back of left thigh.",
+    "reps": "3 min",
+    "video": "rouleau-mousse-ischio-g.mp4"
+  },
+  {
+    "slug": "balle-ischio-gauche",
+    "titleFr": "Balle ischio gauche",
+    "titleEn": "Left hamstring ball",
+    "descFr": "Assis sur balle, sous la cuisse gauche, cherche les tensions.",
+    "descEn": "Seated on ball, under left thigh, find tension areas.",
+    "reps": "2 min",
+    "video": "balle-ischio-gauche.mp4"
+  },
+  {
+    "slug": "curl-ischio-debout-g",
+    "titleFr": "Curl ischio debout G",
+    "titleEn": "Standing left hamstring curl",
+    "descFr": "Debout, fléchis le genou gauche, remonte lentement.",
+    "descEn": "Standing, bend left knee, raise slowly.",
+    "reps": "15 × 2",
+    "video": "curl-ischio-debout-g.mp4"
+  },
+  {
+    "slug": "good-morning",
+    "titleFr": "Good morning",
+    "titleEn": "Good morning",
+    "descFr": "Debout, mains sur les hanches, penche-toi en avant dos droit.",
+    "descEn": "Standing, hands on hips, lean forward with straight back.",
+    "reps": "10 × 2",
+    "video": "good-morning.mp4"
+  },
+  {
+    "slug": "etirement-ischiojambier-d-allonge",
+    "titleFr": "Étirement ischio-jambier D allongé",
+    "titleEn": "Lying right hamstring stretch",
+    "descFr": "Allongé, lève la jambe droite tendue, tire avec une serviette. Tiens 30 sec.",
+    "descEn": "Lying, raise right leg extended, pull with towel. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-ischiojambier-d-allonge.mp4"
+  },
+  {
+    "slug": "flexion-avant-debout-d",
+    "titleFr": "Flexion avant debout D",
+    "titleEn": "Standing forward bend R",
+    "descFr": "Jambe droite tendue devant sur une chaise, penche-toi en avant.",
+    "descEn": "Right leg extended on chair, lean forward.",
+    "reps": "3 × 25 sec",
+    "video": "flexion-avant-debout-d.mp4"
+  },
+  {
+    "slug": "rouleau-mousse-ischio-d",
+    "titleFr": "Rouleau mousse ischio D",
+    "titleEn": "Right hamstring foam roller",
+    "descFr": "Assis sur le rouleau, roule l'arrière de la cuisse droite.",
+    "descEn": "Seated on roller, roll back of right thigh.",
+    "reps": "3 min",
+    "video": "rouleau-mousse-ischio-d.mp4"
+  },
+  {
+    "slug": "balle-ischio-droite",
+    "titleFr": "Balle ischio droite",
+    "titleEn": "Right hamstring ball",
+    "descFr": "Assis sur balle, sous la cuisse droite.",
+    "descEn": "Seated on ball, under right thigh.",
+    "reps": "2 min",
+    "video": "balle-ischio-droite.mp4"
+  },
+  {
+    "slug": "curl-ischio-debout-d",
+    "titleFr": "Curl ischio debout D",
+    "titleEn": "Standing right hamstring curl",
+    "descFr": "Debout, fléchis le genou droit, remonte lentement.",
+    "descEn": "Standing, bend right knee, raise slowly.",
+    "reps": "15 × 2",
+    "video": "curl-ischio-debout-d.mp4"
+  },
+  {
+    "slug": "etirement-quadriceps-g",
+    "titleFr": "Étirement quadriceps G",
+    "titleEn": "Left quad stretch",
+    "descFr": "Tire le pied gauche vers la fesse. Tiens 30 sec.",
+    "descEn": "Pull left foot toward glute. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-quadriceps-g.mp4"
+  },
+  {
+    "slug": "etirement-ischio-g",
+    "titleFr": "Étirement ischio G",
+    "titleEn": "Left hamstring stretch",
+    "descFr": "Jambe gauche tendue, penche-toi vers le pied. Tiens 25 sec.",
+    "descEn": "Left leg extended, lean toward foot. Hold 25 sec.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-ischio-g.mp4"
+  },
+  {
+    "slug": "friction-rotule-gauche",
+    "titleFr": "Friction rotule gauche",
+    "titleEn": "Left kneecap friction",
+    "descFr": "Pouces autour de la rotule gauche, petits cercles doux.",
+    "descEn": "Thumbs around left kneecap, small gentle circles.",
+    "reps": "2 min",
+    "video": "friction-rotule-gauche.mp4"
+  },
+  {
+    "slug": "pression-points-genou-g",
+    "titleFr": "Pression points genou G",
+    "titleEn": "Left knee pressure points",
+    "descFr": "Pression soutenue sur les bords intérieur et extérieur du genou.",
+    "descEn": "Sustained pressure on inner and outer knee edges.",
+    "reps": "2 min",
+    "video": "pression-points-genou-g.mp4"
+  },
+  {
+    "slug": "mini-squat-g",
+    "titleFr": "Mini squat G",
+    "titleEn": "Left mini squat",
+    "descFr": "Descends à 30°, remonte lentement. Genou dans l'axe du pied.",
+    "descEn": "Lower to 30°, raise slowly. Knee aligned with foot.",
+    "reps": "15 × 2",
+    "video": "mini-squat-g.mp4"
+  },
+  {
+    "slug": "montee-de-marche-g",
+    "titleFr": "Montée de marche G",
+    "titleEn": "Step-up left",
+    "descFr": "Monte sur une marche basse avec la jambe gauche, contrôlé.",
+    "descEn": "Step up on a low step with left leg, controlled.",
+    "reps": "12 × 2",
+    "video": "montee-de-marche-g.mp4"
+  },
+  {
+    "slug": "etirement-quadriceps-d",
+    "titleFr": "Étirement quadriceps D",
+    "titleEn": "Right quad stretch",
+    "descFr": "Tire le pied droit vers la fesse. Tiens 30 sec.",
+    "descEn": "Pull right foot toward glute. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-quadriceps-d.mp4"
+  },
+  {
+    "slug": "etirement-ischio-d",
+    "titleFr": "Étirement ischio D",
+    "titleEn": "Right hamstring stretch",
+    "descFr": "Jambe droite tendue, penche-toi vers le pied. Tiens 25 sec.",
+    "descEn": "Right leg extended, lean toward foot. Hold 25 sec.",
+    "reps": "3 × 25 sec",
+    "video": "etirement-ischio-d.mp4"
+  },
+  {
+    "slug": "friction-rotule-droite",
+    "titleFr": "Friction rotule droite",
+    "titleEn": "Right kneecap friction",
+    "descFr": "Pouces autour de la rotule droite, petits cercles doux.",
+    "descEn": "Thumbs around right kneecap, small gentle circles.",
+    "reps": "2 min",
+    "video": "friction-rotule-droite.mp4"
+  },
+  {
+    "slug": "pression-points-genou-d",
+    "titleFr": "Pression points genou D",
+    "titleEn": "Right knee pressure points",
+    "descFr": "Pression soutenue sur les bords intérieur et extérieur du genou.",
+    "descEn": "Sustained pressure on inner and outer knee edges.",
+    "reps": "2 min",
+    "video": "pression-points-genou-d.mp4"
+  },
+  {
+    "slug": "mini-squat-d",
+    "titleFr": "Mini squat D",
+    "titleEn": "Right mini squat",
+    "descFr": "Descends à 30°, remonte lentement.",
+    "descEn": "Lower to 30°, raise slowly.",
+    "reps": "15 × 2",
+    "video": "mini-squat-d.mp4"
+  },
+  {
+    "slug": "montee-de-marche-d",
+    "titleFr": "Montée de marche D",
+    "titleEn": "Step-up right",
+    "descFr": "Monte sur une marche basse avec la jambe droite.",
+    "descEn": "Step up on a low step with right leg.",
+    "reps": "12 × 2",
+    "video": "montee-de-marche-d.mp4"
+  },
+  {
+    "slug": "friction-creux-poplite-g",
+    "titleFr": "Friction creux poplité G",
+    "titleEn": "Left popliteal fossa friction",
+    "descFr": "Deux doigts dans le creux du genou gauche, petits cercles doux.",
+    "descEn": "Two fingers in left knee hollow, small gentle circles.",
+    "reps": "1 min 30",
+    "video": "friction-creux-poplite-g.mp4"
+  },
+  {
+    "slug": "flexion-genou-actif-g",
+    "titleFr": "Flexion genou actif G",
+    "titleEn": "Active left knee flexion",
+    "descFr": "Allongé sur le ventre, fléchis le genou gauche lentement. Contrôlé.",
+    "descEn": "Lying on stomach, slowly bend left knee. Controlled.",
+    "reps": "15 × 2",
+    "video": "flexion-genou-actif-g.mp4"
+  },
+  {
+    "slug": "friction-creux-poplite-d",
+    "titleFr": "Friction creux poplité D",
+    "titleEn": "Right popliteal fossa friction",
+    "descFr": "Deux doigts dans le creux du genou droit, petits cercles doux.",
+    "descEn": "Two fingers in right knee hollow, small gentle circles.",
+    "reps": "1 min 30",
+    "video": "friction-creux-poplite-d.mp4"
+  },
+  {
+    "slug": "flexion-genou-actif-d",
+    "titleFr": "Flexion genou actif D",
+    "titleEn": "Active right knee flexion",
+    "descFr": "Allongé sur le ventre, fléchis le genou droit lentement.",
+    "descEn": "Lying on stomach, slowly bend right knee.",
+    "reps": "15 × 2",
+    "video": "flexion-genou-actif-d.mp4"
+  },
+  {
+    "slug": "etirement-tibial-g",
+    "titleFr": "Étirement tibial G",
+    "titleEn": "Left tibial stretch",
+    "descFr": "Assis, tire la pointe du pied gauche vers toi. Tiens 20 sec.",
+    "descEn": "Seated, pull left foot toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-tibial-g.mp4"
+  },
+  {
+    "slug": "friction-tibia-gauche",
+    "titleFr": "Friction tibia gauche",
+    "titleEn": "Left tibia friction",
+    "descFr": "Pouce le long du bord du tibia gauche, légère pression.",
+    "descEn": "Thumb along left tibia edge, light pressure.",
+    "reps": "1 min 30",
+    "video": "friction-tibia-gauche.mp4"
+  },
+  {
+    "slug": "flexion-dorsale-cheville-g",
+    "titleFr": "Flexion dorsale cheville G",
+    "titleEn": "Left ankle dorsiflexion",
+    "descFr": "Assis, tire la pointe du pied vers toi, tiens 5 sec.",
+    "descEn": "Seated, pull foot toward you, hold 5 sec.",
+    "reps": "15 × 2",
+    "video": "flexion-dorsale-cheville-g.mp4"
+  },
+  {
+    "slug": "marche-sur-les-talons",
+    "titleFr": "Marche sur les talons",
+    "titleEn": "Heel walk",
+    "descFr": "Marche 30 sec sur les talons pour renforcer les tibiales.",
+    "descEn": "Walk 30 sec on heels to strengthen tibialis muscles.",
+    "reps": "3 × 30 sec",
+    "video": "marche-sur-les-talons.mp4"
+  },
+  {
+    "slug": "etirement-tibial-d",
+    "titleFr": "Étirement tibial D",
+    "titleEn": "Right tibial stretch",
+    "descFr": "Assis, tire la pointe du pied droit vers toi. Tiens 20 sec.",
+    "descEn": "Seated, pull right foot toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-tibial-d.mp4"
+  },
+  {
+    "slug": "friction-tibia-droit",
+    "titleFr": "Friction tibia droit",
+    "titleEn": "Right tibia friction",
+    "descFr": "Pouce le long du bord du tibia droit, légère pression.",
+    "descEn": "Thumb along right tibia edge, light pressure.",
+    "reps": "1 min 30",
+    "video": "friction-tibia-droit.mp4"
+  },
+  {
+    "slug": "flexion-dorsale-cheville-d",
+    "titleFr": "Flexion dorsale cheville D",
+    "titleEn": "Right ankle dorsiflexion",
+    "descFr": "Assis, tire la pointe du pied vers toi, tiens 5 sec.",
+    "descEn": "Seated, pull foot toward you, hold 5 sec.",
+    "reps": "15 × 2",
+    "video": "flexion-dorsale-cheville-d.mp4"
+  },
+  {
+    "slug": "etirement-mollet-g-au-mur",
+    "titleFr": "Étirement mollet G au mur",
+    "titleEn": "Left calf wall stretch",
+    "descFr": "Pied gauche en arrière, talon au sol, pousse le mur. Tiens 30 sec.",
+    "descEn": "Left foot back, heel on floor, push wall. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-mollet-g-au-mur.mp4"
+  },
+  {
+    "slug": "etirement-tendon-achille-g",
+    "titleFr": "Étirement tendon Achille G",
+    "titleEn": "Left Achilles stretch",
+    "descFr": "Même position mais genou gauche légèrement fléchi. Tiens 30 sec.",
+    "descEn": "Same position but left knee slightly bent. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-tendon-achille-g.mp4"
+  },
+  {
+    "slug": "massage-cheville-g-circulaire",
+    "titleFr": "Massage cheville G circulaire",
+    "titleEn": "Left ankle circular massage",
+    "descFr": "Pouces autour de la malléole gauche, cercles doux.",
+    "descEn": "Thumbs around left ankle bone, gentle circles.",
+    "reps": "2 min",
+    "video": "massage-cheville-g-circulaire.mp4"
+  },
+  {
+    "slug": "friction-tendon-achille-g",
+    "titleFr": "Friction tendon Achille G",
+    "titleEn": "Left Achilles friction",
+    "descFr": "Pouce et index remontent le long du tendon depuis le talon.",
+    "descEn": "Thumb and index finger run up along tendon from heel.",
+    "reps": "1 min 30",
+    "video": "friction-tendon-achille-g.mp4"
+  },
+  {
+    "slug": "releve-de-talon-g",
+    "titleFr": "Relevé de talon G",
+    "titleEn": "Left heel raise",
+    "descFr": "Debout, monte sur la pointe du pied gauche, descends lentement.",
+    "descEn": "Standing, rise on left tiptoe, lower slowly.",
+    "reps": "15 × 3",
+    "video": "releve-de-talon-g.mp4"
+  },
+  {
+    "slug": "alphabet-cheville-g",
+    "titleFr": "Alphabet cheville G",
+    "titleEn": "Left ankle alphabet",
+    "descFr": "Assis, trace l'alphabet avec la pointe du pied gauche.",
+    "descEn": "Seated, trace the alphabet with left foot.",
+    "reps": "1 set",
+    "video": "alphabet-cheville-g.mp4"
+  },
+  {
+    "slug": "etirement-mollet-d-au-mur",
+    "titleFr": "Étirement mollet D au mur",
+    "titleEn": "Right calf wall stretch",
+    "descFr": "Pied droit en arrière, talon au sol, pousse le mur. Tiens 30 sec.",
+    "descEn": "Right foot back, heel on floor, push wall. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-mollet-d-au-mur.mp4"
+  },
+  {
+    "slug": "etirement-tendon-achille-d",
+    "titleFr": "Étirement tendon Achille D",
+    "titleEn": "Right Achilles stretch",
+    "descFr": "Même position mais genou droit légèrement fléchi. Tiens 30 sec.",
+    "descEn": "Same position but right knee slightly bent. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-tendon-achille-d.mp4"
+  },
+  {
+    "slug": "massage-cheville-d-circulaire",
+    "titleFr": "Massage cheville D circulaire",
+    "titleEn": "Right ankle circular massage",
+    "descFr": "Pouces autour de la malléole droite, cercles doux.",
+    "descEn": "Thumbs around right ankle bone, gentle circles.",
+    "reps": "2 min",
+    "video": "massage-cheville-d-circulaire.mp4"
+  },
+  {
+    "slug": "friction-tendon-achille-d",
+    "titleFr": "Friction tendon Achille D",
+    "titleEn": "Right Achilles friction",
+    "descFr": "Pouce et index remontent le long du tendon depuis le talon.",
+    "descEn": "Thumb and index finger run up along tendon from heel.",
+    "reps": "1 min 30",
+    "video": "friction-tendon-achille-d.mp4"
+  },
+  {
+    "slug": "releve-de-talon-d",
+    "titleFr": "Relevé de talon D",
+    "titleEn": "Right heel raise",
+    "descFr": "Debout, monte sur la pointe du pied droit, descends lentement.",
+    "descEn": "Standing, rise on right tiptoe, lower slowly.",
+    "reps": "15 × 3",
+    "video": "releve-de-talon-d.mp4"
+  },
+  {
+    "slug": "alphabet-cheville-d",
+    "titleFr": "Alphabet cheville D",
+    "titleEn": "Right ankle alphabet",
+    "descFr": "Assis, trace l'alphabet avec la pointe du pied droit.",
+    "descEn": "Seated, trace the alphabet with right foot.",
+    "reps": "1 set",
+    "video": "alphabet-cheville-d.mp4"
+  },
+  {
+    "slug": "etirement-gastrocnemien-g",
+    "titleFr": "Étirement gastrocnémien G",
+    "titleEn": "Left gastrocnemius stretch",
+    "descFr": "Jambe gauche en arrière tendue, talon au sol. Tiens 30 sec.",
+    "descEn": "Left leg back extended, heel on floor. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-gastrocnemien-g.mp4"
+  },
+  {
+    "slug": "etirement-soleaire-g",
+    "titleFr": "Étirement soléaire G",
+    "titleEn": "Left soleus stretch",
+    "descFr": "Même position mais genou légèrement fléchi. Cible le soléaire.",
+    "descEn": "Same position but knee slightly bent. Targets soleus.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-soleaire-g.mp4"
+  },
+  {
+    "slug": "rouleau-mousse-mollet-g",
+    "titleFr": "Rouleau mousse mollet G",
+    "titleEn": "Left calf foam roller",
+    "descFr": "Assis, jambe gauche sur le rouleau, roule du bas vers le genou.",
+    "descEn": "Seated, left leg on roller, roll from bottom toward knee.",
+    "reps": "3 min",
+    "video": "rouleau-mousse-mollet-g.mp4"
+  },
+  {
+    "slug": "petrissage-mollet-g",
+    "titleFr": "Pétrissage mollet G",
+    "titleEn": "Left calf kneading",
+    "descFr": "Malaxe le mollet gauche avec les deux mains en remontant.",
+    "descEn": "Knead left calf with both hands upward.",
+    "reps": "2 min",
+    "video": "petrissage-mollet-g.mp4"
+  },
+  {
+    "slug": "releve-de-talon-bilateral",
+    "titleFr": "Relevé de talon bilatéral",
+    "titleEn": "Bilateral heel raise",
+    "descFr": "Monte sur les deux pointes de pied, descends lentement.",
+    "descEn": "Rise on both tiptoes, lower slowly.",
+    "reps": "15 × 3",
+    "video": "releve-de-talon-bilateral.mp4"
+  },
+  {
+    "slug": "releve-de-talon-g-unilateral",
+    "titleFr": "Relevé de talon G unilatéral",
+    "titleEn": "Unilateral left heel raise",
+    "descFr": "Sur une marche, monte sur la pointe du pied gauche uniquement.",
+    "descEn": "On a step, rise on left tiptoe only.",
+    "reps": "12 × 2",
+    "video": "releve-de-talon-g-unilateral.mp4"
+  },
+  {
+    "slug": "etirement-gastrocnemien-d",
+    "titleFr": "Étirement gastrocnémien D",
+    "titleEn": "Right gastrocnemius stretch",
+    "descFr": "Jambe droite en arrière tendue, talon au sol. Tiens 30 sec.",
+    "descEn": "Right leg back extended, heel on floor. Hold 30 sec.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-gastrocnemien-d.mp4"
+  },
+  {
+    "slug": "etirement-soleaire-d",
+    "titleFr": "Étirement soléaire D",
+    "titleEn": "Right soleus stretch",
+    "descFr": "Même position mais genou légèrement fléchi.",
+    "descEn": "Same position but knee slightly bent.",
+    "reps": "3 × 30 sec",
+    "video": "etirement-soleaire-d.mp4"
+  },
+  {
+    "slug": "rouleau-mousse-mollet-d",
+    "titleFr": "Rouleau mousse mollet D",
+    "titleEn": "Right calf foam roller",
+    "descFr": "Assis, jambe droite sur le rouleau, roule du bas vers le genou.",
+    "descEn": "Seated, right leg on roller, roll from bottom toward knee.",
+    "reps": "3 min",
+    "video": "rouleau-mousse-mollet-d.mp4"
+  },
+  {
+    "slug": "petrissage-mollet-d",
+    "titleFr": "Pétrissage mollet D",
+    "titleEn": "Right calf kneading",
+    "descFr": "Malaxe le mollet droit avec les deux mains.",
+    "descEn": "Knead right calf with both hands.",
+    "reps": "2 min",
+    "video": "petrissage-mollet-d.mp4"
+  },
+  {
+    "slug": "releve-de-talon-d-unilateral",
+    "titleFr": "Relevé de talon D unilatéral",
+    "titleEn": "Unilateral right heel raise",
+    "descFr": "Sur une marche, monte sur la pointe du pied droit uniquement.",
+    "descEn": "On a step, rise on right tiptoe only.",
+    "reps": "12 × 2",
+    "video": "releve-de-talon-d-unilateral.mp4"
+  },
+  {
+    "slug": "glace-apres-effort-g",
+    "titleFr": "Glace après effort G",
+    "titleEn": "Ice after effort L",
+    "descFr": "Appliquer de la glace 10 min sur le tendon Achille gauche si chaud.",
+    "descEn": "Apply ice 10 min on left Achilles tendon if warm.",
+    "reps": "10 min",
+    "video": "glace-apres-effort-g.mp4"
+  },
+  {
+    "slug": "releve-excentrique-g",
+    "titleFr": "Relevé excentrique G",
+    "titleEn": "Left eccentric raise",
+    "descFr": "Monte sur 2 pieds, descends en unilatéral gauche lentement.",
+    "descEn": "Rise on 2 feet, lower on left foot slowly.",
+    "reps": "12 × 3",
+    "video": "releve-excentrique-g.mp4"
+  },
+  {
+    "slug": "glace-apres-effort-d",
+    "titleFr": "Glace après effort D",
+    "titleEn": "Ice after effort R",
+    "descFr": "Appliquer de la glace 10 min sur le tendon Achille droit si chaud.",
+    "descEn": "Apply ice 10 min on right Achilles tendon if warm.",
+    "reps": "10 min",
+    "video": "glace-apres-effort-d.mp4"
+  },
+  {
+    "slug": "releve-excentrique-d",
+    "titleFr": "Relevé excentrique D",
+    "titleEn": "Right eccentric raise",
+    "descFr": "Monte sur 2 pieds, descends en unilatéral droit lentement.",
+    "descEn": "Rise on 2 feet, lower on right foot slowly.",
+    "reps": "12 × 3",
+    "video": "releve-excentrique-d.mp4"
+  },
+  {
+    "slug": "etirement-fascia-plantaire-g",
+    "titleFr": "Étirement fascia plantaire G",
+    "titleEn": "Left plantar fascia stretch",
+    "descFr": "Assis, tire les orteils vers toi. Tiens 20 sec.",
+    "descEn": "Seated, pull toes toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-fascia-plantaire-g.mp4"
+  },
+  {
+    "slug": "balle-de-tennis-pied-g",
+    "titleFr": "Balle de tennis pied G",
+    "titleEn": "Left foot tennis ball",
+    "descFr": "Debout, roule une balle de tennis sous la plante du pied gauche.",
+    "descEn": "Standing, roll a tennis ball under left foot arch.",
+    "reps": "3 min",
+    "video": "balle-de-tennis-pied-g.mp4"
+  },
+  {
+    "slug": "friction-voute-plantaire-g",
+    "titleFr": "Friction voûte plantaire G",
+    "titleEn": "Left plantar arch friction",
+    "descFr": "Pouce sur la voûte plantaire, cercles profonds du talon aux orteils.",
+    "descEn": "Thumb on arch, deep circles from heel to toes.",
+    "reps": "2 min",
+    "video": "friction-voute-plantaire-g.mp4"
+  },
+  {
+    "slug": "prehension-orteils-g",
+    "titleFr": "Préhension orteils G",
+    "titleEn": "Left toe grip",
+    "descFr": "Ramasse une serviette avec les orteils gauches. Répète.",
+    "descEn": "Pick up a towel with left toes. Repeat.",
+    "reps": "15 × 2",
+    "video": "prehension-orteils-g.mp4"
+  },
+  {
+    "slug": "releve-orteils-g",
+    "titleFr": "Relevé orteils G",
+    "titleEn": "Left toe raise",
+    "descFr": "Lève les orteils du pied gauche, tiens 5 sec, abaisse.",
+    "descEn": "Raise left toes, hold 5 sec, lower.",
+    "reps": "15 × 2",
+    "video": "releve-orteils-g.mp4"
+  },
+  {
+    "slug": "etirement-fascia-plantaire-d",
+    "titleFr": "Étirement fascia plantaire D",
+    "titleEn": "Right plantar fascia stretch",
+    "descFr": "Assis, tire les orteils vers toi. Tiens 20 sec.",
+    "descEn": "Seated, pull toes toward you. Hold 20 sec.",
+    "reps": "3 × 20 sec",
+    "video": "etirement-fascia-plantaire-d.mp4"
+  },
+  {
+    "slug": "balle-de-tennis-pied-d",
+    "titleFr": "Balle de tennis pied D",
+    "titleEn": "Right foot tennis ball",
+    "descFr": "Debout, roule une balle de tennis sous la plante du pied droit.",
+    "descEn": "Standing, roll a tennis ball under right foot arch.",
+    "reps": "3 min",
+    "video": "balle-de-tennis-pied-d.mp4"
+  },
+  {
+    "slug": "friction-voute-plantaire-d",
+    "titleFr": "Friction voûte plantaire D",
+    "titleEn": "Right plantar arch friction",
+    "descFr": "Pouce sur la voûte plantaire, cercles profonds du talon aux orteils.",
+    "descEn": "Thumb on arch, deep circles from heel to toes.",
+    "reps": "2 min",
+    "video": "friction-voute-plantaire-d.mp4"
+  },
+  {
+    "slug": "prehension-orteils-d",
+    "titleFr": "Préhension orteils D",
+    "titleEn": "Right toe grip",
+    "descFr": "Ramasse une serviette avec les orteils droits.",
+    "descEn": "Pick up a towel with right toes.",
+    "reps": "15 × 2",
+    "video": "prehension-orteils-d.mp4"
+  },
+  {
+    "slug": "releve-orteils-d",
+    "titleFr": "Relevé orteils D",
+    "titleEn": "Right toe raise",
+    "descFr": "Lève les orteils du pied droit, tiens 5 sec, abaisse.",
+    "descEn": "Raise right toes, hold 5 sec, lower.",
+    "reps": "15 × 2",
+    "video": "releve-orteils-d.mp4"
+  },
+  {
+    "slug": "etirement-extenseurs-orteils-g",
+    "titleFr": "Étirement extenseurs orteils G",
+    "titleEn": "Left toe extensor stretch",
+    "descFr": "Debout, replie les orteils gauches vers le bas sur le sol. Tiens 15 sec.",
+    "descEn": "Standing, curl left toes downward on the floor. Hold 15 sec.",
+    "reps": "3 × 15 sec",
+    "video": "etirement-extenseurs-orteils-g.mp4"
+  },
+  {
+    "slug": "friction-dessus-pied-g",
+    "titleFr": "Friction dessus pied G",
+    "titleEn": "Left foot top friction",
+    "descFr": "Pouce entre les métatarses gauches, petits cercles du bas vers la cheville.",
+    "descEn": "Thumb between left metatarsals, small circles from toes to ankle.",
+    "reps": "2 min",
+    "video": "friction-dessus-pied-g.mp4"
+  },
+  {
+    "slug": "pression-points-dessus-pied-g",
+    "titleFr": "Pression points dessus pied G",
+    "titleEn": "Left foot top pressure points",
+    "descFr": "Pouce sur chaque espace interosseux du dessus du pied gauche, pression soutenue 10 sec.",
+    "descEn": "Thumb on each interosseous space of left foot top, sustained 10 sec pressure.",
+    "reps": "2 min",
+    "video": "pression-points-dessus-pied-g.mp4"
+  },
+  {
+    "slug": "marche-sur-les-talons-g",
+    "titleFr": "Marche sur les talons G",
+    "titleEn": "Left heel walk",
+    "descFr": "Marche sur les talons gauches avec les orteils levés pour renforcer les tibiaux.",
+    "descEn": "Walk on left heels with toes raised to strengthen tibials.",
+    "reps": "30 sec × 2",
+    "video": "marche-sur-les-talons-g.mp4"
+  },
+  {
+    "slug": "etirement-extenseurs-orteils-d",
+    "titleFr": "Étirement extenseurs orteils D",
+    "titleEn": "Right toe extensor stretch",
+    "descFr": "Debout, replie les orteils droits vers le bas sur le sol. Tiens 15 sec.",
+    "descEn": "Standing, curl right toes downward on the floor. Hold 15 sec.",
+    "reps": "3 × 15 sec",
+    "video": "etirement-extenseurs-orteils-d.mp4"
+  },
+  {
+    "slug": "friction-dessus-pied-d",
+    "titleFr": "Friction dessus pied D",
+    "titleEn": "Right foot top friction",
+    "descFr": "Pouce entre les métatarses droits, petits cercles du bas vers la cheville.",
+    "descEn": "Thumb between right metatarsals, small circles from toes to ankle.",
+    "reps": "2 min",
+    "video": "friction-dessus-pied-d.mp4"
+  },
+  {
+    "slug": "pression-points-dessus-pied-d",
+    "titleFr": "Pression points dessus pied D",
+    "titleEn": "Right foot top pressure points",
+    "descFr": "Pouce sur chaque espace interosseux du dessus du pied droit, pression soutenue 10 sec.",
+    "descEn": "Thumb on each interosseous space of right foot top, sustained 10 sec pressure.",
+    "reps": "2 min",
+    "video": "pression-points-dessus-pied-d.mp4"
+  },
+  {
+    "slug": "marche-sur-les-talons-d",
+    "titleFr": "Marche sur les talons D",
+    "titleEn": "Right heel walk",
+    "descFr": "Marche sur les talons droits avec les orteils levés pour renforcer les tibiaux.",
+    "descEn": "Walk on right heels with toes raised to strengthen tibials.",
+    "reps": "30 sec × 2",
+    "video": "marche-sur-les-talons-d.mp4"
+  },
+  {
+    "slug": "etirement-orteils-g",
+    "titleFr": "Étirement orteils G",
+    "titleEn": "Left toe stretch",
+    "descFr": "Assis, tire chaque orteil gauche vers le haut avec les doigts. Tiens 10 sec.",
+    "descEn": "Seated, pull each left toe upward with fingers. Hold 10 sec.",
+    "reps": "3 × 10 sec par orteil",
+    "video": "etirement-orteils-g.mp4"
+  },
+  {
+    "slug": "friction-articulations-orteils-g",
+    "titleFr": "Friction articulations orteils G",
+    "titleEn": "Left toe joint friction",
+    "descFr": "Pouce sur chaque articulation des orteils gauches, petits cercles doux.",
+    "descEn": "Thumb on each left toe joint, small gentle circles.",
+    "reps": "2 min",
+    "video": "friction-articulations-orteils-g.mp4"
+  },
+  {
+    "slug": "traction-orteils-g",
+    "titleFr": "Traction orteils G",
+    "titleEn": "Left toe traction",
+    "descFr": "Tire doucement chaque orteil gauche dans l'axe pour décomprimer les articulations.",
+    "descEn": "Gently pull each left toe along its axis to decompress joints.",
+    "reps": "1 min",
+    "video": "traction-orteils-g.mp4"
+  },
+  {
+    "slug": "ecartement-orteils-g",
+    "titleFr": "Écartement orteils G",
+    "titleEn": "Left toe spread",
+    "descFr": "Écarte les orteils gauches au maximum, tiens 5 sec, relâche.",
+    "descEn": "Spread left toes as wide as possible, hold 5 sec, release.",
+    "reps": "10 × 2",
+    "video": "ecartement-orteils-g.mp4"
+  },
+  {
+    "slug": "etirement-orteils-d",
+    "titleFr": "Étirement orteils D",
+    "titleEn": "Right toe stretch",
+    "descFr": "Assis, tire chaque orteil droit vers le haut avec les doigts. Tiens 10 sec.",
+    "descEn": "Seated, pull each right toe upward with fingers. Hold 10 sec.",
+    "reps": "3 × 10 sec par orteil",
+    "video": "etirement-orteils-d.mp4"
+  },
+  {
+    "slug": "friction-articulations-orteils-d",
+    "titleFr": "Friction articulations orteils D",
+    "titleEn": "Right toe joint friction",
+    "descFr": "Pouce sur chaque articulation des orteils droits, petits cercles doux.",
+    "descEn": "Thumb on each right toe joint, small gentle circles.",
+    "reps": "2 min",
+    "video": "friction-articulations-orteils-d.mp4"
+  },
+  {
+    "slug": "traction-orteils-d",
+    "titleFr": "Traction orteils D",
+    "titleEn": "Right toe traction",
+    "descFr": "Tire doucement chaque orteil droit dans l'axe pour décomprimer les articulations.",
+    "descEn": "Gently pull each right toe along its axis to decompress joints.",
+    "reps": "1 min",
+    "video": "traction-orteils-d.mp4"
+  },
+  {
+    "slug": "ecartement-orteils-d",
+    "titleFr": "Écartement orteils D",
+    "titleEn": "Right toe spread",
+    "descFr": "Écarte les orteils droits au maximum, tiens 5 sec, relâche.",
+    "descEn": "Spread right toes as wide as possible, hold 5 sec, release.",
+    "reps": "10 × 2",
+    "video": "ecartement-orteils-d.mp4"
+  },
+  {
+    "slug": "etirement-voute-plantaire-g",
+    "titleFr": "Étirement voûte plantaire G",
+    "titleEn": "Left arch stretch",
+    "descFr": "Debout, pied gauche en appui sur les orteils, pousse le genou en avant. Tiens 15 sec.",
+    "descEn": "Standing, left foot on toes, push knee forward. Hold 15 sec.",
+    "reps": "3 × 15 sec",
+    "video": "etirement-voute-plantaire-g.mp4"
+  },
+  {
+    "slug": "etirement-voute-plantaire-d",
+    "titleFr": "Étirement voûte plantaire D",
+    "titleEn": "Right arch stretch",
+    "descFr": "Debout, pied droit en appui sur les orteils, pousse le genou en avant. Tiens 15 sec.",
+    "descEn": "Standing, right foot on toes, push knee forward. Hold 15 sec.",
+    "reps": "3 × 15 sec",
+    "video": "etirement-voute-plantaire-d.mp4"
+  },
+  {
+    "slug": "friction-talon-gauche",
+    "titleFr": "Friction talon gauche",
+    "titleEn": "Left heel friction",
+    "descFr": "Pouce sur le talon gauche, pression circulaire profonde.",
+    "descEn": "Thumb on left heel, deep circular pressure.",
+    "reps": "2 min",
+    "video": "friction-talon-gauche.mp4"
+  },
+  {
+    "slug": "glace-talon-gauche",
+    "titleFr": "Glace talon gauche",
+    "titleEn": "Left heel ice",
+    "descFr": "Appliquer de la glace 10 min si inflammatoire.",
+    "descEn": "Apply ice 10 min if inflamed.",
+    "reps": "10 min",
+    "video": "glace-talon-gauche.mp4"
+  },
+  {
+    "slug": "marche-sur-la-pointe-g",
+    "titleFr": "Marche sur la pointe G",
+    "titleEn": "Left tiptoe walk",
+    "descFr": "Monte sur la pointe du pied gauche, descends lentement.",
+    "descEn": "Rise on left tiptoe, lower slowly.",
+    "reps": "15 × 2",
+    "video": "marche-sur-la-pointe-g.mp4"
+  },
+  {
+    "slug": "friction-talon-droit",
+    "titleFr": "Friction talon droit",
+    "titleEn": "Right heel friction",
+    "descFr": "Pouce sur le talon droit, pression circulaire profonde.",
+    "descEn": "Thumb on right heel, deep circular pressure.",
+    "reps": "2 min",
+    "video": "friction-talon-droit.mp4"
+  },
+  {
+    "slug": "glace-talon-droit",
+    "titleFr": "Glace talon droit",
+    "titleEn": "Right heel ice",
+    "descFr": "Appliquer de la glace 10 min si inflammatoire.",
+    "descEn": "Apply ice 10 min if inflamed.",
+    "reps": "10 min",
+    "video": "glace-talon-droit.mp4"
+  },
+  {
+    "slug": "marche-sur-la-pointe-d",
+    "titleFr": "Marche sur la pointe D",
+    "titleEn": "Right tiptoe walk",
+    "descFr": "Monte sur la pointe du pied droit, descends lentement.",
+    "descEn": "Rise on right tiptoe, lower slowly.",
+    "reps": "15 × 2",
+    "video": "marche-sur-la-pointe-d.mp4"
+  }
+]

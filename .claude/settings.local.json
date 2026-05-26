@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm install *)",
+      "Bash(node -e ' *)",
+      "Bash(netlify --version)",
+      "Bash(npm run *)",
+      "Bash(netlify deploy *)",
+      "Bash(netlify login *)",
+      "Bash(netlify claim *)",
+      "Bash(netlify link *)",
+      "Bash(npx @vite-pwa/assets-generator --help)",
+      "Bash(npx @vite-pwa/assets-generator --preset minimal public/favicon.svg)",
+      "Bash(npx @vite-pwa/assets-generator --preset minimal logo_extracted.jpeg)",
+      "Bash(node rewrite-dashboard.mjs)",
+      "Bash(npm list *)",
+      "Bash(zip -r ../dist.zip .)",
+      "Bash(curl -s -X POST -H 'Authorization: Bearer nfc_icrbvzesXaksJYPkNtrX9AeQMoemv87id63b' -H 'Content-Type: application/zip' --data-binary @dist.zip https://api.netlify.com/api/v1/sites/08a9c368-889a-439b-bd2c-24c424000067/deploys)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('state','?'\\), d.get\\('deploy_url',''\\), d.get\\('error_message',''\\)\\)\")",
+      "Bash(node -e \"const d=require\\('./deploy_result.json'\\); console.log\\('state:', d.state, '\\\\nurl:', d.deploy_ssl_url||d.deploy_url, '\\\\nerror:', d.error_message||'none'\\)\")",
+      "Bash(firebase --version)",
+      "Bash(firebase login *)",
+      "Bash(firebase login:ci)",
+      "Bash(firebase deploy *)",
+      "Bash(powershell.exe -Command \"\\(Get-Content 'C:\\\\Users\\\\Polo Mistral\\\\Desktop\\\\kinesia-app\\\\.claude\\\\worktrees\\\\adoring-merkle-1dda14\\\\src\\\\KinesiaReliefV19.jsx'\\).Count\")",
+      "mcp__e24c3c5c-3825-4ae2-a150-10d100b17901__list_products",
+      "Read(//c/Users/Polo Mistral/Desktop/kinesia-app/**)",
+      "Bash(powershell.exe -Command \"Test-Path 'C:\\\\Users\\\\Polo Mistral\\\\Desktop\\\\kinesia-app\\\\functions'\")",
+      "PowerShell(Get-ChildItem 'C:\\\\Users\\\\Polo Mistral\\\\Desktop\\\\kinesia-app\\\\.claude\\\\worktrees\\\\adoring-merkle-1dda14' -Name | Where-Object { $_ -notmatch 'node_modules|dist' })",
+      "mcp__e24c3c5c-3825-4ae2-a150-10d100b17901__create_product",
+      "mcp__e24c3c5c-3825-4ae2-a150-10d100b17901__create_price",
+      "mcp__Claude_in_Chrome__tabs_context_mcp"
+    ]
+  }
+}
