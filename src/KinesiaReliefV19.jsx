@@ -466,7 +466,6 @@ const POSE_MAP = {
   "étirement piriforme g":IMG_PIRIFORME_ASSIS, "étirement piriforme droit":IMG_PIRIFORME_ASSIS,
   "étirement piriforme gauche":IMG_PIRIFORME_ASSIS,
   "étirement fessier assis d":IMG_FESSIER_ASSIS_LOTUS, "étirement fessier assis g":IMG_FESSIER_ASSIS_LOTUS,
-  "étirement fléchisseur de hanche":IMG_ETIREMENT_FLECHISSEUR,
   "étirement fléchisseur hanche d":IMG_ETIREMENT_FLECHISSEUR, "étirement fléchisseur hanche g":IMG_ETIREMENT_FLECHISSEUR,
   "fente étirante droite":IMG_FENTE_ETIRANTE, "fente étirante gauche":IMG_FENTE_ETIRANTE,
   "coquillage d":IMG_COQUILLAGE, "coquillage g":IMG_COQUILLAGE,
@@ -1859,8 +1858,7 @@ export default function KinesiaRelief() {
         exercices:[
         {t:T("Respiration diaphragmatique","Diaphragmatic breathing"),d:T("Inspire par le nez 4 sec, expire par la bouche 6 sec. Relaxe.","Inhale through nose 4 sec, exhale through mouth 6 sec. Relax."),r:"10 breaths"}]},
 
-      bas_ventre: { etirements:[
-        {t:T("Étirement fléchisseur de hanche","Hip flexor stretch"),d:T("Un genou au sol, pousse le bassin vers l'avant. Tiens 30 sec.","One knee on floor, push pelvis forward. Hold 30 sec."),r:"3 × 30 sec"}],
+      bas_ventre: { etirements:[],
         massage:[
         {t:T("Massage bas-ventre doux","Gentle lower abdomen massage"),d:T("Paume chaude sur le bas-ventre, cercles doux dans le sens horaire.","Warm palm on lower abdomen, gentle clockwise circles."),r:"2 min"}],
         exercices:[
