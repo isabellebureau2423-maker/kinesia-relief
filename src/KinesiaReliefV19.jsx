@@ -486,7 +486,7 @@ const POSE_MAP = {
   "étirement chat-vache":IMG_CHAT_VACHE_A, "bird-dog":IMG_BIRD_DOG,
   "rouleau mousse lombaires":IMG_ROULEAU_BAS_DOS, "rouleau mousse bas du dos":IMG_ROULEAU_BAS_DOS,
   "rouleau mousse dos":IMG_ROULEAU_BAS_DOS, "balles paires lombaires":IMG_PAIRE_BALLES_LOMBAIRE,
-  "balle contre mur dos":IMG_BALLE_MUR_OMOPLATE, "pression pouces lombaires":IMG_PRESSION_POUCES_LOMBAIRES, "pression lombaire":IMG_PRESSION_POUCES_LOMBAIRES,
+  "pression pouces lombaires":IMG_PRESSION_POUCES_LOMBAIRES, "pression lombaire":IMG_PRESSION_POUCES_LOMBAIRES,
   "flexion lombaire debout":IMG_FLEXION_LOMBAIRE, "flexion latérale debout":IMG_FLEXION_LATERALE,
   "good morning":IMG_GOOD_MORNING,
   "étirement cobra":IMG_COBRA, "extension dorsale":IMG_EXTENSION_DORSALE,
@@ -1825,8 +1825,7 @@ export default function KinesiaRelief() {
         {t:T("Étirement chat-vache","Cat-cow stretch"),d:T("À quatre pattes, arrondis puis creuse le dos alternativement. Lent.","On hands and knees, alternate rounding and arching back. Slow."),r:"10 cycles"},
         {t:T("Torsion dorsale allongé","Lying spinal twist"),d:T("Allongé, ramène un genou de l'autre côté du corps. Tiens 30 sec.","Lying down, bring one knee across to other side. Hold 30 sec."),r:"3 × 30 sec"}],
         massage:[
-        {t:T("Rouleau mousse dos","Foam roller back"),d:T("Assis, place un rouleau sous le dos. Roule lentement de haut en bas.","Seated, place foam roller under back. Roll slowly up and down."),r:"3 min"},
-        {t:T("Balle contre mur dos","Tennis ball on wall back"),d:T("Place une balle de tennis dans le dos, entre les omoplates, contre un mur.","Place tennis ball in back, between shoulder blades, against wall."),r:"2 min"}],
+        {t:T("Rouleau mousse dos","Foam roller back"),d:T("Assis, place un rouleau sous le dos. Roule lentement de haut en bas.","Seated, place foam roller under back. Roll slowly up and down."),r:"3 min"}],
         exercices:[
         {t:T("Rotation thoracique","Thoracic rotation"),d:T("Assis, croise les bras, tourne le buste lentement de chaque côté.","Seated, cross arms, slowly rotate trunk each side."),r:"10 × each side"},
         {t:T("Extension dorsale","Back extension"),d:T("Allongé sur le ventre, lève doucement la tête et le buste. Tiens 5 sec.","Lying on stomach, gently lift head and chest. Hold 5 sec."),r:"10 × 2"}]},
