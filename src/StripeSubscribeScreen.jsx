@@ -58,10 +58,17 @@ function Swirls() {
 }
 
 // ── Inner form (must be inside <Elements>) ────────────────────────────────────
-function SubscribeForm({ lang, plan, setPlan, setScreenAndSave, currentUser, setLang }) {
+function SubscribeForm({ lang, plan: planProp, setPlan, setScreenAndSave, currentUser, setLang }) {
   const stripe   = useStripe();
   const elements = useElements();
   const fr       = lang === "fr";
+
+  // Use local plan state, defaulting to "monthly" if parent has "free"
+  const [localPlan, setLocalPlan] = useState(
+    planProp === "monthly" || planProp === "annual" ? planProp : "monthly"
+  );
+  const plan    = localPlan;
+  const handlePlanChange = (p) => { setLocalPlan(p); setPlan(p); };
 
   const [name,    setName]    = useState("");
   const [email,   setEmail]   = useState(currentUser?.email || "");
@@ -83,7 +90,7 @@ function SubscribeForm({ lang, plan, setPlan, setScreenAndSave, currentUser, set
       const res = await fetch(CF_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ plan, email, name, uid: currentUser?.uid || "" }),
+        body: JSON.stringify({ plan, email, name, uid: currentUser?.uid || email }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Erreur serveur");
@@ -184,7 +191,7 @@ function SubscribeForm({ lang, plan, setPlan, setScreenAndSave, currentUser, set
               { id:"monthly", name:fr?"Mensuel":"Monthly",   price:fr?"14,99$ / mois":"$14.99 / month", desc:fr?"Accès complet. Annulable en tout temps.":"Full access. Cancel anytime." },
               { id:"annual",  name:fr?"Annuel":"Annual",     price:fr?"150$ / an":"$150 / year",         desc:fr?"Économise 2 mois. Accès complet 12 mois.":"Save 2 months. Full 12-month access.", badge:fr?"Meilleure valeur":"Best value" },
             ].map(p => (
-              <div key={p.id} onClick={() => setPlan(p.id)} style={{
+              <div key={p.id} onClick={() => handlePlanChange(p.id)} style={{
                 border: plan===p.id ? "2px solid #c9a84c" : "1px solid rgba(255,255,255,0.15)",
                 borderRadius:14, padding:"14px 16px", cursor:"pointer", position:"relative",
                 background: plan===p.id ? "rgba(201,168,76,0.12)" : "rgba(255,255,255,0.05)",

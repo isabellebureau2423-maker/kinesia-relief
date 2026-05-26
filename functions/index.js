@@ -17,8 +17,8 @@ exports.createSubscription = onRequest(
       return res.status(405).json({ error: "Method not allowed" });
 
     const { plan, email, name, uid } = req.body || {};
-    if (!plan || !email || !uid)
-      return res.status(400).json({ error: "Missing required fields: plan, email, uid" });
+    if (!plan || !email)
+      return res.status(400).json({ error: "Missing required fields: plan, email" });
 
     const priceId = PRICE_IDS[plan];
     if (!priceId)
