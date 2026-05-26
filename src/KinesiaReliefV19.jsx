@@ -2671,8 +2671,8 @@ export default function KinesiaRelief() {
                 {days.map((d,i) => (
                   <div key={i} style={{ flex:1, textAlign:"center" }}>
                     <div style={{ fontSize:10, color:"rgba(255,255,255,0.4)", marginBottom:4 }}>{d.label}</div>
-                    <div style={{
-                    <div onClick={() => { const ds = d.toDateString(); const updated = checkedDays.includes(ds) ? checkedDays.filter(x => x !== ds) : [...checkedDays, ds]; setCheckedDays(updated); localStorage.setItem("kinesiaCheckedDays", JSON.stringify(updated)); }} style={
+                    <div onClick={() => { const ds = d.toDateString(); const upd = checkedDays.includes(ds) ? checkedDays.filter(x => x !== ds) : [...checkedDays, ds]; setCheckedDays(upd); localStorage.setItem("kinesiaCheckedDays", JSON.stringify(upd)); }} style={{
+                      width:"100%", aspectRatio:"1", borderRadius:"50%", cursor:"pointer",
                       background: d.isToday ? "rgba(13,207,198,0.2)" : d.done ? "#0dcfc6" : "rgba(255,255,255,0.08)",
                       border: d.isToday ? "2px solid rgba(13,207,198,0.6)" : "none",
                       display:"flex", alignItems:"center", justifyContent:"center",
