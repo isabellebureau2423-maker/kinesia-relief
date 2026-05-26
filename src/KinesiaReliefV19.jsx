@@ -1471,8 +1471,8 @@ export default function KinesiaRelief() {
                 try {
                   const u = await login(loginForm.courriel, loginForm.motDePasse);
                   const plans = await getPlans(u.uid);
-                  if (plans.length > 0) { setSavedPlans(plans); setScreen("dashboard"); }
-                  else { setScreen("douleurs"); }
+                  if (plans.length > 0) { setSavedPlans(plans); }
+                  setScreen("dashboard");
                 } catch(e) { setLoginError(e.message); }
                 finally { setAuthLoading(false); }
               }}>{authLoading ? (lang==="fr"?"Connexion…":"Signing in…") : (lang==="fr"?"Se connecter →":"Sign in →")}</button>
