@@ -1,0 +1,281 @@
+# Vidéos d exercices Kinesia Relief
+
+Place ici tes fichiers MP4, nommés exactement comme suit.
+Chaque vidéo doit faire 4-6 secondes, en boucle.
+
+- flexion-cervicale.mp4 — Flexion cervicale
+- rotation-du-cou.mp4 — Rotation du cou
+- pression-base-du-crane.mp4 — Pression base du crâne
+- friction-cuir-chevelu.mp4 — Friction cuir chevelu
+- retraction-du-menton.mp4 — Rétraction du menton
+- etirement-lateral-cervical.mp4 — Étirement latéral cervical
+- etirement-trapeze-superieur.mp4 — Étirement trapèze supérieur
+- petrissage-nuque.mp4 — Pétrissage nuque
+- compression-points-trigger.mp4 — Compression points trigger
+- activation-rhomboides.mp4 — Activation rhomboïdes
+- rouleau-base-du-crane.mp4 — Rouleau base du crâne
+- flexion-cervicale-douce.mp4 — Flexion cervicale douce
+- etirement-sousoccipital.mp4 — Étirement sous-occipital
+- etirement-epaule-croise-g.mp4 — Étirement épaule croisé G
+- rotation-interne-epaule-g.mp4 — Rotation interne épaule G
+- compression-trapeze-g.mp4 — Compression trapèze G
+- friction-circulaire-epaule-g.mp4 — Friction circulaire épaule G
+- haussements-depaules.mp4 — Haussements d'épaules
+- rotation-depaule.mp4 — Rotation d'épaule
+- etirement-epaule-croise-d.mp4 — Étirement épaule croisé D
+- rotation-interne-epaule-d.mp4 — Rotation interne épaule D
+- compression-trapeze-d.mp4 — Compression trapèze D
+- friction-circulaire-epaule-d.mp4 — Friction circulaire épaule D
+- etirement-trapeze-superieur-g.mp4 — Étirement trapèze supérieur G
+- compression-trapeze-gauche.mp4 — Compression trapèze gauche
+- balle-de-tennis-trapeze.mp4 — Balle de tennis trapèze
+- retraction-scapulaire.mp4 — Rétraction scapulaire
+- etirement-trapeze-superieur-d.mp4 — Étirement trapèze supérieur D
+- compression-trapeze-droit.mp4 — Compression trapèze droit
+- etirement-rhomboide-g.mp4 — Étirement rhomboïde G
+- balle-contre-mur-omoplate-g.mp4 — Balle contre mur omoplate G
+- rowing-horizontal.mp4 — Rowing horizontal
+- rotation-thoracique.mp4 — Rotation thoracique
+- etirement-rhomboide-d.mp4 — Étirement rhomboïde D
+- balle-contre-mur-omoplate-d.mp4 — Balle contre mur omoplate D
+- etirement-pectoral-cadre-de-porte-g.mp4 — Étirement pectoral cadre de porte G
+- etirement-pectoral-bras-tendu-g.mp4 — Étirement pectoral bras tendu G
+- balle-pectoral-contre-mur-g.mp4 — Balle pectoral contre mur G
+- ouverture-thoracique.mp4 — Ouverture thoracique
+- etirement-pectoral-cadre-de-porte-d.mp4 — Étirement pectoral cadre de porte D
+- etirement-pectoral-bras-tendu-d.mp4 — Étirement pectoral bras tendu D
+- balle-pectoral-contre-mur-d.mp4 — Balle pectoral contre mur D
+- etirement-chatvache.mp4 — Étirement chat-vache
+- torsion-dorsale-allonge.mp4 — Torsion dorsale allongé
+- rouleau-mousse-dos.mp4 — Rouleau mousse dos
+- balle-contre-mur-dos.mp4 — Balle contre mur dos
+- extension-dorsale.mp4 — Extension dorsale
+- genouxpoitrine.mp4 — Genoux-poitrine
+- etirement-piriforme.mp4 — Étirement piriforme
+- rouleau-mousse-lombaires.mp4 — Rouleau mousse lombaires
+- balles-paires-lombaires.mp4 — Balles paires lombaires
+- pont-fessier.mp4 — Pont fessier
+- superman.mp4 — Superman
+- flexion-lombaire-debout.mp4 — Flexion lombaire debout
+- rouleau-mousse-bas-du-dos.mp4 — Rouleau mousse bas du dos
+- pression-pouces-lombaires.mp4 — Pression pouces lombaires
+- birddog.mp4 — Bird-dog
+- etirement-cobra.mp4 — Étirement cobra
+- flexion-laterale-debout.mp4 — Flexion latérale debout
+- massage-abdominal-circulaire.mp4 — Massage abdominal circulaire
+- respiration-diaphragmatique.mp4 — Respiration diaphragmatique
+- etirement-flechisseur-de-hanche.mp4 — Étirement fléchisseur de hanche
+- massage-basventre-doux.mp4 — Massage bas-ventre doux
+- inclinaison-pelvienne.mp4 — Inclinaison pelvienne
+- etirement-extenseurs-avantbras-g.mp4 — Étirement extenseurs avant-bras G
+- etirement-flechisseurs-avantbras-g.mp4 — Étirement fléchisseurs avant-bras G
+- friction-coude-lateral-g.mp4 — Friction coude latéral G
+- massage-avantbras-g.mp4 — Massage avant-bras G
+- flexionextension-poignet-g.mp4 — Flexion-extension poignet G
+- serrage-balle-antistress-g.mp4 — Serrage balle anti-stress G
+- etirement-extenseurs-avantbras-d.mp4 — Étirement extenseurs avant-bras D
+- etirement-flechisseurs-avantbras-d.mp4 — Étirement fléchisseurs avant-bras D
+- friction-coude-lateral-d.mp4 — Friction coude latéral D
+- massage-avantbras-d.mp4 — Massage avant-bras D
+- flexionextension-poignet-d.mp4 — Flexion-extension poignet D
+- serrage-balle-antistress-d.mp4 — Serrage balle anti-stress D
+- etirement-avantbras-gauche.mp4 — Étirement avant-bras gauche
+- petrissage-avantbras-g.mp4 — Pétrissage avant-bras G
+- rotation-avantbras-g.mp4 — Rotation avant-bras G
+- etirement-avantbras-droit.mp4 — Étirement avant-bras droit
+- petrissage-avantbras-d.mp4 — Pétrissage avant-bras D
+- rotation-avantbras-d.mp4 — Rotation avant-bras D
+- etirement-poignet-gauche-extenseurs.mp4 — Étirement poignet gauche extenseurs
+- etirement-poignet-gauche-flechisseurs.mp4 — Étirement poignet gauche fléchisseurs
+- friction-poignet-gauche.mp4 — Friction poignet gauche
+- mobilisation-doigts-g.mp4 — Mobilisation doigts G
+- cercles-de-poignet-g.mp4 — Cercles de poignet G
+- serrage-balle-douce-g.mp4 — Serrage balle douce G
+- etirement-poignet-droit-extenseurs.mp4 — Étirement poignet droit extenseurs
+- etirement-poignet-droit-flechisseurs.mp4 — Étirement poignet droit fléchisseurs
+- friction-poignet-droit.mp4 — Friction poignet droit
+- mobilisation-doigts-d.mp4 — Mobilisation doigts D
+- cercles-de-poignet-d.mp4 — Cercles de poignet D
+- serrage-balle-douce-d.mp4 — Serrage balle douce D
+- etirement-biceps-g.mp4 — Étirement biceps G
+- etirement-biceps-mur-g.mp4 — Étirement biceps mur G
+- petrissage-biceps-g.mp4 — Pétrissage biceps G
+- friction-biceps-g.mp4 — Friction biceps G
+- curl-biceps-g.mp4 — Curl biceps G
+- curl-excentrique-g.mp4 — Curl excentrique G
+- etirement-biceps-d.mp4 — Étirement biceps D
+- etirement-biceps-mur-d.mp4 — Étirement biceps mur D
+- petrissage-biceps-d.mp4 — Pétrissage biceps D
+- friction-biceps-d.mp4 — Friction biceps D
+- curl-biceps-d.mp4 — Curl biceps D
+- curl-excentrique-d.mp4 — Curl excentrique D
+- extension-triceps-g.mp4 — Extension triceps G
+- etirement-triceps-croise-g.mp4 — Étirement triceps croisé G
+- petrissage-triceps-g.mp4 — Pétrissage triceps G
+- friction-coude-posterieur-g.mp4 — Friction coude postérieur G
+- dips-chaise-g.mp4 — Dips chaise G
+- extension-triceps-d.mp4 — Extension triceps D
+- etirement-triceps-croise-d.mp4 — Étirement triceps croisé D
+- petrissage-triceps-d.mp4 — Pétrissage triceps D
+- friction-coude-posterieur-d.mp4 — Friction coude postérieur D
+- dips-chaise-d.mp4 — Dips chaise D
+- etirement-paume-g.mp4 — Étirement paume G
+- etirement-dos-main-g.mp4 — Étirement dos main G
+- friction-paume-g.mp4 — Friction paume G
+- petrissage-thenar-g.mp4 — Pétrissage thénar G
+- opposition-pouce-g.mp4 — Opposition pouce G
+- etirement-paume-d.mp4 — Étirement paume D
+- etirement-dos-main-d.mp4 — Étirement dos main D
+- friction-paume-d.mp4 — Friction paume D
+- petrissage-thenar-d.mp4 — Pétrissage thénar D
+- opposition-pouce-d.mp4 — Opposition pouce D
+- etirement-extenseurs-doigts-g.mp4 — Étirement extenseurs doigts G
+- friction-dos-main-g.mp4 — Friction dos main G
+- friction-tendons-extenseurs-g.mp4 — Friction tendons extenseurs G
+- extension-doigts-g.mp4 — Extension doigts G
+- etirement-extenseurs-doigts-d.mp4 — Étirement extenseurs doigts D
+- friction-dos-main-d.mp4 — Friction dos main D
+- friction-tendons-extenseurs-d.mp4 — Friction tendons extenseurs D
+- extension-doigts-d.mp4 — Extension doigts D
+- etirement-flechisseurs-doigts-g.mp4 — Étirement fléchisseurs doigts G
+- friction-articulations-g.mp4 — Friction articulations G
+- traction-doigts-g.mp4 — Traction doigts G
+- prehension-balle-g.mp4 — Préhension balle G
+- etirement-flechisseurs-doigts-d.mp4 — Étirement fléchisseurs doigts D
+- friction-articulations-d.mp4 — Friction articulations D
+- traction-doigts-d.mp4 — Traction doigts D
+- prehension-balle-d.mp4 — Préhension balle D
+- etirement-flechisseur-hanche-g.mp4 — Étirement fléchisseur hanche G
+- etirement-piriforme-g.mp4 — Étirement piriforme G
+- rouleau-mousse-hanche-g.mp4 — Rouleau mousse hanche G
+- balle-fessier-g.mp4 — Balle fessier G
+- abduction-hanche-debout-g.mp4 — Abduction hanche debout G
+- coquillage-g.mp4 — Coquillage G
+- etirement-flechisseur-hanche-d.mp4 — Étirement fléchisseur hanche D
+- etirement-piriforme-d.mp4 — Étirement piriforme D
+- rouleau-mousse-hanche-d.mp4 — Rouleau mousse hanche D
+- balle-fessier-d.mp4 — Balle fessier D
+- abduction-hanche-debout-d.mp4 — Abduction hanche debout D
+- coquillage-d.mp4 — Coquillage D
+- etirement-piriforme-gauche.mp4 — Étirement piriforme gauche
+- etirement-fessier-assis-g.mp4 — Étirement fessier assis G
+- balle-fessier-gauche.mp4 — Balle fessier gauche
+- friction-fessiere-gauche.mp4 — Friction fessière gauche
+- pont-fessier-unilateral-g.mp4 — Pont fessier unilatéral G
+- donkey-kick-gauche.mp4 — Donkey kick gauche
+- etirement-piriforme-droit.mp4 — Étirement piriforme droit
+- etirement-fessier-assis-d.mp4 — Étirement fessier assis D
+- balle-fessier-droit.mp4 — Balle fessier droit
+- friction-fessiere-droite.mp4 — Friction fessière droite
+- pont-fessier-unilateral-d.mp4 — Pont fessier unilatéral D
+- donkey-kick-droit.mp4 — Donkey kick droit
+- etirement-extenseurs-gauches.mp4 — Étirement extenseurs gauches
+- etirement-extenseurs-droits.mp4 — Étirement extenseurs droits
+- etirement-quadriceps-g-debout.mp4 — Étirement quadriceps G debout
+- fente-etirante-gauche.mp4 — Fente étirante gauche
+- rouleau-mousse-cuisse-g.mp4 — Rouleau mousse cuisse G
+- petrissage-cuisse-g.mp4 — Pétrissage cuisse G
+- squat-partiel.mp4 — Squat partiel
+- extension-genou-assis-g.mp4 — Extension genou assis G
+- etirement-quadriceps-d-debout.mp4 — Étirement quadriceps D debout
+- fente-etirante-droite.mp4 — Fente étirante droite
+- rouleau-mousse-cuisse-d.mp4 — Rouleau mousse cuisse D
+- petrissage-cuisse-d.mp4 — Pétrissage cuisse D
+- extension-genou-assis-d.mp4 — Extension genou assis D
+- etirement-ischiojambier-g-allonge.mp4 — Étirement ischio-jambier G allongé
+- flexion-avant-debout-g.mp4 — Flexion avant debout G
+- rouleau-mousse-ischio-g.mp4 — Rouleau mousse ischio G
+- balle-ischio-gauche.mp4 — Balle ischio gauche
+- curl-ischio-debout-g.mp4 — Curl ischio debout G
+- good-morning.mp4 — Good morning
+- etirement-ischiojambier-d-allonge.mp4 — Étirement ischio-jambier D allongé
+- flexion-avant-debout-d.mp4 — Flexion avant debout D
+- rouleau-mousse-ischio-d.mp4 — Rouleau mousse ischio D
+- balle-ischio-droite.mp4 — Balle ischio droite
+- curl-ischio-debout-d.mp4 — Curl ischio debout D
+- etirement-quadriceps-g.mp4 — Étirement quadriceps G
+- etirement-ischio-g.mp4 — Étirement ischio G
+- friction-rotule-gauche.mp4 — Friction rotule gauche
+- pression-points-genou-g.mp4 — Pression points genou G
+- mini-squat-g.mp4 — Mini squat G
+- montee-de-marche-g.mp4 — Montée de marche G
+- etirement-quadriceps-d.mp4 — Étirement quadriceps D
+- etirement-ischio-d.mp4 — Étirement ischio D
+- friction-rotule-droite.mp4 — Friction rotule droite
+- pression-points-genou-d.mp4 — Pression points genou D
+- mini-squat-d.mp4 — Mini squat D
+- montee-de-marche-d.mp4 — Montée de marche D
+- friction-creux-poplite-g.mp4 — Friction creux poplité G
+- flexion-genou-actif-g.mp4 — Flexion genou actif G
+- friction-creux-poplite-d.mp4 — Friction creux poplité D
+- flexion-genou-actif-d.mp4 — Flexion genou actif D
+- etirement-tibial-g.mp4 — Étirement tibial G
+- friction-tibia-gauche.mp4 — Friction tibia gauche
+- flexion-dorsale-cheville-g.mp4 — Flexion dorsale cheville G
+- marche-sur-les-talons.mp4 — Marche sur les talons
+- etirement-tibial-d.mp4 — Étirement tibial D
+- friction-tibia-droit.mp4 — Friction tibia droit
+- flexion-dorsale-cheville-d.mp4 — Flexion dorsale cheville D
+- etirement-mollet-g-au-mur.mp4 — Étirement mollet G au mur
+- etirement-tendon-achille-g.mp4 — Étirement tendon Achille G
+- massage-cheville-g-circulaire.mp4 — Massage cheville G circulaire
+- friction-tendon-achille-g.mp4 — Friction tendon Achille G
+- releve-de-talon-g.mp4 — Relevé de talon G
+- alphabet-cheville-g.mp4 — Alphabet cheville G
+- etirement-mollet-d-au-mur.mp4 — Étirement mollet D au mur
+- etirement-tendon-achille-d.mp4 — Étirement tendon Achille D
+- massage-cheville-d-circulaire.mp4 — Massage cheville D circulaire
+- friction-tendon-achille-d.mp4 — Friction tendon Achille D
+- releve-de-talon-d.mp4 — Relevé de talon D
+- alphabet-cheville-d.mp4 — Alphabet cheville D
+- etirement-gastrocnemien-g.mp4 — Étirement gastrocnémien G
+- etirement-soleaire-g.mp4 — Étirement soléaire G
+- rouleau-mousse-mollet-g.mp4 — Rouleau mousse mollet G
+- petrissage-mollet-g.mp4 — Pétrissage mollet G
+- releve-de-talon-bilateral.mp4 — Relevé de talon bilatéral
+- releve-de-talon-g-unilateral.mp4 — Relevé de talon G unilatéral
+- etirement-gastrocnemien-d.mp4 — Étirement gastrocnémien D
+- etirement-soleaire-d.mp4 — Étirement soléaire D
+- rouleau-mousse-mollet-d.mp4 — Rouleau mousse mollet D
+- petrissage-mollet-d.mp4 — Pétrissage mollet D
+- releve-de-talon-d-unilateral.mp4 — Relevé de talon D unilatéral
+- glace-apres-effort-g.mp4 — Glace après effort G
+- releve-excentrique-g.mp4 — Relevé excentrique G
+- glace-apres-effort-d.mp4 — Glace après effort D
+- releve-excentrique-d.mp4 — Relevé excentrique D
+- etirement-fascia-plantaire-g.mp4 — Étirement fascia plantaire G
+- etirement-mollet-g.mp4 — Étirement mollet G
+- balle-de-tennis-pied-g.mp4 — Balle de tennis pied G
+- friction-voute-plantaire-g.mp4 — Friction voûte plantaire G
+- prehension-orteils-g.mp4 — Préhension orteils G
+- releve-orteils-g.mp4 — Relevé orteils G
+- etirement-fascia-plantaire-d.mp4 — Étirement fascia plantaire D
+- etirement-mollet-d.mp4 — Étirement mollet D
+- balle-de-tennis-pied-d.mp4 — Balle de tennis pied D
+- friction-voute-plantaire-d.mp4 — Friction voûte plantaire D
+- prehension-orteils-d.mp4 — Préhension orteils D
+- releve-orteils-d.mp4 — Relevé orteils D
+- etirement-extenseurs-orteils-g.mp4 — Étirement extenseurs orteils G
+- friction-dessus-pied-g.mp4 — Friction dessus pied G
+- pression-points-dessus-pied-g.mp4 — Pression points dessus pied G
+- marche-sur-les-talons-g.mp4 — Marche sur les talons G
+- etirement-extenseurs-orteils-d.mp4 — Étirement extenseurs orteils D
+- friction-dessus-pied-d.mp4 — Friction dessus pied D
+- pression-points-dessus-pied-d.mp4 — Pression points dessus pied D
+- marche-sur-les-talons-d.mp4 — Marche sur les talons D
+- etirement-orteils-g.mp4 — Étirement orteils G
+- friction-articulations-orteils-g.mp4 — Friction articulations orteils G
+- traction-orteils-g.mp4 — Traction orteils G
+- ecartement-orteils-g.mp4 — Écartement orteils G
+- etirement-orteils-d.mp4 — Étirement orteils D
+- friction-articulations-orteils-d.mp4 — Friction articulations orteils D
+- traction-orteils-d.mp4 — Traction orteils D
+- ecartement-orteils-d.mp4 — Écartement orteils D
+- etirement-voute-plantaire-g.mp4 — Étirement voûte plantaire G
+- etirement-voute-plantaire-d.mp4 — Étirement voûte plantaire D
+- friction-talon-gauche.mp4 — Friction talon gauche
+- glace-talon-gauche.mp4 — Glace talon gauche
+- marche-sur-la-pointe-g.mp4 — Marche sur la pointe G
+- friction-talon-droit.mp4 — Friction talon droit
+- glace-talon-droit.mp4 — Glace talon droit
+- marche-sur-la-pointe-d.mp4 — Marche sur la pointe D
