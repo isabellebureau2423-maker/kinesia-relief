@@ -841,6 +841,7 @@ export default function KinesiaRelief() {
   const [dejaEssaye, setDejaEssaye] = useState([]);
   const [antecedents, setAntecedents] = useState("");
   const [savedPlans, setSavedPlans] = useState([]);
+  const [checkedDays, setCheckedDays] = useState(() => { try { return JSON.parse(localStorage.getItem("kinesiaCheckedDays") || "[]"); } catch { return []; } });
   const [lang, setLang] = useState("fr");
 
   // Réinitialise tous les champs du questionnaire pour une nouvelle analyse
@@ -2599,7 +2600,7 @@ export default function KinesiaRelief() {
       d.setDate(monday.getDate() + i);
       const isToday = d.toDateString() === today.toDateString();
       const isPast = d < today && !isToday;
-      return { label: dayLabels[i], isToday, done: isPast && i < savedPlans.length };
+      return { label: dayLabels[i], isToday, done: checkedDays.includes(d.toDateString()) };
     });
 
     const goToPlan = () => { if (savedPlans.length > 0) { setSelected(savedPlans[0].zones); setPrevScreen("dashboard"); setScreen("programme"); } else { setSelected([]); setScreen("douleurs"); } };
@@ -2653,10 +2654,10 @@ export default function KinesiaRelief() {
               {fr?"➕ Nouvelle analyse de douleur":"➕ New pain analysis"}
             </button>
 
-            <div onClick={goToPlan} style={{
+            <div style={{
               background:"linear-gradient(135deg,rgba(13,207,198,0.12),rgba(13,207,198,0.04))",
               border:"1px solid rgba(13,207,198,0.25)", borderRadius:16, padding:"16px", marginBottom:14,
-              cursor:"pointer"
+              cursor:"default"
             }}>
               <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:12 }}>
                 <div style={{ color:"white", fontWeight:700, fontSize:14 }}>
@@ -2671,7 +2672,7 @@ export default function KinesiaRelief() {
                   <div key={i} style={{ flex:1, textAlign:"center" }}>
                     <div style={{ fontSize:10, color:"rgba(255,255,255,0.4)", marginBottom:4 }}>{d.label}</div>
                     <div style={{
-                      width:"100%", aspectRatio:"1", borderRadius:"50%",
+                    <div onClick={() => { const ds = d.toDateString(); const updated = checkedDays.includes(ds) ? checkedDays.filter(x => x !== ds) : [...checkedDays, ds]; setCheckedDays(updated); localStorage.setItem("kinesiaCheckedDays", JSON.stringify(updated)); }} style={
                       background: d.isToday ? "rgba(13,207,198,0.2)" : d.done ? "#0dcfc6" : "rgba(255,255,255,0.08)",
                       border: d.isToday ? "2px solid rgba(13,207,198,0.6)" : "none",
                       display:"flex", alignItems:"center", justifyContent:"center",
