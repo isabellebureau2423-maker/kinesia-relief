@@ -1030,13 +1030,6 @@ export default function KinesiaRelief() {
 
           {/* Header */}
           <div style={{ padding:"12px 20px 0", flexShrink:0 }}>
-            <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:10 }}>
-              <div style={{ display:"flex", alignItems:"center", gap:10 }}>
-                <button onClick={() => setScreen("dashboard")} style={{
-                  background:"rgba(255,255,255,0.08)", border:"1px solid rgba(255,255,255,0.15)",
-                  borderRadius:20, padding:"5px 12px", color:"rgba(255,255,255,0.7)",
-                  fontSize:12, cursor:"pointer", fontWeight:600 }}>← {fr?"Retour":"Back"}</button>
-              </div>
               <button onClick={() => setLang(fr?"en":"fr")} style={{
                 background:"rgba(255,255,255,0.1)", border:"1px solid rgba(255,255,255,0.2)",
                 borderRadius:20, padding:"4px 10px", color:"rgba(255,255,255,0.7)",
