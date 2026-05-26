@@ -528,7 +528,7 @@ const POSE_MAP = {
   "friction poignet droit":IMG_FRICTION_POIGNET, "friction poignet gauche":IMG_FRICTION_POIGNET,
   "friction paume d":IMG_FRICTION_PALMAIRE, "friction paume g":IMG_FRICTION_PALMAIRE,
   "pétrissage thénar d":IMG_PETRISSAGE_THENAR, "pétrissage thénar g":IMG_PETRISSAGE_THENAR,
-  "étirement poignet droit extenseurs":IMG_ETIREMENT_POIGNET_STAND, "étirement poignet droit fléchisseurs":IMG_ETIREMENT_FLECHISSEUR_AVBRAS,
+  "étirement poignet droit extenseurs":IMG_ETIREMENT_POIGNET_STAND,
   "étirement poignet gauche extenseurs":IMG_ETIREMENT_POIGNET_STAND, "étirement poignet gauche fléchisseurs":IMG_ETIREMENT_FLECHISSEUR_AVBRAS,
   "rotation avant-bras d":IMG_ROTATION_AVBRAS, "rotation avant-bras g":IMG_ROTATION_AVBRAS,
   "opposition pouce d":IMG_OPPOSITION_POUCE, "opposition pouce g":IMG_OPPOSITION_POUCE,
@@ -1908,8 +1908,7 @@ export default function KinesiaRelief() {
         {t:T("Cercles de poignet G","Left wrist circles"),d:T("Tourne lentement le poignet dans les deux sens.","Slowly rotate wrist in both directions."),r:"10 × each direction"}]},
 
       poignet_d: { etirements:[
-        {t:T("Étirement poignet droit extenseurs","Right wrist extensor stretch"),d:T("Paume vers le bas, tire les doigts vers toi. Tiens 20 sec.","Palm down, pull fingers toward you. Hold 20 sec."),r:"3 × 20 sec"},
-        {t:T("Étirement poignet droit fléchisseurs","Right wrist flexor stretch"),d:T("Paume vers le haut, tire les doigts vers toi. Tiens 20 sec.","Palm up, pull fingers toward you. Hold 20 sec."),r:"3 × 20 sec"}],
+        {t:T("Étirement poignet droit extenseurs","Right wrist extensor stretch"),d:T("Paume vers le bas, tire les doigts vers toi. Tiens 20 sec.","Palm down, pull fingers toward you. Hold 20 sec."),r:"3 × 20 sec"}],
         massage:[
         {t:T("Friction poignet droit","Right wrist friction"),d:T("Pouce sur la face interne du poignet, petits cercles.","Thumb on inner wrist, small circles."),r:"1 min"},
         {t:T("Mobilisation doigts D","Right finger mobilization"),d:T("Flexion-extension lente de chaque doigt.","Slow flexion-extension of each finger."),r:"2 min"}],
