@@ -462,7 +462,7 @@ const POSE_MAP = {
   "relevé de talon g unilatéral":IMG_RELEVE_TALON_MARCHE, "relevé excentrique d":IMG_RELEVE_EXCENTRIQUE,
   "relevé excentrique g":IMG_RELEVE_EXCENTRIQUE, "marche sur la pointe d":IMG_MARCHE,
   "marche sur la pointe g":IMG_MARCHE, "marche sur les talons":IMG_MARCHE_TALON, "marche sur les talons d":IMG_MARCHE_TALON, "marche sur les talons g":IMG_MARCHE_TALON,
-  "étirement piriforme":IMG_PIRIFORME_ASSIS, "étirement piriforme d":IMG_PIRIFORME_ASSIS,
+  "étirement piriforme d":IMG_PIRIFORME_ASSIS,
   "étirement piriforme g":IMG_PIRIFORME_ASSIS, "étirement piriforme droit":IMG_PIRIFORME_ASSIS,
   "étirement piriforme gauche":IMG_PIRIFORME_ASSIS,
   "étirement fessier assis d":IMG_FESSIER_ASSIS_LOTUS, "étirement fessier assis g":IMG_FESSIER_ASSIS_LOTUS,
@@ -1832,8 +1832,7 @@ export default function KinesiaRelief() {
         {t:T("Extension dorsale","Back extension"),d:T("Allongé sur le ventre, lève doucement la tête et le buste. Tiens 5 sec.","Lying on stomach, gently lift head and chest. Hold 5 sec."),r:"10 × 2"}]},
 
       lombaires: { etirements:[
-        {t:T("Genoux-poitrine","Knees to chest"),d:T("Allongé, ramène les deux genoux vers la poitrine. Tiens 30 sec.","Lying down, bring both knees to chest. Hold 30 sec."),r:"3 × 30 sec"},
-        {t:T("Étirement piriforme","Piriformis stretch"),d:T("Allongé, pose une cheville sur le genou opposé et tire vers toi.","Lying, place ankle on opposite knee and pull toward you."),r:"3 × 30 sec"}],
+        {t:T("Genoux-poitrine","Knees to chest"),d:T("Allongé, ramène les deux genoux vers la poitrine. Tiens 30 sec.","Lying down, bring both knees to chest. Hold 30 sec."),r:"3 × 30 sec"}],
         massage:[
         {t:T("Balles paires lombaires","Twin balls lower back"),d:T("Deux balles de tennis côte à côte sous les lombaires allongé.","Two tennis balls side by side under lower back while lying."),r:"2 min"}],
         exercices:[
