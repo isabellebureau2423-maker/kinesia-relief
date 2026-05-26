@@ -2504,7 +2504,7 @@ export default function KinesiaRelief() {
               }}>
                 {lang==="fr"?"🔄 Analyser une autre zone de douleur":"🔄 Analyze another pain area"}
               </button>
-              <button onClick={() => setScreen("welcome")} style={{
+              <button onClick={async () => { await logout(); setCurrentUser(null); setScreen("auth"); }} style={{
                 width:"100%", padding:"12px 0", border:"1px solid rgba(255,255,255,0.15)",
                 borderRadius:12, color:"rgba(255,255,255,0.5)", fontSize:13, cursor:"pointer",
                 background:"transparent",
@@ -2566,7 +2566,7 @@ export default function KinesiaRelief() {
                 borderRadius:20, padding:"5px 10px", color:"rgba(255,255,255,0.7)", fontSize:11,
                 cursor:"pointer", fontWeight:600
               }}>{fr?"FR":"EN"}</button>
-              <button onClick={() => setScreen("welcome")} style={{
+              <button onClick={async () => { await logout(); setCurrentUser(null); setScreen("auth"); }} style={{
                 background:"rgba(255,255,255,0.1)", border:"1px solid rgba(255,255,255,0.2)",
                 borderRadius:20, padding:"7px 14px", color:"rgba(255,255,255,0.6)", fontSize:12, cursor:"pointer"
               }}>{fr?"⎋ Déconnexion":"⎋ Sign out"}</button>
