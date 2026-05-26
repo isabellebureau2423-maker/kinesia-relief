@@ -532,7 +532,7 @@ const POSE_MAP = {
   "rotation avant-bras d":IMG_ROTATION_AVBRAS, "rotation avant-bras g":IMG_ROTATION_AVBRAS,
   "opposition pouce d":IMG_OPPOSITION_POUCE, "opposition pouce g":IMG_OPPOSITION_POUCE,
   "extension doigts d":IMG_EXTENSION_DOIGTS, "extension doigts g":IMG_EXTENSION_DOIGTS,
-  "dips chaise d":IMG_DIPS_CHAISE, "dips chaise g":IMG_DIPS_CHAISE,
+  "dips chaise":IMG_DIPS_CHAISE,
   "mobilisation doigts d":IMG_MOBILISATION_DOIGTS, "mobilisation doigts g":IMG_MOBILISATION_DOIGTS,
   "friction articulations d":IMG_FRICTION_ARTIC_DOIGTS, "friction articulations g":IMG_FRICTION_ARTIC_DOIGTS,
   "traction doigts d":IMG_TRACTION_DOIGTS, "traction doigts g":IMG_TRACTION_DOIGTS,
@@ -671,7 +671,7 @@ const POSE_MAP = {
   "left wall biceps stretch":IMG_ETIREMENT_BICEPS_MUR, "right wall biceps stretch":IMG_ETIREMENT_BICEPS_MUR,
   "left biceps kneading":IMG_PETRISSAGE_BICEPS, "right biceps kneading":IMG_PETRISSAGE_BICEPS,
   "left biceps friction":IMG_FRICTION_BICEPS, "right biceps friction":IMG_FRICTION_BICEPS,
-  "chair dip l":IMG_DIPS_CHAISE, "chair dip r":IMG_DIPS_CHAISE,
+  "chair dip":IMG_DIPS_CHAISE,
   "left cross triceps stretch":IMG_ETIREMENT_TRICEPS_CROISE, "right cross triceps stretch":IMG_ETIREMENT_TRICEPS_CROISE,
   "right triceps extension":IMG_EXTENSION_TRICEPS_V2,
   "left triceps kneading":IMG_PETRISSAGE_TRICEPS, "right triceps kneading":IMG_PETRISSAGE_TRICEPS,
@@ -1935,7 +1935,7 @@ export default function KinesiaRelief() {
         {t:T("Pétrissage triceps G","Left triceps kneading"),d:T("Malaxe l'arrière du bras gauche entre le pouce et les doigts, du coude vers l'épaule.","Knead back of left arm between thumb and fingers, elbow to shoulder."),r:"2 min"},
         {t:T("Friction coude postérieur G","Left posterior elbow friction"),d:T("Pouce sur le triceps distal, petits cercles doux.","Thumb on distal triceps, small gentle circles."),r:"2 min"}],
         exercices:[
-        {t:T("Dips chaise G","Chair dip L"),d:T("Assis sur le bord d'une chaise, mains sur le rebord, descends et remonte avec les bras.","Seated on chair edge, hands on rim, lower and raise with arms."),r:"10 × 2"}]},
+        {t:T("Dips chaise","Chair dip"),d:T("Assis sur le bord d'une chaise, mains sur le rebord, descends et remonte avec les bras.","Seated on chair edge, hands on rim, lower and raise with arms."),r:"10 × 2"}]},
 
       triceps_d: { etirements:[
         {t:T("Étirement triceps croisé D","Right cross triceps stretch"),d:T("Bras droit passé derrière la tête, pousse le coude avec la main gauche. Tiens 25 sec.","Right arm behind head, push elbow with left hand. Hold 25 sec."),r:"3 × 25 sec"}],
@@ -1943,7 +1943,7 @@ export default function KinesiaRelief() {
         {t:T("Pétrissage triceps D","Right triceps kneading"),d:T("Malaxe l'arrière du bras droit entre le pouce et les doigts, du coude vers l'épaule.","Knead back of right arm between thumb and fingers, elbow to shoulder."),r:"2 min"},
         {t:T("Friction coude postérieur D","Right posterior elbow friction"),d:T("Pouce sur le triceps distal droit, petits cercles doux.","Thumb on right distal triceps, small gentle circles."),r:"2 min"}],
         exercices:[
-        {t:T("Dips chaise D","Chair dip R"),d:T("Assis sur le bord d'une chaise, mains sur le rebord, descends et remonte avec les bras.","Seated on chair edge, hands on rim, lower and raise with arms."),r:"10 × 2"}]},
+        {t:T("Dips chaise","Chair dip"),d:T("Assis sur le bord d'une chaise, mains sur le rebord, descends et remonte avec les bras.","Seated on chair edge, hands on rim, lower and raise with arms."),r:"10 × 2"}]},
 
       main_g: { etirements:[
         {t:T("Étirement dos main G","Left hand back stretch"),d:T("Referme le poing gauche, appuie dessus avec la main droite vers le bas. Tiens 15 sec.","Close left fist, press down with right hand. Hold 15 sec."),r:"3 × 15 sec"}],
