@@ -844,6 +844,23 @@ export default function KinesiaRelief() {
   const [savedPlans, setSavedPlans] = useState([]);
   const [lang, setLang] = useState("fr");
 
+  // Réinitialise tous les champs du questionnaire pour une nouvelle analyse
+  const resetAnalyse = () => {
+    setSelected([]);
+    setIntensite(5);
+    setTypeDouleur([]);
+    setMoment([]);
+    setReveil("");
+    setDuree("");
+    setApparition([]);
+    setTravail("");
+    setSports([]);
+    setAggrave("");
+    setSoulage("");
+    setDejaEssaye([]);
+    setAntecedents("");
+  };
+
   const [plan, setPlan] = useState("free"); // "free" | "monthly" | "annual"
   const [cardForm, setCardForm] = useState({name:"",number:"",expiry:"",cvv:"",email:""});
   const [payError, setPayError] = useState("");
@@ -894,10 +911,10 @@ export default function KinesiaRelief() {
   function TabBar() {
     const fr = lang === "fr";
     const handleTab = (t) => {
-      if (t.id === "douleurs") { setSelected([]); setScreen("douleurs"); }
+      if (t.id === "douleurs") { resetAnalyse(); setScreen("douleurs"); }
       else if (t.id === "programme") {
         if (savedPlans.length > 0) { setSelected(savedPlans[0].zones); setPrevScreen("dashboard"); setScreen("programme"); }
-        else { setSelected([]); setScreen("douleurs"); }
+        else { resetAnalyse(); setScreen("douleurs"); }
       } else if (t.id === "journal") {
         if (currentUser?.uid) getJournalEntries(currentUser.uid).then(setJournalEntries).catch(console.error);
         setScreen("journal");
@@ -2475,7 +2492,7 @@ export default function KinesiaRelief() {
               }}>
                 {lang==="fr"?"📊 Sauvegarder et voir mon tableau de bord":"📊 Save and view my dashboard"}
               </button>
-              <button onClick={() => setScreen("douleurs")} style={{
+              <button onClick={() => { resetAnalyse(); setScreen("douleurs"); }} style={{
                 width:"100%", padding:"13px 0", border:"1px solid rgba(13,207,198,0.4)",
                 borderRadius:12, color:"#0dcfc6", fontSize:14, fontWeight:600, cursor:"pointer",
                 background:"rgba(13,207,198,0.08)",
@@ -2560,7 +2577,7 @@ export default function KinesiaRelief() {
               </div>
             </div>
 
-            <button onClick={() => { setSelected([]); setScreen("douleurs"); }} style={{
+            <button onClick={() => { resetAnalyse(); setScreen("douleurs"); }} style={{
               width:"100%", padding:"16px 0", border:"none", borderRadius:14, marginBottom:16,
               color:"#1a1a1a", fontSize:16, fontWeight:800, cursor:"pointer",
               background:"linear-gradient(90deg,#0dcfc6,#12ddd4)",
