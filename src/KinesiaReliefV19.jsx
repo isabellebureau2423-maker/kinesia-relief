@@ -919,10 +919,8 @@ export default function KinesiaRelief() {
     const fr = lang === "fr";
     const handleTab = (t) => {
       if (t.id === "douleurs") { resetAnalyse(); setScreen("douleurs"); }
-      else if (t.id === "programme") {
-        if (savedPlans.length > 0) { setSelected(savedPlans[0].zones); setPrevScreen("dashboard"); setScreen("programme"); }
-        else { resetAnalyse(); setScreen("douleurs"); }
-      } else if (t.id === "journal") {
+      else if (t.id === "programme") { setScreen("mes_programmes"); }
+      else if (t.id === "journal") {
         if (currentUser?.uid) getJournalEntries(currentUser.uid).then(setJournalEntries).catch(console.error);
         setScreen("journal");
       } else if (t.id === "assistant") {
