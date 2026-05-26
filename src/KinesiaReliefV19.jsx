@@ -997,32 +997,12 @@ export default function KinesiaRelief() {
 // ── JOURNAL ─────────────────────────────────────────────────────────────────
   if (screen === "journal") {
     const fr = lang === "fr";
-    const journalTabs = [
-      { id:"olfacto",   icon:"🌸", label:"Olfacto",   labelEn:"Olfacto" },
-      { id:"aroma",     icon:"💆", label:"Aroma",      labelEn:"Aroma" },
-      { id:"plantes",   icon:"🌿", label:"Plantes",    labelEn:"Plants" },
-      { id:"vitamines", icon:"💊", label:"Vitamines",  labelEn:"Vitamins" },
+    const sections = [
+      { id:"olfacto",   icon:"🌸", label:fr?"Olfactothérapie":"Aromatherapy — Inhalation",   sub:fr?"10 huiles essentielles — diffusion & inhalation":"10 essential oils — diffusion & inhalation", data:OLFACTO_DATA },
+      { id:"aroma",     icon:"💆", label:fr?"Aromathérapie":"Aromatherapy — Massage",          sub:fr?"10 huiles essentielles — massage & application":"10 essential oils — massage & application",   data:AROMA_DATA },
+      { id:"plantes",   icon:"🌿", label:fr?"Plantes médicinales":"Medicinal Plants",           sub:fr?"10 plantes — utilisations & fonctions":"10 plants — uses & benefits",                         data:PLANTES_DATA },
+      { id:"vitamines", icon:"💊", label:fr?"Vitamines & Minéraux":"Vitamins & Minerals",       sub:fr?"10 suppléments — douleurs musculaires":"10 supplements — muscle pain",                        data:VITAMINES_DATA },
     ];
-    const currentData =
-      journalTab === "olfacto"   ? OLFACTO_DATA :
-      journalTab === "aroma"     ? AROMA_DATA :
-      journalTab === "plantes"   ? PLANTES_DATA : VITAMINES_DATA;
-    const sectionTitle = fr
-      ? (journalTab === "olfacto"   ? "🌸 Olfactothérapie" :
-         journalTab === "aroma"     ? "💆 Aromathérapie" :
-         journalTab === "plantes"   ? "🌿 Plantes médicinales" : "💊 Vitamines & Minéraux")
-      : (journalTab === "olfacto"   ? "🌸 Aromatherapy — Inhalation" :
-         journalTab === "aroma"     ? "💆 Aromatherapy — Massage" :
-         journalTab === "plantes"   ? "🌿 Medicinal Plants" : "💊 Vitamins & Minerals");
-    const sectionSub = fr
-      ? (journalTab === "olfacto"   ? "10 huiles essentielles — diffusion & inhalation" :
-         journalTab === "aroma"     ? "10 huiles essentielles — massage & application" :
-         journalTab === "plantes"   ? "10 plantes — utilisations & fonctions" :
-                                     "10 suppléments — douleurs musculaires")
-      : (journalTab === "olfacto"   ? "10 essential oils — diffusion & inhalation" :
-         journalTab === "aroma"     ? "10 essential oils — massage & application" :
-         journalTab === "plantes"   ? "10 plants — uses & benefits" :
-                                     "10 supplements — muscle pain");
     return (
       <div style={bgMain}>
         <Swirls/>
@@ -1030,86 +1010,88 @@ export default function KinesiaRelief() {
           margin:"0 auto", height:"100dvh", display:"flex", flexDirection:"column" }}>
 
           {/* Header */}
-          <div style={{ padding:"12px 20px 0", flexShrink:0 }}>
-            <div style={{ display:"flex", justifyContent:"flex-end", marginBottom:10 }}>
-              <button onClick={() => setLang(fr?"en":"fr")} style={{
-                background:"rgba(255,255,255,0.1)", border:"1px solid rgba(255,255,255,0.2)",
-                borderRadius:20, padding:"4px 10px", color:"rgba(255,255,255,0.7)",
-                fontSize:11, cursor:"pointer", fontWeight:600 }}>{fr?"FR":"EN"}</button>
-            </div>
-
-            {/* 4 sub-tabs */}
-            <div style={{ display:"flex", gap:6, marginBottom:10 }}>
-              {journalTabs.map(t => (
-                <button key={t.id} onClick={() => setJournalTab(t.id)} style={{
-                  flex:1, padding:"8px 0", border:"none", borderRadius:10, cursor:"pointer",
-                  background: journalTab===t.id ? "linear-gradient(135deg,#0dcfc6,#077a72)" : "rgba(255,255,255,0.08)",
-                  color: journalTab===t.id ? "#1a1a1a" : "rgba(255,255,255,0.55)",
-                  fontWeight: journalTab===t.id ? 700 : 400, fontSize:10,
-                  display:"flex", flexDirection:"column", alignItems:"center", gap:2,
-                }}>
-                  <span style={{ fontSize:16 }}>{t.icon}</span>
-                  <span>{fr ? t.label : t.labelEn}</span>
-                </button>
-              ))}
-            </div>
-
-            <div style={{ marginBottom:8 }}>
-              <div style={{ color:"white", fontSize:16, fontWeight:700,
-                fontFamily:"'Cinzel',serif" }}>{sectionTitle}</div>
-              <div style={{ color:"rgba(255,255,255,0.45)", fontSize:11, marginTop:2 }}>{sectionSub}</div>
-            </div>
+          <div style={{ padding:"12px 20px 8px", flexShrink:0, display:"flex", justifyContent:"flex-end" }}>
+            <button onClick={() => setLang(fr?"en":"fr")} style={{
+              background:"rgba(255,255,255,0.1)", border:"1px solid rgba(255,255,255,0.2)",
+              borderRadius:20, padding:"4px 10px", color:"rgba(255,255,255,0.7)",
+              fontSize:11, cursor:"pointer", fontWeight:600 }}>{fr?"FR":"EN"}</button>
           </div>
 
-          {/* Cards scrollables */}
-          <div style={{ flex:1, overflowY:"auto", padding:"0 16px 16px" }}>
-            {currentData.map((item, idx) => (
-              <div key={idx} style={{
-                background: idx % 2 === 0 ? "rgba(13,207,198,0.06)" : "rgba(255,255,255,0.05)",
-                border:"1px solid rgba(255,255,255,0.09)", borderRadius:14,
-                padding:"14px", marginBottom:10,
-              }}>
-                <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:8 }}>
-                  <div style={{ fontSize:28, flexShrink:0 }}>{item.emoji}</div>
-                  <div>
-                    <div style={{ color:"white", fontWeight:700, fontSize:14 }}>{fr ? item.nom : (item.nomEn || item.nom)}</div>
-                    <div style={{ color:"rgba(255,255,255,0.35)", fontSize:11, fontStyle:"italic" }}>
-                      {item.latin || (fr ? item.type : (item.typeEn || item.type))}
+          {/* Accordion */}
+          <div style={{ flex:1, overflowY:"auto", padding:"0 16px 100px" }}>
+            {sections.map(sec => {
+              const isOpen = journalTab === sec.id;
+              return (
+                <div key={sec.id} style={{ marginBottom:8 }}>
+                  {/* Section header */}
+                  <div onClick={() => setJournalTab(isOpen ? "" : sec.id)} style={{
+                    background: isOpen ? "linear-gradient(135deg,rgba(13,207,198,0.18),rgba(13,207,198,0.06))" : "rgba(255,255,255,0.07)",
+                    border: isOpen ? "1px solid rgba(13,207,198,0.35)" : "1px solid rgba(255,255,255,0.1)",
+                    borderRadius: isOpen ? "14px 14px 0 0" : 14,
+                    padding:"14px 16px", cursor:"pointer",
+                    display:"flex", alignItems:"center", justifyContent:"space-between",
+                  }}>
+                    <div style={{ display:"flex", alignItems:"center", gap:12 }}>
+                      <span style={{ fontSize:22 }}>{sec.icon}</span>
+                      <div>
+                        <div style={{ color:"white", fontWeight:700, fontSize:14 }}>{sec.label}</div>
+                        <div style={{ color:"rgba(255,255,255,0.4)", fontSize:11, marginTop:2 }}>{sec.sub}</div>
+                      </div>
                     </div>
+                    <span style={{ color:"rgba(255,255,255,0.5)", fontSize:14, transition:"transform 0.2s",
+                      display:"inline-block", transform: isOpen ? "rotate(180deg)" : "rotate(0deg)" }}>▼</span>
                   </div>
-                  <div style={{ marginLeft:"auto", background:"rgba(201,168,76,0.15)",
-                    border:"1px solid rgba(201,168,76,0.3)", borderRadius:20,
-                    padding:"2px 8px", color:"#c9a84c", fontSize:10, fontWeight:700,
-                    flexShrink:0 }}>#{idx+1}</div>
-                </div>
 
-                <div style={{ background:"rgba(13,207,198,0.08)", borderRadius:8,
-                  padding:"8px 10px", marginBottom:8 }}>
-                  <div style={{ color:"#0dcfc6", fontSize:10, fontWeight:700,
-                    letterSpacing:1, marginBottom:3 }}>
-                    {journalTab === "vitamines" ? (fr ? "📏 DOSE RECOMMANDÉE" : "📏 RECOMMENDED DOSE") : (fr ? "📋 COMMENT UTILISER" : "📋 HOW TO USE")}
-                  </div>
-                  <div style={{ color:"rgba(255,255,255,0.75)", fontSize:12, lineHeight:1.5 }}>
-                    {fr ? (item.usage || item.dose) : (item.usageEn || item.doseEn || item.usage || item.dose)}
-                  </div>
+                  {/* Section content */}
+                  {isOpen && (
+                    <div style={{ border:"1px solid rgba(13,207,198,0.2)", borderTop:"none",
+                      borderRadius:"0 0 14px 14px", overflow:"hidden" }}>
+                      {sec.data.map((item, idx) => (
+                        <div key={idx} style={{
+                          background: idx % 2 === 0 ? "rgba(13,207,198,0.05)" : "rgba(255,255,255,0.04)",
+                          borderTop: idx === 0 ? "none" : "1px solid rgba(255,255,255,0.07)",
+                          padding:"14px",
+                        }}>
+                          <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:8 }}>
+                            <div style={{ fontSize:26, flexShrink:0 }}>{item.emoji}</div>
+                            <div>
+                              <div style={{ color:"white", fontWeight:700, fontSize:13 }}>{fr ? item.nom : (item.nomEn || item.nom)}</div>
+                              <div style={{ color:"rgba(255,255,255,0.35)", fontSize:11, fontStyle:"italic" }}>
+                                {item.latin || (fr ? item.type : (item.typeEn || item.type))}
+                              </div>
+                            </div>
+                            <div style={{ marginLeft:"auto", background:"rgba(201,168,76,0.15)",
+                              border:"1px solid rgba(201,168,76,0.3)", borderRadius:20,
+                              padding:"2px 8px", color:"#c9a84c", fontSize:10, fontWeight:700, flexShrink:0 }}>#{idx+1}</div>
+                          </div>
+                          <div style={{ background:"rgba(13,207,198,0.08)", borderRadius:8, padding:"8px 10px", marginBottom:8 }}>
+                            <div style={{ color:"#0dcfc6", fontSize:10, fontWeight:700, letterSpacing:1, marginBottom:3 }}>
+                              {sec.id === "vitamines" ? (fr?"📏 DOSE RECOMMANDÉE":"📏 RECOMMENDED DOSE") : (fr?"📋 COMMENT UTILISER":"📋 HOW TO USE")}
+                            </div>
+                            <div style={{ color:"rgba(255,255,255,0.75)", fontSize:12, lineHeight:1.5 }}>
+                              {fr ? (item.usage || item.dose) : (item.usageEn || item.doseEn || item.usage || item.dose)}
+                            </div>
+                          </div>
+                          <div style={{ color:"rgba(255,255,255,0.6)", fontSize:12, lineHeight:1.6 }}>
+                            <span style={{ color:"#c9a84c", fontWeight:700 }}>✦ </span>
+                            {fr ? item.bienfaits : (item.bienfaitsEn || item.bienfaits)}
+                          </div>
+                        </div>
+                      ))}
+                      <div style={{ background:"rgba(167,139,250,0.08)", borderTop:"1px solid rgba(255,255,255,0.07)",
+                        padding:"12px 14px" }}>
+                        <div style={{ color:"#a78bfa", fontSize:10, fontWeight:700, letterSpacing:1, marginBottom:4 }}>
+                          {fr?"⚠️ AVERTISSEMENT":"⚠️ WARNING"}
+                        </div>
+                        <div style={{ color:"rgba(255,255,255,0.45)", fontSize:11, lineHeight:1.6 }}>
+                          {fr?"Ces informations sont à titre éducatif uniquement. Consultez toujours un professionnel de santé avant de commencer une supplémentation ou un traitement naturel.":"This information is for educational purposes only. Always consult a healthcare professional before starting any supplement or natural treatment."}
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
-
-                <div style={{ color:"rgba(255,255,255,0.6)", fontSize:12, lineHeight:1.6 }}>
-                  <span style={{ color:"#c9a84c", fontWeight:700 }}>✦ </span>
-                  {fr ? item.bienfaits : (item.bienfaitsEn || item.bienfaits)}
-                </div>
-              </div>
-            ))}
-
-            <div style={{ background:"rgba(167,139,250,0.08)", border:"1px solid rgba(167,139,250,0.2)",
-              borderRadius:12, padding:"12px 14px", marginTop:4 }}>
-              <div style={{ color:"#a78bfa", fontSize:10, fontWeight:700, letterSpacing:1, marginBottom:4 }}>
-                {fr ? "⚠️ AVERTISSEMENT" : "⚠️ WARNING"}
-              </div>
-              <div style={{ color:"rgba(255,255,255,0.45)", fontSize:11, lineHeight:1.6 }}>
-                {fr ? "Ces informations sont à titre éducatif uniquement. Consultez toujours un professionnel de santé avant de commencer une supplémentation ou un traitement naturel, surtout si vous prenez des médicaments." : "This information is for educational purposes only. Always consult a healthcare professional before starting any supplement or natural treatment, especially if you are taking medication."}
-              </div>
-            </div>
+              );
+            })}
           </div>
 
           <TabBar/>
