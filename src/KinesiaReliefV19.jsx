@@ -2600,7 +2600,7 @@ export default function KinesiaRelief() {
       d.setDate(monday.getDate() + i);
       const isToday = d.toDateString() === today.toDateString();
       const isPast = d < today && !isToday;
-      return { label: dayLabels[i], isToday, done: checkedDays.includes(d.toDateString()) };
+      return { label: dayLabels[i], isToday, done: checkedDays.includes(d.toDateString()), dateStr: d.toDateString() };
     });
 
     const goToPlan = () => { if (savedPlans.length > 0) { setSelected(savedPlans[0].zones); setPrevScreen("dashboard"); setScreen("programme"); } else { setSelected([]); setScreen("douleurs"); } };
@@ -2671,7 +2671,7 @@ export default function KinesiaRelief() {
                 {days.map((d,i) => (
                   <div key={i} style={{ flex:1, textAlign:"center" }}>
                     <div style={{ fontSize:10, color:"rgba(255,255,255,0.4)", marginBottom:4 }}>{d.label}</div>
-                    <div onClick={() => { const ds = d.toDateString(); const upd = checkedDays.includes(ds) ? checkedDays.filter(x => x !== ds) : [...checkedDays, ds]; setCheckedDays(upd); localStorage.setItem("kinesiaCheckedDays", JSON.stringify(upd)); }} style={{
+                    <div onClick={() => { const ds = d.dateStr; const upd = checkedDays.includes(ds) ? checkedDays.filter(x => x !== ds) : [...checkedDays, ds]; setCheckedDays(upd); localStorage.setItem("kinesiaCheckedDays", JSON.stringify(upd)); }} style={{
                       width:"100%", aspectRatio:"1", borderRadius:"50%", cursor:"pointer",
                       background: d.isToday ? "rgba(13,207,198,0.2)" : d.done ? "#0dcfc6" : "rgba(255,255,255,0.08)",
                       border: d.isToday ? "2px solid rgba(13,207,198,0.6)" : "none",
