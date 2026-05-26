@@ -2153,7 +2153,7 @@ export default function KinesiaRelief() {
         {t:T("Étirement mollet G au mur","Left calf wall stretch"),d:T("Pied gauche en arrière, talon au sol, pousse le mur. Tiens 30 sec.","Left foot back, heel on floor, push wall. Hold 30 sec."),r:"3 × 30 sec"},
         {t:T("Étirement tendon Achille G","Left Achilles stretch"),d:T("Même position mais genou gauche légèrement fléchi. Tiens 30 sec.","Same position but left knee slightly bent. Hold 30 sec."),r:"3 × 30 sec"}],
         massage:[
-        {t:T("Massage cheville G circulaire","Left ankle circular massage"),d:T("Pouces autour de la malléole gauche, cercles doux.","Thumbs around left ankle bone, gentle circles."),r:"2 min"},
+        {t:T("Massage cheville G circulaire","Left ankle circular massage"),d:T("Doigts autour de la malléole puis faire des petits cercles doux.","Fingers around the ankle bone, make small gentle circles."),r:"2 min"},
         {t:T("Friction tendon Achille G","Left Achilles friction"),d:T("Pouce et index remontent le long du tendon depuis le talon.","Thumb and index finger run up along tendon from heel."),r:"1 min 30"}],
         exercices:[
         {t:T("Relevé de talon G","Left heel raise"),d:T("Debout, monte sur la pointe du pied gauche, descends lentement.","Standing, rise on left tiptoe, lower slowly."),r:"15 × 3"},
@@ -2163,7 +2163,7 @@ export default function KinesiaRelief() {
         {t:T("Étirement mollet D au mur","Right calf wall stretch"),d:T("Pied droit en arrière, talon au sol, pousse le mur. Tiens 30 sec.","Right foot back, heel on floor, push wall. Hold 30 sec."),r:"3 × 30 sec"},
         {t:T("Étirement tendon Achille D","Right Achilles stretch"),d:T("Même position mais genou droit légèrement fléchi. Tiens 30 sec.","Same position but right knee slightly bent. Hold 30 sec."),r:"3 × 30 sec"}],
         massage:[
-        {t:T("Massage cheville D circulaire","Right ankle circular massage"),d:T("Pouces autour de la malléole droite, cercles doux.","Thumbs around right ankle bone, gentle circles."),r:"2 min"},
+        {t:T("Massage cheville D circulaire","Right ankle circular massage"),d:T("Doigts autour de la malléole puis faire des petits cercles doux.","Fingers around the ankle bone, make small gentle circles."),r:"2 min"},
         {t:T("Friction tendon Achille D","Right Achilles friction"),d:T("Pouce et index remontent le long du tendon depuis le talon.","Thumb and index finger run up along tendon from heel."),r:"1 min 30"}],
         exercices:[
         {t:T("Relevé de talon D","Right heel raise"),d:T("Debout, monte sur la pointe du pied droit, descends lentement.","Standing, rise on right tiptoe, lower slowly."),r:"15 × 3"},
