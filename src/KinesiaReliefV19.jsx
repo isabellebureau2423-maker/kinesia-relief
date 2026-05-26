@@ -2,7 +2,7 @@
 import StripeSubscribeScreen from "./StripeSubscribeScreen.jsx";
 import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
-import { login, signup, getPlans, deletePlan, saveJournalEntry, getJournalEntries, deleteJournalEntry } from "./firebaseService.js";
+import { login, signup, logout, getUserProfile, getPlans, deletePlan, saveJournalEntry, getJournalEntries, deleteJournalEntry } from "./firebaseService.js";
 
 // ── DONNÉES RÉFÉRENCE JOURNAL (niveau module — toujours disponibles) ──────────
 const OLFACTO_DATA = [
@@ -878,6 +878,14 @@ export default function KinesiaRelief() {
       setCurrentUser(u);
       if (u) {
         try {
+          // Vérifier que le profil Firestore existe (sinon compte supprimé)
+          const profile = await getUserProfile(u.uid);
+          if (!profile) {
+            await logout();
+            setCurrentUser(null);
+            setScreen("auth");
+            return;
+          }
           const plans = await getPlans(u.uid);
           if (plans.length > 0) { setSavedPlans(plans); }
           setScreen("dashboard");
@@ -1486,6 +1494,17 @@ export default function KinesiaRelief() {
                 setAuthLoading(true); setLoginError("");
                 try {
                   const u = await login(loginForm.courriel, loginForm.motDePasse);
+                  // Vérifier que le profil Firestore existe
+                  const profile = await getUserProfile(u.uid);
+                  if (!profile) {
+                    await logout();
+                    setLoginError(lang==="fr"
+                      ? "Aucun compte trouvé. Veuillez créer un compte."
+                      : "No account found. Please create an account.");
+                    setTab("signup");
+                    setAuthLoading(false);
+                    return;
+                  }
                   const plans = await getPlans(u.uid);
                   if (plans.length > 0) { setSavedPlans(plans); }
                   setScreen("dashboard");
