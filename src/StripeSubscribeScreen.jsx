@@ -95,22 +95,18 @@ function SubscribeForm({ lang, plan: planProp, setPlan, setScreenAndSave, curren
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Erreur serveur");
 
-      // 2 — Confirm card with Stripe (setup_intent for trials, payment_intent otherwise)
+      // 2 — Confirm card payment with Stripe
       const cardNumber = elements.getElement(CardNumberElement);
-      const confirmMethod = data.intentType === "setup"
-        ? stripe.confirmCardSetup(data.clientSecret, {
-            payment_method: { card: cardNumber, billing_details: { name, email } },
-          })
-        : stripe.confirmCardPayment(data.clientSecret, {
-            payment_method: { card: cardNumber, billing_details: { name, email } },
-          });
-      const { error: stripeErr } = await confirmMethod;
+      const { error: stripeErr } = await stripe.confirmCardPayment(data.clientSecret, {
+        payment_method: { card: cardNumber, billing_details: { name, email } },
+      });
       if (stripeErr) throw new Error(stripeErr.message);
 
       // 3 — Save subscription to Firestore
       if (currentUser?.uid) {
         await setDoc(doc(db, "users", currentUser.uid), {
           plan,
+          subscriptionStatus:   "active",
           stripeCustomerId:     data.customerId,
           stripeSubscriptionId: data.subscriptionId,
           subscriptionUpdatedAt: serverTimestamp(),
@@ -182,7 +178,7 @@ function SubscribeForm({ lang, plan: planProp, setPlan, setScreenAndSave, curren
             <div style={{ background:"rgba(13,207,198,0.12)", border:"1px solid rgba(13,207,198,0.3)",
               borderRadius:10, padding:"8px 14px" }}>
               <span style={{ color:"#0dcfc6", fontSize:12, fontWeight:600 }}>
-                🎁 {fr ? "Essai gratuit 7 jours — aucune facturation avant la fin" : "7-day free trial — no charge until trial ends"}
+                {fr ? "🔒 Paiement sécurisé — accès immédiat après confirmation" : "🔒 Secure payment — immediate access after confirmation"}
               </span>
             </div>
           </div>
@@ -190,8 +186,15 @@ function SubscribeForm({ lang, plan: planProp, setPlan, setScreenAndSave, curren
           {/* Plan selection */}
           <div style={{ display:"flex", flexDirection:"column", gap:10, marginBottom:22 }}>
             {[
-              { id:"monthly", name:fr?"Mensuel":"Monthly",   price:fr?"14,99$ / mois":"$14.99 / month", desc:fr?"Accès complet. Annulable en tout temps.":"Full access. Cancel anytime." },
-              { id:"annual",  name:fr?"Annuel":"Annual",     price:fr?"150$ / an":"$150 / year",         desc:fr?"Économise 2 mois. Accès complet 12 mois.":"Save 2 months. Full 12-month access.", badge:fr?"Meilleure valeur":"Best value" },
+              { id:"monthly", name:fr?"Mensuel":"Monthly",
+                base:fr?"14,99$":"$14.99", total:fr?"17,23$ / mois":"$17.23 / month",
+                tps:fr?"0,75$":"$0.75", tvq:fr?"1,49$":"$1.49",
+                desc:fr?"Accès complet. Annulable en tout temps.":"Full access. Cancel anytime." },
+              { id:"annual",  name:fr?"Annuel":"Annual",
+                base:fr?"150,00$":"$150.00", total:fr?"172,46$ / an":"$172.46 / year",
+                tps:fr?"7,50$":"$7.50", tvq:fr?"14,96$":"$14.96",
+                desc:fr?"Économise 2 mois. Accès complet 12 mois.":"Save 2 months. Full 12-month access.",
+                badge:fr?"Meilleure valeur":"Best value" },
             ].map(p => (
               <div key={p.id} onClick={() => handlePlanChange(p.id)} style={{
                 border: plan===p.id ? "2px solid #c9a84c" : "1px solid rgba(255,255,255,0.15)",
@@ -204,13 +207,30 @@ function SubscribeForm({ lang, plan: planProp, setPlan, setScreenAndSave, curren
                     {p.badge}
                   </div>
                 )}
-                <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center" }}>
+                <div style={{ display:"flex", justifyContent:"space-between", alignItems:"flex-start" }}>
                   <div>
                     <div style={{ color:"white", fontWeight:700, fontSize:15 }}>{p.name}</div>
                     <div style={{ color:"rgba(255,255,255,0.5)", fontSize:12, marginTop:2 }}>{p.desc}</div>
+                    {plan===p.id && (
+                      <div style={{ marginTop:8, display:"flex", flexDirection:"column", gap:2 }}>
+                        <div style={{ display:"flex", justifyContent:"space-between", color:"rgba(255,255,255,0.45)", fontSize:11 }}>
+                          <span>{fr?"Sous-total":"Subtotal"}</span><span>{p.base}</span>
+                        </div>
+                        <div style={{ display:"flex", justifyContent:"space-between", color:"rgba(255,255,255,0.45)", fontSize:11 }}>
+                          <span>TPS (5%)</span><span>{p.tps}</span>
+                        </div>
+                        <div style={{ display:"flex", justifyContent:"space-between", color:"rgba(255,255,255,0.45)", fontSize:11 }}>
+                          <span>TVQ (9,975%)</span><span>{p.tvq}</span>
+                        </div>
+                        <div style={{ height:1, background:"rgba(255,255,255,0.12)", margin:"4px 0" }}/>
+                        <div style={{ display:"flex", justifyContent:"space-between", color:"#c9a84c", fontSize:12, fontWeight:700 }}>
+                          <span>{fr?"Total":"Total"}</span><span>{p.total}</span>
+                        </div>
+                      </div>
+                    )}
                   </div>
-                  <div style={{ textAlign:"right" }}>
-                    <div style={{ color: plan===p.id?"#c9a84c":"white", fontWeight:800, fontSize:15 }}>{p.price}</div>
+                  <div style={{ textAlign:"right", flexShrink:0, marginLeft:12 }}>
+                    <div style={{ color: plan===p.id?"#c9a84c":"white", fontWeight:800, fontSize:15 }}>{p.total}</div>
                     <div style={{ width:18, height:18, borderRadius:"50%", marginTop:4, marginLeft:"auto",
                       border:"2px solid "+(plan===p.id?"#c9a84c":"rgba(255,255,255,0.3)"),
                       background:plan===p.id?"#c9a84c":"transparent",
@@ -320,21 +340,14 @@ function SubscribeForm({ lang, plan: planProp, setPlan, setScreenAndSave, curren
               </>
             ) : (
               fr
-                ? (plan==="annual" ? "Commencer l'essai gratuit — 150$/an" : "Commencer l'essai gratuit — 14,99$/mois")
-                : (plan==="annual" ? "Start free trial — $150/yr"           : "Start free trial — $14.99/mo")
+                ? (plan==="annual" ? "S’abonner — 172,46$/an" : "S’abonner — 17,23$/mois")
+                : (plan==="annual" ? "Subscribe — $172.46/yr"  : "Subscribe — $17.23/mo")
             )}
           </button>
 
           <div style={{ color:"rgba(255,255,255,0.3)", fontSize:11, textAlign:"center", marginBottom:10, lineHeight:1.6 }}>
-            {fr?"Aucune facturation pendant 7 jours. Annulable à tout moment.":"No charge for 7 days. Cancel anytime."}
+            {fr?"Annulable à tout moment.":"Cancel anytime."}
           </div>
-
-          <button onClick={() => setScreenAndSave("dashboard")} style={{
-            width:"100%", padding:"12px 0", border:"none", background:"transparent",
-            color:"rgba(255,255,255,0.35)", fontSize:12, cursor:"pointer",
-          }}>
-            {fr?"Continuer gratuitement (version prototype)":"Continue for free (prototype)"}
-          </button>
         </div>
       </div>
       <style>{`@keyframes spin{to{transform:rotate(360deg)}}`}</style>

@@ -865,6 +865,8 @@ export default function KinesiaRelief() {
   const [cardForm, setCardForm] = useState({name:"",number:"",expiry:"",cvv:"",email:""});
   const [payError, setPayError] = useState("");
   const [authLoading, setAuthLoading] = useState(false);
+  const [cguAccepted, setCguAccepted] = useState(false);
+  const [showCgu,     setShowCgu]     = useState(false);
   const [journalEntries, setJournalEntries] = useState([]);
   const [journalText,    setJournalText]    = useState("");
   const [chatMessages,   setChatMessages]   = useState([]);
@@ -1375,25 +1377,17 @@ export default function KinesiaRelief() {
         </p>
         <div style={{ border:"1.5px solid #c9a84c", borderRadius:30, padding:"8px 22px", color:"#c9a84c",
           fontSize:13, marginBottom:28, display:"inline-flex", gap:7, alignItems:"center", background:"rgba(201,168,76,0.07)" }}>
-          {lang==="fr"?"✦ Essai gratuit 7 jours — aucune carte requise":"✦ Free 7-day trial — no card required"}
+          {lang==="fr"?"✦ Accès complet — annulable en tout temps":"✦ Full access — cancel anytime"}
         </div>
         <div style={{ width:"100%", maxWidth:370, display:"flex", flexDirection:"column", gap:13 }}>
           <button onClick={() => { setTab("signup"); setScreen("auth"); }} style={{
-            width:"100%", padding:"17px 0", border:"1.5px solid rgba(255,255,255,0.3)",
-            borderRadius:13, color:"white", fontSize:16, fontWeight:700, cursor:"pointer", background:"rgba(0,0,0,0.28)" }}>
-            {lang==="fr"?"Créer un compte":"Create an account"}</button>
+            width:"100%", padding:"17px 0", border:"1.5px solid #c9a84c",
+            borderRadius:13, color:"#c9a84c", fontSize:16, fontWeight:700, cursor:"pointer", background:"rgba(201,168,76,0.09)" }}>
+            {lang==="fr"?"✦ S'abonner":"✦ Subscribe"}</button>
           <button onClick={() => { setTab("login"); setScreen("auth"); }} style={{
             width:"100%", padding:"16px 0", border:"1.5px solid rgba(255,255,255,0.25)",
             borderRadius:13, color:"white", fontSize:15, fontWeight:600, cursor:"pointer", background:"rgba(0,0,0,0.28)" }}>
             {lang==="fr"?"J'ai déjà un compte":"I already have an account"}</button>
-          <button onClick={() => setScreen("subscribe")} style={{
-            width:"100%", padding:"16px 0",
-            border:"1.5px solid #c9a84c",
-            borderRadius:13, color:"#c9a84c", fontSize:15, fontWeight:700,
-            cursor:"pointer", background:"rgba(201,168,76,0.09)"
-          }}>
-            {lang==="fr"?"✦ S\'abonner":"✦ Subscribe"}
-          </button>
         </div>
         <div style={{ display:"flex", alignItems:"center", gap:12, marginTop:30 }}>
           <div style={{ color:"rgba(255,255,255,0.28)", fontSize:11 }}>{lang==="fr"?"Prototype · Kinesia Relief 2025":"Prototype · Kinesia Relief 2025"}</div>
@@ -1443,7 +1437,26 @@ export default function KinesiaRelief() {
                   <option value="femme" style={{color:"#333"}}>Femme</option>
                   <option value="autre" style={{color:"#333"}}>Autre</option>
                 </select></div>
-              <button style={{...btnG, opacity: authLoading ? 0.6 : 1}} disabled={authLoading} onClick={async () => {
+              {/* CGU checkbox */}
+              <div style={{ display:"flex", alignItems:"flex-start", gap:10, padding:"4px 0" }}>
+                <div onClick={() => setCguAccepted(v => !v)} style={{
+                  width:20, height:20, borderRadius:5, flexShrink:0, marginTop:1, cursor:"pointer",
+                  border: cguAccepted ? "2px solid #c9a84c" : "2px solid rgba(255,255,255,0.35)",
+                  background: cguAccepted ? "#c9a84c" : "transparent",
+                  display:"flex", alignItems:"center", justifyContent:"center",
+                }}>
+                  {cguAccepted && <span style={{ color:"#1a1a1a", fontSize:12, fontWeight:900 }}>✓</span>}
+                </div>
+                <span style={{ color:"rgba(255,255,255,0.65)", fontSize:12, lineHeight:1.5 }}>
+                  {lang==="fr" ? "J'ai lu et j'accepte les " : "I have read and accept the "}
+                  <span onClick={() => setShowCgu(true)} style={{
+                    color:"#c9a84c", textDecoration:"underline", cursor:"pointer"
+                  }}>
+                    {lang==="fr" ? "Conditions Générales d'Utilisation" : "Terms and Conditions"}
+                  </span>
+                </span>
+              </div>
+              <button style={{...btnG, opacity:(authLoading||!cguAccepted)?0.5:1}} disabled={authLoading||!cguAccepted} onClick={async () => {
                 if (!form.prenom||!form.courriel||!form.motDePasse){setLoginError("Veuillez remplir tous les champs.");return;}
                 setAuthLoading(true); setLoginError("");
                 try { await signup(form); }
@@ -1495,6 +1508,79 @@ export default function KinesiaRelief() {
           )}
         </div>
       </div>
+
+      {/* ── Modale CGU ──────────────────────────────────────────────────────── */}
+      {showCgu && (
+        <div style={{
+          position:"fixed", inset:0, zIndex:9999,
+          background:"rgba(0,0,0,0.75)", display:"flex", alignItems:"flex-end",
+        }} onClick={() => setShowCgu(false)}>
+          <div onClick={e => e.stopPropagation()} style={{
+            width:"100%", maxHeight:"88dvh", background:"#0e2a22",
+            borderRadius:"20px 20px 0 0", display:"flex", flexDirection:"column",
+            border:"1px solid rgba(255,255,255,0.12)",
+          }}>
+            {/* Header */}
+            <div style={{ padding:"16px 20px 12px", borderBottom:"1px solid rgba(255,255,255,0.1)",
+              display:"flex", justifyContent:"space-between", alignItems:"center", flexShrink:0 }}>
+              <div>
+                <div style={{ color:"white", fontWeight:700, fontSize:16, fontFamily:"'Cinzel',serif" }}>
+                  {lang==="fr" ? "Conditions Générales d'Utilisation" : "Terms and Conditions"}
+                </div>
+                <div style={{ color:"rgba(255,255,255,0.45)", fontSize:11, marginTop:2 }}>Version 1.0 — 27 mai 2026</div>
+              </div>
+              <button onClick={() => setShowCgu(false)} style={{
+                background:"rgba(255,255,255,0.1)", border:"none", borderRadius:"50%",
+                width:32, height:32, color:"white", fontSize:18, cursor:"pointer",
+                display:"flex", alignItems:"center", justifyContent:"center",
+              }}>✕</button>
+            </div>
+            {/* Contenu scrollable */}
+            <div style={{ overflowY:"auto", padding:"20px", flex:1, fontSize:13, color:"rgba(255,255,255,0.8)", lineHeight:1.7 }}>
+              <div style={{ background:"rgba(255,80,80,0.1)", border:"1px solid rgba(255,80,80,0.3)",
+                borderRadius:10, padding:"12px 16px", marginBottom:20 }}>
+                <strong style={{ color:"#ff8080" }}>⚕️ AVIS MÉDICAL IMPORTANT</strong>
+                <p style={{ margin:"6px 0 0", color:"rgba(255,255,255,0.7)", fontSize:12 }}>
+                  L'application KinesiaRelief est un outil d'information et d'accompagnement au mieux-être.
+                  Elle ne remplace en aucun cas une consultation médicale, un diagnostic professionnel ou un traitement prescrit par un professionnel de la santé.
+                </p>
+              </div>
+
+              {[
+                { title:"Article 1 — Identification de l'éditrice", body:`L'application KinesiaRelief est éditée et exploitée par : Isabelle Bureau, Massothérapeute et Kinésithérapeute sportif, Kinésia Relief, Saint-Rémi, Québec, Canada. Prise de rendez-vous par texto uniquement.` },
+                { title:"Article 2 — Objet et description", body:`KinesiaRelief est une application web de soins personnels conçue pour guider les utilisateurs à travers des protocoles d'étirement, d'exercices et d'automassage organisés par zone corporelle. Elle propose des questionnaires d'évaluation, des séquences illustrées d'exercices et un tableau de bord de suivi personnel.` },
+                { title:"Article 3 — Avertissement médical", body:`Les contenus de l'Application ont un caractère strictement informatif et éducatif. Ils ne constituent pas un diagnostic médical. L'utilisation est déconseillée sans avis médical en cas de douleur aiguë, blessure récente, post-opératoire, pathologies cardiovasculaires, grossesse ou toute condition médicale diagnostiquée.` },
+                { title:"Article 4 — Conditions d'accès", body:`L'Application est destinée aux personnes majeures (18 ans et plus) ou aux mineurs sous supervision parentale. L'utilisateur s'engage à utiliser l'Application à des fins personnelles et non commerciales uniquement, et à ne pas tenter de contourner les mécanismes de sécurité.` },
+                { title:"Article 5 — Propriété intellectuelle", body:`L'ensemble des éléments de l'Application — code source, illustrations, protocoles d'exercices, textes, logos, charte graphique — sont la propriété exclusive de Kinésia Relief et protégés par les lois canadiennes et québécoises sur le droit d'auteur. Toute reproduction non autorisée est strictement interdite.` },
+                { title:"Article 6 — Protection des données personnelles", body:`Kinésia Relief respecte la Loi 25 (Québec). Les données collectées (prénom, courriel, zones corporelles, progression) sont utilisées exclusivement pour personnaliser les recommandations et améliorer l'Application. Aucune donnée n'est vendue ou partagée avec des tiers. L'utilisateur dispose d'un droit d'accès, rectification, portabilité et suppression de ses données.` },
+                { title:"Article 7 — Limitation de responsabilité", body:`Kinésia Relief ne saurait être tenue responsable des blessures résultant d'une utilisation inappropriée, de l'interruption du service, ou de tout dommage indirect. L'Application est fournie en phase de développement actif ; des modifications peuvent survenir sans préavis.` },
+                { title:"Article 8 — Modifications des conditions", body:`Kinésia Relief se réserve le droit de modifier les présentes CGU. En cas de modification substantielle, les utilisateurs seront informés par notification dans l'Application ou par courriel.` },
+                { title:"Article 9 — Droit applicable", body:`Les présentes CGU sont régies par les lois de la province de Québec et les lois fédérales du Canada. Tout différend sera soumis à la compétence exclusive des tribunaux du Québec.` },
+                { title:"Article 10 — Contact", body:`Pour toute question relative aux présentes CGU ou à vos données personnelles : Kinésia Relief — Isabelle Bureau, Saint-Rémi, Québec. Prise de contact par texto au numéro d'affaires Kinésia Relief.` },
+              ].map((a, i) => (
+                <div key={i} style={{ marginBottom:18 }}>
+                  <div style={{ color:"#c9a84c", fontWeight:700, fontSize:13, marginBottom:6 }}>{a.title}</div>
+                  <div style={{ color:"rgba(255,255,255,0.7)", fontSize:12, lineHeight:1.7 }}>{a.body}</div>
+                </div>
+              ))}
+
+              <div style={{ color:"rgba(255,255,255,0.35)", fontSize:11, textAlign:"center", marginTop:10, paddingBottom:4 }}>
+                © 2025 Kinésia Relief — Tous droits réservés
+              </div>
+            </div>
+            {/* Bouton accepter */}
+            <div style={{ padding:"14px 20px", borderTop:"1px solid rgba(255,255,255,0.1)", flexShrink:0 }}>
+              <button onClick={() => { setCguAccepted(true); setShowCgu(false); }} style={{
+                width:"100%", padding:"13px 0", border:"none", borderRadius:12,
+                background:"linear-gradient(90deg,#c9a84c,#e8c96a)",
+                color:"#1a1a1a", fontSize:15, fontWeight:700, cursor:"pointer",
+              }}>
+                {lang==="fr" ? "J'accepte les conditions ✓" : "I accept the terms ✓"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 
@@ -2635,15 +2721,6 @@ export default function KinesiaRelief() {
                 {fr?"Mon tableau de bord":"My dashboard"}
               </div>
             </div>
-
-            <button onClick={() => { resetAnalyse(); setScreen("douleurs"); }} style={{
-              width:"100%", padding:"16px 0", border:"none", borderRadius:14, marginBottom:16,
-              color:"#1a1a1a", fontSize:16, fontWeight:800, cursor:"pointer",
-              background:"linear-gradient(90deg,#0dcfc6,#12ddd4)",
-              boxShadow:"0 6px 20px rgba(0,200,190,0.3)",
-            }}>
-              {fr?"➕ Nouvelle analyse de douleur":"➕ New pain analysis"}
-            </button>
 
             <div style={{
               background:"linear-gradient(135deg,rgba(13,207,198,0.12),rgba(13,207,198,0.04))",

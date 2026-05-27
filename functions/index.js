@@ -1,13 +1,32 @@
-const { onRequest } = require("firebase-functions/v2/https");
+﻿const { onRequest } = require("firebase-functions/v2/https");
 const { defineSecret } = require("firebase-functions/params");
 
 const anthropicKey  = defineSecret("ANTHROPIC_API_KEY");
 const stripeSecret  = defineSecret("STRIPE_SECRET_KEY");
 
+// ── Rate limiting simple en mémoire ──────────────────────────────────────────
+const rateLimitMap = new Map();
+function isRateLimited(ip, maxRequests = 10, windowMs = 60000) {
+  const now = Date.now();
+  const entry = rateLimitMap.get(ip) || { count: 0, start: now };
+  if (now - entry.start > windowMs) {
+    rateLimitMap.set(ip, { count: 1, start: now });
+    return false;
+  }
+  if (entry.count >= maxRequests) return true;
+  entry.count++;
+  rateLimitMap.set(ip, entry);
+  return false;
+}
+function getClientIp(req) {
+  return (req.headers["x-forwarded-for"] || req.ip || "unknown").split(",")[0].trim();
+}
+
 // ── Stripe price IDs (bac à sable) ───────────────────────────────────────────
+// Prix live avec TPS (5%) + TVQ (9,975%) incluses — v2
 const PRICE_IDS = {
-  monthly: "price_1TYwhhRJSRAId9LLaxazcXoL",
-  annual:  "price_1TYwhoRJSRAId9LLmW27OIWJ",
+  monthly: "price_1TbXILId4beisdNSCbcyzbaE", // 17,23$ CAD/mois (taxes incluses)
+  annual:  "price_1TbXIQId4beisdNSEnp9VPKF", // 172,46$ CAD/an (taxes incluses)
 };
 
 exports.createSubscription = onRequest(
@@ -15,6 +34,9 @@ exports.createSubscription = onRequest(
   async (req, res) => {
     if (req.method !== "POST")
       return res.status(405).json({ error: "Method not allowed" });
+
+    if (isRateLimited(getClientIp(req), 5, 60000))
+      return res.status(429).json({ error: "Trop de requêtes. Réessayez dans une minute." });
 
     const { plan, email, name, uid } = req.body || {};
     if (!plan || !email)
@@ -34,22 +56,16 @@ exports.createSubscription = onRequest(
         ? existing.data[0]
         : await stripe.customers.create({ email, name: name || "", metadata: { firebaseUid: uid } });
 
-      // Create subscription with 7-day trial
-      // Trial = $0 first invoice → uses setup_intent (not payment_intent) to save the card
+      // Create subscription — direct billing, no trial
       const subscription = await stripe.subscriptions.create({
         customer: customer.id,
         items: [{ price: priceId }],
         payment_behavior: "default_incomplete",
         payment_settings: { save_default_payment_method: "on_subscription" },
-        expand: ["latest_invoice.payment_intent", "pending_setup_intent"],
-        trial_period_days: 7,
+        expand: ["latest_invoice.payment_intent"],
       });
 
-      // For trials: pending_setup_intent holds the clientSecret
-      // For non-trials: latest_invoice.payment_intent holds it
-      const clientSecret =
-        subscription.pending_setup_intent?.client_secret ||
-        subscription.latest_invoice?.payment_intent?.client_secret;
+      const clientSecret = subscription.latest_invoice?.payment_intent?.client_secret;
 
       if (!clientSecret) {
         return res.status(500).json({ error: "Impossible de récupérer le clientSecret Stripe." });
@@ -59,7 +75,7 @@ exports.createSubscription = onRequest(
         subscriptionId: subscription.id,
         customerId:     customer.id,
         clientSecret,
-        intentType: subscription.pending_setup_intent ? "setup" : "payment",
+        intentType: "payment",
       });
     } catch (err) {
       console.error("Stripe error:", err.message);
@@ -116,6 +132,9 @@ exports.chat = onRequest(
     if (req.method !== "POST") {
       return res.status(405).json({ error: "Method not allowed" });
     }
+
+    if (isRateLimited(getClientIp(req), 30, 60000))
+      return res.status(429).json({ error: "Trop de requêtes. Réessayez dans une minute." });
 
     const { messages = [], userContext = null } = req.body;
 
